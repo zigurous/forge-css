@@ -47,7 +47,7 @@
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom --passWithNoTests",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build -b dist -m \"Publish library to GitHub pages\"",
+    "deploy": "gh-pages -d dist -b dist -m \"Publish library to GitHub pages\"",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}"
   },
