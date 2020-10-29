@@ -8,6 +8,8 @@ import './base/typography.css';
 import './base/colors.css';
 import './base/scrollbar.css';
 
+import './elements/button.css';
+
 import './objects/display.css';
 import './objects/box-alignment.css';
 import './objects/divider.css';

@@ -1,0 +1,22 @@
+button {
+  font-family: var(--font-family-default);
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+button:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+  outline-offset: 1px;
+}
