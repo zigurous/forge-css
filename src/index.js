@@ -9,10 +9,10 @@ import './base/colors.css';
 import './base/scrollbar.css';
 
 import './elements/button.css';
+import './elements/hr.css';
 
 import './objects/display.css';
 import './objects/box-alignment.css';
-import './objects/divider.css';
 import './objects/overflow.css';
 import './objects/flex.css';
 import './objects/widths.css';
