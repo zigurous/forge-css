@@ -1,3 +1,7 @@
+.app.js-parallax {
+  perspective: 10px;
+}
+
 .parallax {
   height: 100vh;
   perspective: 10px;

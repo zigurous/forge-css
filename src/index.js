@@ -21,6 +21,7 @@ import './objects/margins.css';
 import './objects/padding.css';
 
 import './layout/container.css';
+import './layout/page.css';
 import './layout/cover.css';
 import './layout/bleed.css';
 import './layout/parallax.css';
