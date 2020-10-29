@@ -7,24 +7,11 @@
 ## Install
 
 ```bash
-npm install --save @zigurous/styles
+yarn add @zigurous/styles
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from '@zigurous/styles'
 import '@zigurous/styles/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
-
-## License
-
-MIT © [adamgraham](https://github.com/adamgraham)
