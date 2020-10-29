@@ -1,3 +1,4 @@
+import './generic/normalize.css';
 import './base/root.css';
 import './base/index.css';
 import './base/themes.css';
