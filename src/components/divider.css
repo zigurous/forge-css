@@ -1,0 +1,23 @@
+.divider-sm {
+  width: 25%;
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: var(--theme-divider-color);
+}
+
+.divider-md {
+  width: 50%;
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: var(--theme-divider-color);
+}
+
+.divider-lg {
+  width: 75%;
+  height: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: var(--theme-divider-color);
+}

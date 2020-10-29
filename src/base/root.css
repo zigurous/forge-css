@@ -1,0 +1,36 @@
+:root {
+  --spacing-base: 8px;
+}
+
+:root {
+  --font-family-base: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+  --font-weight-base: 400;
+  --font-size-base: 1rem;
+  --line-height-base: 1.5;
+}
+
+:root {
+  --white: white;
+  --black: black;
+  --gray: gray;
+  --transparent: transparent;
+  --light-color: #e0e0e0;
+  --light-secondary-color: #c0c0c0;
+  --dark-color: #181818;
+  --dark-secondary-color: #101010;
+  --brand-color: #0086e5;
+}
+
+:root {
+  --theme-body-text-color: var(--dark-color, #181818);
+  --theme-headline-text-color: var(--dark-secondary-color, #101010);
+  --theme-divider-color: var(--gray, gray);
+  --theme-link-color: var(--black, black);
+  --theme-link-decoration-color: var(--brand-color, #0086e5);
+  --theme-button-primary-color: var(--dark-color, #181818);
+  --theme-button-secondary-color: var(--white, white);
+  --theme-nav-skin-color: var(--dark-color, #181818);
+  --theme-nav-skin-decoration-color: var(--brand-color, #0086e5);
+  --theme-page-banner-color: var(--white, white);
+  --theme-social-icon-color: inherit;
+}

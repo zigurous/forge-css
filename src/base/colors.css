@@ -1,0 +1,23 @@
+.bg-white { background-color: var(--white, white); }
+.bg-black { background-color: var(--black, black); }
+.bg-gray { background-color: var(--gray, gray); }
+.bg-transparent { background-color: var(--transparent, transparent); }
+.bg-light-color { background-color: var(--light-color, #e0e0e0); }
+.bg-light-secondary-color { background-color: var(--light-secondary-color, #c0c0c0); }
+.bg-dark-color { background-color: var(--dark-color, #181818); }
+.bg-dark-secondary-color { background-color: var(--dark-secondary-color, #101010); }
+.bg-brand-color { background-color: var(--brand-color, #0086e5); }
+.bg-brand-gradient {
+  background: rgb(0, 53, 128);
+  background: linear-gradient(30deg, rgba(0, 53, 128, 1) 0%, rgba(0, 134, 229, 1) 50%, rgba(0, 191, 255, 1) 100%);
+}
+
+.white { color: var(--white, white); }
+.black { color: var(--black, black); }
+.gray { color: var(--gray, gray); }
+.transparent { color: var(--transparent, transparent); }
+.light-color { color: var(--light-color, #e0e0e0); }
+.light-secondary-color { color: var(--light-secondary-color, #c0c0c0); }
+.dark-color { color: var(--dark-color, #181818); }
+.dark-secondary-color { color: var(--dark-secondary-color, #101010); }
+.brand-color { color: var(--brand-color, #0086e5); }
