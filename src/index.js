@@ -13,6 +13,7 @@ import './elements/hr.css';
 
 import './objects/display.css';
 import './objects/box-alignment.css';
+import './objects/box-shadow.css';
 import './objects/overflow.css';
 import './objects/flex.css';
 import './objects/widths.css';
