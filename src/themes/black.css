@@ -1,0 +1,16 @@
+[theme="black"] {
+  --theme-body-text-color: var(--white, white);
+  --theme-headline-text-color: var(--white, white);
+  --theme-divider-color: var(--gray, gray);
+  --theme-link-color: var(--white, white);
+  --theme-link-decoration-color: var(--blue, #0086e5);
+  --theme-button-primary-color: var(--white, white);
+  --theme-button-secondary-color: var(--black, black);
+  --theme-nav-skin-color: var(--white, white);
+  --theme-nav-skin-decoration-color: var(--blue, #0086e5);
+  --theme-page-banner-color: var(--black, black);
+  --theme-social-icon-color: var(--white, white);
+
+  background-color: var(--black, black);
+  color: var(--white, #ffffff);
+}

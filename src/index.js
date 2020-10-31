@@ -3,7 +3,6 @@ import './generic/clearfix.css';
 
 import './base/root.css';
 import './base/index.css';
-import './base/themes.css';
 import './base/typography.css';
 import './base/colors.css';
 import './base/scrollbar.css';
@@ -26,3 +25,13 @@ import './layout/page.css';
 import './layout/cover.css';
 import './layout/bleed.css';
 import './layout/parallax.css';
+
+import './themes/white.css';
+import './themes/black.css';
+import './themes/blue.css';
+import './themes/light1.css';
+import './themes/light2.css';
+import './themes/light3.css';
+import './themes/dark1.css';
+import './themes/dark2.css';
+import './themes/dark3.css';

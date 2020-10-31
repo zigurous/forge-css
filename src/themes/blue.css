@@ -1,0 +1,16 @@
+[theme="blue"] {
+  --theme-body-text-color: var(--light-3, #e0e0e0);
+  --theme-headline-text-color: var(--white, white);
+  --theme-divider-color: var(--light-3, #e0e0e0);
+  --theme-link-color: var(--white, white);
+  --theme-link-decoration-color: var(--light-3, #e0e0e0);
+  --theme-button-primary-color: var(--white, white);
+  --theme-button-secondary-color: var(--black, black);
+  --theme-nav-skin-color: var(--white, white);
+  --theme-nav-skin-decoration-color: var(--light-3, #e0e0e0);
+  --theme-page-banner-color: var(--blue, #0086e5);
+  --theme-social-icon-color: var(--white, white);
+
+  background-color: var(--blue, #0086e5);
+  color: var(--light-3, #e0e0e0);
+}
