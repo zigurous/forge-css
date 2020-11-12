@@ -2,7 +2,7 @@
   --theme-body-text-color: var(--dark-1, #101010);
   --theme-headline-text-color: var(--black, black);
   --theme-divider-color: var(--gray, gray);
-  --theme-link-color: var(--black, black);
+  --theme-link-color: var(--blue, #0099ff);
   --theme-link-decoration-color: var(--blue, #0099ff);
   --theme-button-primary-color: var(--dark-1, #101010);
   --theme-button-secondary-color: var(--white, white);

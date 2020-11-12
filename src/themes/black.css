@@ -2,8 +2,8 @@
   --theme-body-text-color: var(--white, white);
   --theme-headline-text-color: var(--white, white);
   --theme-divider-color: var(--gray, gray);
-  --theme-link-color: var(--white, white);
-  --theme-link-decoration-color: var(--blue, #0099ff);
+  --theme-link-color: var(--blue, #0099ff);
+  --theme-link-decoration-color: var(--white, white);
   --theme-button-primary-color: var(--white, white);
   --theme-button-secondary-color: var(--black, black);
   --theme-nav-skin-color: var(--white, white);

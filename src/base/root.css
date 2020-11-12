@@ -27,7 +27,7 @@
   --theme-body-text-color: var(--dark-2, #181818);
   --theme-headline-text-color: var(--dark-1, #101010);
   --theme-divider-color: var(--gray, gray);
-  --theme-link-color: var(--black, black);
+  --theme-link-color: var(--blue, #0099ff);
   --theme-link-decoration-color: var(--blue, #0099ff);
   --theme-button-primary-color: var(--dark-2, #181818);
   --theme-button-secondary-color: var(--white, white);
