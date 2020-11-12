@@ -76,6 +76,11 @@ p {
 .uppercase { text-transform: uppercase; }
 .capitalize { text-transform: capitalize; }
 
+.left-aligned { text-align: left; }
+.right-aligned { text-align: right; }
+.center-aligned { text-align: center; }
+.justified { text-align: justify; }
+
 @media (min-width: 768px) {
   body { font-size: 1.125rem; }
 
