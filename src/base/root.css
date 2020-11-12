@@ -20,7 +20,7 @@
   --dark-1: #101010;
   --dark-2: #181818;
   --dark-3: #202020;
-  --blue: #0086e5;
+  --blue: #0099ff;
 }
 
 :root {
@@ -28,11 +28,11 @@
   --theme-headline-text-color: var(--dark-1, #101010);
   --theme-divider-color: var(--gray, gray);
   --theme-link-color: var(--black, black);
-  --theme-link-decoration-color: var(--blue, #0086e5);
+  --theme-link-decoration-color: var(--blue, #0099ff);
   --theme-button-primary-color: var(--dark-2, #181818);
   --theme-button-secondary-color: var(--white, white);
   --theme-nav-skin-color: var(--dark-2, #181818);
-  --theme-nav-skin-decoration-color: var(--blue, #0086e5);
+  --theme-nav-skin-decoration-color: var(--blue, #0099ff);
   --theme-page-banner-color: var(--white, white);
   --theme-social-icon-color: inherit;
 }
