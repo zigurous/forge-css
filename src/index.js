@@ -23,6 +23,7 @@ import './objects/padding.css';
 import './layout/container.css';
 import './layout/page.css';
 import './layout/cover.css';
+import './layout/split-cover.css';
 import './layout/title-card.css';
 import './layout/bleed.css';
 import './layout/parallax.css';

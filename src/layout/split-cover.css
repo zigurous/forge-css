@@ -1,15 +1,13 @@
-.cover {
+.split-cover {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
   overflow: hidden;
 }
 
-.cover::before {
+.split-cover::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -22,6 +20,8 @@
   background-attachment: fixed;
 }
 
-.cover > section {
+.split-cover > section {
+  width: 50%;
+  height: 100%;
   z-index: 5;
 }
