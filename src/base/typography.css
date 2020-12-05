@@ -21,7 +21,7 @@ a:visited {
 }
 
 a:hover {
-  border-bottom: solid 1px var(--theme-link-decoration-color, #0099ff);
+  border-bottom: solid 1px var(--theme-link-decoration-color, #0080ff);
 }
 
 p {

@@ -8,9 +8,9 @@
   --theme-button-secondary-color: var(--black, black);
   --theme-nav-skin-color: var(--white, white);
   --theme-nav-skin-decoration-color: var(--white, white);
-  --theme-page-banner-color: var(--blue, #0099ff);
+  --theme-page-banner-color: var(--blue, #0080ff);
   --theme-social-icon-color: var(--white, white);
 
-  background-color: var(--blue, #0099ff);
+  background-color: var(--blue, #0080ff);
   color: var(--white, white);
 }

@@ -3,11 +3,11 @@
   --theme-headline-text-color: var(--black, black);
   --theme-divider-color: var(--gray, gray);
   --theme-link-color: var(--black, black);
-  --theme-link-decoration-color: var(--blue, #0099ff);
+  --theme-link-decoration-color: var(--blue, #0080ff);
   --theme-button-primary-color: var(--dark-3, #202020);
   --theme-button-secondary-color: var(--white, white);
   --theme-nav-skin-color: var(--black, black);
-  --theme-nav-skin-decoration-color: var(--blue, #0099ff);
+  --theme-nav-skin-decoration-color: var(--blue, #0080ff);
   --theme-page-banner-color: var(--light-3, #e0e0e0);
   --theme-social-icon-color: initial;
 
