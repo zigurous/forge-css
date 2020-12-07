@@ -24,6 +24,11 @@ a:hover {
   border-bottom: solid 1px var(--theme-link-decoration-color, #0080ff);
 }
 
+b,
+strong {
+  font-weight: 600;
+}
+
 p {
   margin-top: 1rem;
   margin-bottom: 1rem;
