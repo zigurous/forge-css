@@ -6,6 +6,10 @@ hr {
   border: none;
 }
 
+hr.transparent {
+  background-color: transparent;
+}
+
 hr.small {
   width: 25%;
 }
