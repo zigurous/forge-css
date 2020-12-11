@@ -1,19 +1,23 @@
 .transition.fade-in {
   opacity: 0;
-  transition: opacity 0.6s;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
 }
 
 .transition.fade-in.visible {
   opacity: 1;
+  visibility: visible;
 }
 
 .transition.fade-out {
   opacity: 1;
-  transition: opacity 0.6s;
+  visibility: visible;
+  transition: opacity 0.6s, visibility 0.6s;
 }
 
 .transition.fade-out.hidden {
   opacity: 0;
+  visibility: hidden;
 }
 
 .transition.translate-up,
