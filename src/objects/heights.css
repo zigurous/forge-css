@@ -1,5 +1,16 @@
 .height-0 { height: 0; }
 
+.height-xs { height: calc(var(--spacing-base, 8px) * 0.25); }
+.height-sm { height: calc(var(--spacing-base, 8px) * 0.5); }
+.height-md { height: calc(var(--spacing-base, 8px) * 1); }
+.height-lg { height: calc(var(--spacing-base, 8px) * 2); }
+.height-xl { height: calc(var(--spacing-base, 8px) * 3); }
+.height-xxl { height: calc(var(--spacing-base, 8px) * 4); }
+.height-xxxl { height: calc(var(--spacing-base, 8px) * 5); }
+.height-2xl { height: calc(var(--spacing-base, 8px) * 6); }
+.height-2xxl { height: calc(var(--spacing-base, 8px) * 8); }
+.height-2xxxl { height: calc(var(--spacing-base, 8px) * 10); }
+
 .height-10p { height: 10%; }
 .height-20p { height: 20%; }
 .height-25p { height: 25%; }
