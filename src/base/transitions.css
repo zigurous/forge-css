@@ -18,27 +18,36 @@
 .transition.fade-out.hidden {
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
 }
 
 .transition.translate-up,
 .transition.translate-down,
 .transition.translate-left,
 .transition.translate-right {
-  transition: transform 0.3s;
+  transition: transform 0.3s, visibility 0.3s;
 }
 
 .transition.translate-up.hidden {
   transform: translateY(-100%);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .transition.translate-down.hidden {
   transform: translateY(100%);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .transition.translate-left.hidden {
   transform: translateX(-100%);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .transition.translate-right.hidden {
   transform: translateX(100%);
+  visibility: hidden;
+  pointer-events: none;
 }
