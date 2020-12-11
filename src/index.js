@@ -6,6 +6,7 @@ import './base/index.css';
 import './base/typography.css';
 import './base/colors.css';
 import './base/scrollbar.css';
+import './base/transitions.css';
 
 import './elements/button.css';
 import './elements/hr.css';
