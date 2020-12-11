@@ -1,31 +1,9 @@
-.bg-white { background-color: var(--white, white); }
-.bg-black { background-color: var(--black, black); }
-.bg-gray { background-color: var(--gray, gray); }
-.bg-transparent { background-color: var(--transparent, transparent); }
-.bg-light-1 { background-color: var(--light-1, #f0f0f0); }
-.bg-light-2 { background-color: var(--light-2, #e8e8e8); }
-.bg-light-3 { background-color: var(--light-3, #e0e0e0); }
-.bg-dark-1 { background-color: var(--dark-1, #101010); }
-.bg-dark-2 { background-color: var(--dark-2, #181818); }
-.bg-dark-3 { background-color: var(--dark-3, #202020); }
-.bg-blue { background-color: var(--blue, #0080ff); }
-.bg-light-blue { background-color: var(--light-blue, #00aaff); }
-.bg-dark-blue { background-color: var(--dark-blue, #0044cc); }
-.bg-blue-gradient {
-  background: rgb(0, 51, 153);
-  background: linear-gradient(30deg, rgba(0, 68, 204, 1) 0%, rgba(0, 128, 255, 1) 50%, rgba(0, 170, 255, 1) 100%);
-}
+.bg-transparent { background-color: transparent; }
+.bg-white { background-color: white; }
+.bg-black { background-color: black; }
+.bg-gray { background-color: gray; }
 
-.white { color: var(--white, white); }
-.black { color: var(--black, black); }
-.gray { color: var(--gray, gray); }
-.transparent { color: var(--transparent, transparent); }
-.light-1 { color: var(--light-1, #f0f0f0); }
-.light-2 { color: var(--light-2, #e8e8e8); }
-.light-3 { color: var(--light-3, #e0e0e0); }
-.dark-1 { color: var(--dark-1, #101010); }
-.dark-2 { color: var(--dark-2, #181818); }
-.dark-3 { color: var(--dark-3, #202020); }
-.blue { color: var(--blue, #0080ff); }
-.light-blue { color: var(--light-blue, #00aaff); }
-.dark-blue { color: var(--dark-blue, #0044cc); }
+.transparent { color: transparent; }
+.white { color: white; }
+.black { color: black; }
+.gray { color: gray; }

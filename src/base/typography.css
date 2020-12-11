@@ -6,10 +6,11 @@ body {
   font-size: var(--font-size-base, 1rem);
   font-weight: var(--font-weight-base, 400);
   line-height: var(--line-height-base, 1.5);
+  color: var(--color-body-text, black);
 }
 
 a {
-  color: var(--theme-link-color, inherit);
+  color: var(--color-link, inherit);
   text-decoration: none;
   font-weight: 500;
   border-bottom: solid 1px transparent;
@@ -17,11 +18,11 @@ a {
 }
 
 a:visited {
-  color: var(--theme-link-color, inherit);
+  color: var(--color-link, inherit);
 }
 
 a:hover {
-  border-bottom: solid 1px var(--theme-link-decoration-color, #0080ff);
+  border-bottom: solid 1px var(--color-link-decoration);
 }
 
 b,
@@ -40,7 +41,7 @@ p {
   line-height: 1.2;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
-  color: var(--theme-headline-text-color, inherit);
+  color: var(--color-headline-text, inherit);
 }
 
 .h1, h1 { font-size: 2.5rem; }

@@ -1,0 +1,19 @@
+[theme="dark"] {
+  --color-background: var(--color-scale-black);
+  --color-body-text: var(--color-scale-white);
+  --color-button-primary: var(--color-scale-white);
+  --color-button-secondary: var(--color-scale-black);
+  --color-copyright: var(--color-scale-gray-500);
+  --color-divider: var(--color-scale-gray-500);
+  --color-header-decoration: var(--color-scale-blue-500);
+  --color-headline-text: var(--color-scale-white);
+  --color-link: var(--color-scale-blue-500);
+  --color-link-decoration: var(--color-scale-blue-500);
+  --color-nav-skin: var(--color-scale-white);
+  --color-nav-skin-decoration: var(--color-scale-blue-500);
+  --color-page-banner: var(--color-scale-black);
+  --color-social-icon: var(--color-scale-white);
+
+  background-color: var(--color-scale-black);
+  color: var(--color-scale-white);
+}

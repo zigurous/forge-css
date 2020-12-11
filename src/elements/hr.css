@@ -2,7 +2,7 @@ hr {
   height: 1px;
   margin-block-start: 40px;
   margin-block-end: 40px;
-  background-color: var(--theme-divider-color, gray);
+  background-color: var(--color-divider);
   border: none;
 }
 

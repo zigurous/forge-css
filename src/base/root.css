@@ -10,31 +10,44 @@
 }
 
 :root {
-  --white: white;
-  --black: black;
-  --gray: gray;
-  --transparent: transparent;
-  --light-1: #f0f0f0;
-  --light-2: #e8e8e8;
-  --light-3: #e0e0e0;
-  --dark-1: #101010;
-  --dark-2: #181818;
-  --dark-3: #202020;
-  --blue: #0080ff;
-  --light-blue: #00aaff;
-  --dark-blue: #0044cc;
+  --color-scale-white: #fff;
+  --color-scale-black: #101820;
+
+  --color-scale-gray-100: #f1f2f4;
+  --color-scale-gray-200: #d5d9dd;
+  --color-scale-gray-300: #b9bfc6;
+  --color-scale-gray-400: #9da6af;
+  --color-scale-gray-500: #818c98;
+  --color-scale-gray-600: #67737e;
+  --color-scale-gray-700: #505962;
+  --color-scale-gray-800: #394046;
+  --color-scale-gray-900: #22262a;
+
+  --color-scale-blue-100: #e5f2ff;
+  --color-scale-blue-200: #b3d9ff;
+  --color-scale-blue-300: #80bfff;
+  --color-scale-blue-400: #4da6ff;
+  --color-scale-blue-500: #1a8cff;
+  --color-scale-blue-600: #0073e6;
+  --color-scale-blue-700: #0059b3;
+  --color-scale-blue-800: #004080;
+  --color-scale-blue-900: #00264d;
 }
 
 :root {
-  --theme-body-text-color: var(--dark-2, #181818);
-  --theme-headline-text-color: var(--dark-1, #101010);
-  --theme-divider-color: var(--gray, gray);
-  --theme-link-color: var(--blue, #0080ff);
-  --theme-link-decoration-color: var(--blue, #0080ff);
-  --theme-button-primary-color: var(--dark-2, #181818);
-  --theme-button-secondary-color: var(--white, white);
-  --theme-nav-skin-color: var(--dark-2, #181818);
-  --theme-nav-skin-decoration-color: var(--blue, #0080ff);
-  --theme-page-banner-color: var(--white, white);
-  --theme-social-icon-color: inherit;
+  --color-background: var(--color-scale-white);
+  --color-body-text: var(--color-scale-black);
+  --color-button-primary: var(--color-scale-black);
+  --color-button-secondary: var(--color-scale-white);
+  --color-copyright: var(--color-scale-gray-600);
+  --color-divider: var(--color-scale-gray-600);
+  --color-header-decoration: var(--color-scale-blue-600);
+  --color-headline-text: var(--color-scale-black);
+  --color-link: var(--color-scale-blue-600);
+  --color-link-decoration: var(--color-scale-blue-600);
+  --color-nav-skin: var(--color-scale-black);
+  --color-nav-skin-decoration: var(--color-scale-blue-600);
+  --color-page-banner: var(--color-scale-white);
+  --color-page-banner: inherit;
+  --color-social-icon: inherit;
 }
