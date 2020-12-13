@@ -20,6 +20,7 @@ import './objects/heights.css';
 import './objects/margins.css';
 import './objects/overflow.css';
 import './objects/padding.css';
+import './objects/typography.css';
 import './objects/widths.css';
 
 import './layout/container.css';
