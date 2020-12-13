@@ -1,5 +1,11 @@
 .container,
+.container-xs,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
 .container-fluid {
+  position: relative;
   width: 100%;
   padding-left: 32px;
   padding-right: 32px;
@@ -8,31 +14,46 @@
 }
 
 @media (min-width: 576px) {
-  .container {
+  .container,
+  .container-xs,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
     max-width: 720px;
   }
 }
 
 @media (min-width: 1024px) {
-  .container {
+  .container,
+  .container-md,
+  .container-lg,
+  .container-xl {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .container,
+  .container-lg,
+  .container-xl {
     max-width: 1125px;
   }
 }
 
 @media (min-width: 1366px) {
-  .container {
+  .container,
+  .container-xl {
     max-width: 1280px;
   }
 }
