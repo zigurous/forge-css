@@ -1,9 +1,11 @@
 .bg-transparent { background-color: transparent; }
-.bg-white { background-color: white; }
-.bg-black { background-color: black; }
-.bg-gray { background-color: gray; }
+.bg-pure-white { background-color: white; }
+.bg-pure-black { background-color: black; }
+.bg-white { background-color: var(--color-scale-white, white); }
+.bg-black { background-color: var(--color-scale-black, black); }
 
 .transparent { color: transparent; }
-.white { color: white; }
-.black { color: black; }
-.gray { color: gray; }
+.pure-white { color: white; }
+.pure-black { color: black; }
+.white { color: var(--color-scale-white, white); }
+.black { color: var(--color-scale-black, black); }
