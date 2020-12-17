@@ -1,7 +1,6 @@
 .page {
   display: block;
   position: relative;
-  min-height: calc(100vh - 12vh - 24vh);
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 0 auto;
