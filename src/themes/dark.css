@@ -1,19 +1,18 @@
 [theme="dark"] {
   --color-background: var(--color-scale-black);
-  --color-body-text: var(--color-scale-gray-300);
+  --color-body-text: var(--color-scale-gray-200);
   --color-button-primary: var(--color-scale-gray-100);
   --color-button-secondary: var(--color-scale-black);
-  --color-copyright: var(--color-scale-gray-500);
-  --color-divider: var(--color-scale-gray-500);
-  --color-header-decoration: var(--color-scale-blue-500);
+  --color-divider: var(--color-scale-blue-400);
+  --color-header-decoration: var(--color-scale-blue-400);
   --color-headline-text: var(--color-scale-gray-100);
-  --color-link: var(--color-scale-blue-500);
-  --color-link-decoration: var(--color-scale-blue-500);
-  --color-nav-skin: var(--color-scale-gray-300);
-  --color-nav-skin-decoration: var(--color-scale-blue-500);
+  --color-link: var(--color-scale-blue-400);
+  --color-link-decoration: var(--color-scale-blue-400);
+  --color-nav-skin: var(--color-scale-gray-100);
+  --color-nav-skin-decoration: var(--color-scale-blue-400);
   --color-page-banner: var(--color-scale-black);
-  --color-social-icon: var(--color-scale-gray-300);
+  --color-social-icon: initial;
 
   background-color: var(--color-scale-black);
-  color: var(--color-scale-gray-300);
+  color: var(--color-scale-gray-200);
 }
