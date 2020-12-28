@@ -24,6 +24,7 @@ import './objects/padding.css';
 import './objects/typography.css';
 import './objects/widths.css';
 
+import './layout/grid.css';
 import './layout/container.css';
 import './layout/page.css';
 import './layout/cover.css';
