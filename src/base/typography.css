@@ -12,7 +12,6 @@ body {
 a {
   color: var(--color-link, inherit);
   text-decoration: none;
-  font-weight: 500;
   border-bottom: solid 1px transparent;
   transition: border 0.2s;
 }
@@ -27,7 +26,7 @@ a:hover {
 
 b,
 strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p {
@@ -42,7 +41,7 @@ p {
 .h5, h5,
 .h6, h6 {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
@@ -82,43 +81,43 @@ p {
 .body-xxxs { font-size: 0.5rem; }
 
 @media (min-width: 768px) {
-  body { font-size: 1.125rem; }
+  .responsive { font-size: 1.125rem; }
 
-  .h1, h1 { font-size: 3.0rem; }
-  .h2, h2 { font-size: 2.625rem; }
-  .h3, h3 { font-size: 2.25rem; }
-  .h4, h4 { font-size: 2.0rem; }
-  .h5, h5 { font-size: 1.75rem; }
-  .h6, h6 { font-size: 1.5rem; }
+  .h1.responsive, h1.responsive { font-size: 2.75rem; }
+  .h2.responsive, h2.responsive { font-size: 2.5rem; }
+  .h3.responsive, h3.responsive { font-size: 2.25rem; }
+  .h4.responsive, h4.responsive { font-size: 2.0rem; }
+  .h5.responsive, h5.responsive { font-size: 1.75rem; }
+  .h6,.responsive h6.responsive { font-size: 1.5rem; }
 
-  .body-xxxl { font-size: 1.625rem; }
-  .body-xxl { font-size: 1.5rem; }
-  .body-xl { font-size: 1.375rem; }
-  .body-lg { font-size: 1.25rem; }
-  .body-md { font-size: 1.125rem; }
-  .body-sm { font-size: 1.0rem; }
-  .body-xs { font-size: 0.875rem; }
-  .body-xxs { font-size: 0.75rem; }
-  .body-xxxs { font-size: 0.625rem; }
+  .body-xxxl.responsive { font-size: 1.625rem; }
+  .body-xxl.responsive { font-size: 1.5rem; }
+  .body-xl.responsive { font-size: 1.375rem; }
+  .body-lg.responsive { font-size: 1.25rem; }
+  .body-md.responsive { font-size: 1.125rem; }
+  .body-sm.responsive { font-size: 1.0rem; }
+  .body-xs.responsive { font-size: 0.875rem; }
+  .body-xxs.responsive { font-size: 0.75rem; }
+  .body-xxxs.responsive { font-size: 0.625rem; }
 }
 
 @media (min-width: 1366px) {
-  body { font-size: 1.25rem; }
+  .responsive { font-size: 1.25rem; }
 
-  .h1, h1 { font-size: 3.5rem; }
-  .h2, h2 { font-size: 3.0rem; }
-  .h3, h3 { font-size: 2.5rem; }
-  .h4, h4 { font-size: 2.25rem; }
-  .h5, h5 { font-size: 2.0rem; }
-  .h6, h6 { font-size: 1.75rem; }
+  .h1.responsive, h1.responsive { font-size: 3.0rem; }
+  .h2.responsive, h2.responsive { font-size: 2.75rem; }
+  .h3.responsive, h3.responsive { font-size: 2.5rem; }
+  .h4.responsive, h4.responsive { font-size: 2.25rem; }
+  .h5.responsive, h5.responsive { font-size: 2.0rem; }
+  .h6.responsive, h6.responsive { font-size: 1.75rem; }
 
-  .body-xxxl { font-size: 1.75rem; }
-  .body-xxl { font-size: 1.625rem; }
-  .body-xl { font-size: 1.5rem; }
-  .body-lg { font-size: 1.375rem; }
-  .body-md { font-size: 1.25rem; }
-  .body-sm { font-size: 1.125rem; }
-  .body-xs { font-size: 1.0rem; }
-  .body-xxs { font-size: 0.875rem; }
-  .body-xxxs { font-size: 0.75rem; }
+  .body-xxxl.responsive { font-size: 1.75rem; }
+  .body-xxl.responsive { font-size: 1.625rem; }
+  .body-xl.responsive { font-size: 1.5rem; }
+  .body-lg.responsive { font-size: 1.375rem; }
+  .body-md.responsive { font-size: 1.25rem; }
+  .body-sm.responsive { font-size: 1.125rem; }
+  .body-xs.responsive { font-size: 1.0rem; }
+  .body-xxs.responsive { font-size: 0.875rem; }
+  .body-xxxs.responsive { font-size: 0.75rem; }
 }

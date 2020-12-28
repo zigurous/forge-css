@@ -12,13 +12,11 @@
 .font-weight-regular,
 .font-weight-400 { font-weight: 400; }
 
+.nowrap { white-space: nowrap; }
 .lowercase { text-transform: lowercase; }
 .uppercase { text-transform: uppercase; }
 .capitalize { text-transform: capitalize; }
-
 .left-aligned { text-align: left; }
 .right-aligned { text-align: right; }
 .center-aligned { text-align: center; }
 .justified { text-align: justify; }
-
-.nowrap { white-space: nowrap; }
