@@ -1,5 +1,5 @@
 hr {
-  height: 2px;
+  height: 1px;
   margin-block-start: 32px;
   margin-block-end: 32px;
   margin-inline-start: 0;
@@ -12,22 +12,22 @@ hr.transparent {
   background-color: transparent;
 }
 
-hr.mini {
-  width: 12.5%;
-}
-
 hr.small {
-  width: 25%;
+  width: 64px;
 }
 
 hr.medium {
-  width: 50%;
+  width: 128px;
 }
 
 hr.large {
-  width: 75%;
+  width: 256px;
 }
 
 hr.full {
   width: 100%;
+}
+
+hr.thick {
+  height: 2px;
 }
