@@ -10,9 +10,9 @@
   --color-link-decoration: var(--color-scale-blue-400);
   --color-nav-skin: var(--color-scale-gray-100);
   --color-nav-skin-decoration: var(--color-scale-blue-400);
-  --color-page-banner: var(--color-scale-black);
   --color-social-icon: initial;
 
   background-color: var(--color-scale-black);
   color: var(--color-scale-gray-200);
 }
+  
