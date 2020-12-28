@@ -21,5 +21,4 @@
 .center-aligned { text-align: center; }
 .justified { text-align: justify; }
 
-.white-space-normal { white-space: normal; }
-.white-space-no-wrap { white-space: nowrap; }
+.nowrap { white-space: nowrap; }
