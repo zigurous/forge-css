@@ -1,0 +1,11 @@
+.icon {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  direction: ltr;
+  line-height: 1;
+}
