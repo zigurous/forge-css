@@ -26,7 +26,7 @@ a:hover {
 
 b,
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p {
@@ -43,7 +43,7 @@ p {
   font-family: inherit;
   font-weight: 600;
   line-height: 1.2;
-  margin-top: 0.25rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--color-headline-text, inherit);
 }
@@ -55,69 +55,48 @@ p {
 .h5, h5 { font-size: 1.5rem; }
 .h6, h6 { font-size: 1.25rem; }
 
-.body-xxxl,
-.body-xxl,
-.body-xl,
-.body-lg,
-.body-md,
-.body-sm,
-.body-xs,
-.body-xxs,
-.body-xxxs {
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--color-headline-text, inherit);
+}
+
+.display-1 { font-size: 6.0rem; }
+.display-2 { font-size: 5.5rem; }
+.display-3 { font-size: 5.0rem; }
+.display-4 { font-size: 4.5rem; }
+.display-5 { font-size: 4.0rem; }
+.display-6 { font-size: 3.5rem; }
+
+.font-xxxl,
+.font-xxl,
+.font-xl,
+.font-lg,
+.font-md,
+.font-sm,
+.font-xs,
+.font-xxs,
+.font-xxxs {
   font-family: inherit;
   font-weight: 400;
   line-height: 1.5;
   color: inherit;
 }
 
-.body-xxxl { font-size: 1.5rem; }
-.body-xxl { font-size: 1.375rem; }
-.body-xl { font-size: 1.25rem; }
-.body-lg { font-size: 1.125rem; }
-.body-md { font-size: 1.0rem; }
-.body-sm { font-size: 0.875rem; }
-.body-xs { font-size: 0.75rem; }
-.body-xxs { font-size: 0.625rem; }
-.body-xxxs { font-size: 0.5rem; }
-
-@media (min-width: 768px) {
-  .responsive { font-size: 1.125rem; }
-
-  .h1.responsive, h1.responsive { font-size: 2.75rem; }
-  .h2.responsive, h2.responsive { font-size: 2.5rem; }
-  .h3.responsive, h3.responsive { font-size: 2.25rem; }
-  .h4.responsive, h4.responsive { font-size: 2.0rem; }
-  .h5.responsive, h5.responsive { font-size: 1.75rem; }
-  .h6,.responsive h6.responsive { font-size: 1.5rem; }
-
-  .body-xxxl.responsive { font-size: 1.625rem; }
-  .body-xxl.responsive { font-size: 1.5rem; }
-  .body-xl.responsive { font-size: 1.375rem; }
-  .body-lg.responsive { font-size: 1.25rem; }
-  .body-md.responsive { font-size: 1.125rem; }
-  .body-sm.responsive { font-size: 1.0rem; }
-  .body-xs.responsive { font-size: 0.875rem; }
-  .body-xxs.responsive { font-size: 0.75rem; }
-  .body-xxxs.responsive { font-size: 0.625rem; }
-}
-
-@media (min-width: 1366px) {
-  .responsive { font-size: 1.25rem; }
-
-  .h1.responsive, h1.responsive { font-size: 3.0rem; }
-  .h2.responsive, h2.responsive { font-size: 2.75rem; }
-  .h3.responsive, h3.responsive { font-size: 2.5rem; }
-  .h4.responsive, h4.responsive { font-size: 2.25rem; }
-  .h5.responsive, h5.responsive { font-size: 2.0rem; }
-  .h6.responsive, h6.responsive { font-size: 1.75rem; }
-
-  .body-xxxl.responsive { font-size: 1.75rem; }
-  .body-xxl.responsive { font-size: 1.625rem; }
-  .body-xl.responsive { font-size: 1.5rem; }
-  .body-lg.responsive { font-size: 1.375rem; }
-  .body-md.responsive { font-size: 1.25rem; }
-  .body-sm.responsive { font-size: 1.125rem; }
-  .body-xs.responsive { font-size: 1.0rem; }
-  .body-xxs.responsive { font-size: 0.875rem; }
-  .body-xxxs.responsive { font-size: 0.75rem; }
-}
+.font-xxxl { font-size: 1.5rem; }
+.font-xxl { font-size: 1.375rem; }
+.font-xl { font-size: 1.25rem; }
+.font-lg { font-size: 1.125rem; }
+.font-md { font-size: 1.0rem; }
+.font-sm { font-size: 0.875rem; }
+.font-xs { font-size: 0.75rem; }
+.font-xxs { font-size: 0.625rem; }
+.font-xxxs { font-size: 0.5rem; }
