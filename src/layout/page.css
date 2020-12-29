@@ -1,6 +1,8 @@
 .page {
   display: block;
   position: relative;
+  padding-left: 32px;
+  padding-right: 32px;
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 32px auto;

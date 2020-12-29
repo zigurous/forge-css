@@ -1,21 +1,18 @@
 .container,
-.container-xs,
 .container-sm,
 .container-md,
 .container-lg,
 .container-xl,
 .container-fluid {
-  position: relative;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 32px;
-  padding-right: 32px;
-  width: 100%;
 }
 
 @media (min-width: 576px) {
   .container,
-  .container-xs,
   .container-sm,
   .container-md,
   .container-lg,
@@ -26,7 +23,6 @@
 
 @media (min-width: 768px) {
   .container,
-  .container-sm,
   .container-md,
   .container-lg,
   .container-xl {
@@ -34,9 +30,8 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .container,
-  .container-md,
   .container-lg,
   .container-xl {
     max-width: 960px;
@@ -45,15 +40,7 @@
 
 @media (min-width: 1200px) {
   .container,
-  .container-lg,
   .container-xl {
-    max-width: 1125px;
-  }
-}
-
-@media (min-width: 1366px) {
-  .container,
-  .container-xl {
-    max-width: 1280px;
+    max-width: 1140px;
   }
 }
