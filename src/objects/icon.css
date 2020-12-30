@@ -1,6 +1,7 @@
 .icon {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
+  font-size: 24px;
   font-weight: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -8,4 +9,5 @@
   white-space: nowrap;
   direction: ltr;
   line-height: 1;
+  color: inherit;
 }
