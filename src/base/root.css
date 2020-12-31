@@ -146,6 +146,20 @@
   --color-scale-rose-700: #8b1d42;
   --color-scale-rose-800: #5d132c;
   --color-scale-rose-900: #2e0a16;
+
+  --color-pastel-gray: #3d424c;
+  --color-pastel-red: #cc3e3e;
+  --color-pastel-orange: #cc6d3d;
+  --color-pastel-yellow: #cca93d;
+  --color-pastel-lime: #79cc3d;
+  --color-pastel-green: #3dcc49;
+  --color-pastel-teal: #3dcc85;
+  --color-pastel-cyan: #3dcccc;
+  --color-pastel-blue: #3d85cc;
+  --color-pastel-indigo: #3d55cc;
+  --color-pastel-purple: #853dcc;
+  --color-pastel-pink: #cc3db5;
+  --color-pastel-rose: #cc3d6d;
 }
 
 :root {
