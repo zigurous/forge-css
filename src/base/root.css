@@ -1,5 +1,7 @@
 :root {
   --spacing-base: 8px;
+  --header-height: 72px;
+  --footer-height: 40px;
 }
 
 :root {
