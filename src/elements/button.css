@@ -1,5 +1,5 @@
 button {
-  font-family: var(--font-family-default);
+  font-family: inherit;
   appearance: none;
   background: none;
   border: none;

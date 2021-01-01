@@ -10,6 +10,7 @@ import './base/transitions.css';
 
 import './elements/button.css';
 import './elements/hr.css';
+import './elements/input.css';
 import './elements/ul.css';
 
 import './layout/grid.css';
