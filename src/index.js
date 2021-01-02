@@ -30,6 +30,7 @@ import './objects/flex.css';
 import './objects/heights.css';
 import './objects/icon.css';
 import './objects/margins.css';
+import './objects/opacity.css';
 import './objects/overflow.css';
 import './objects/padding.css';
 import './objects/typography.css';
