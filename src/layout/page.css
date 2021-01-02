@@ -1,9 +1,9 @@
 .page {
   position: relative;
-  min-height: calc(100vh - var(--header-height, 0) - var(--footer-height, 0) - 128px);
+  min-height: calc(100vh - var(--header-height, 0) - var(--footer-height, 0));
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 128px;
+  padding-bottom: 128px;
 }
 
 .js-parallax .page {
