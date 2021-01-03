@@ -3,6 +3,7 @@ import './generic/clearfix.css';
 
 import './base/root.css';
 import './base/index.css';
+import './base/fonts.css';
 import './base/typography.css';
 import './base/colors.css';
 import './base/scrollbar.css';
