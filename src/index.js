@@ -22,6 +22,7 @@ import './layout/parallax.css';
 
 import './objects/aspect-ratios.css';
 import './objects/background.css';
+import './objects/borders.css';
 import './objects/box-alignment.css';
 import './objects/box-shadow.css';
 import './objects/colors.css';
