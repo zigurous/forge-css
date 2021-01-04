@@ -1,0 +1,5 @@
+.wordbreak-normal { word-break: normal; }
+.wordbreak-wrap,
+.wordbreak-break-all { word-break: break-all; }
+.wordbreak-nowrap,
+.wordbreak-keep-all { word-break: keep-all; }
