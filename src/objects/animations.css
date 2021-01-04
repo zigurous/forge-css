@@ -1,0 +1,86 @@
+.animation-short {
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+}
+
+.animation-medium {
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+}
+
+.animation-long {
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+}
+
+.animation-infinite {
+  animation-iteration-count: infinite;
+}
+
+.animation-delay-1 { animation-delay: 0.05s; }
+.animation-delay-2 { animation-delay: 0.1s; }
+.animation-delay-3 { animation-delay: 0.15s; }
+.animation-delay-4 { animation-delay: 0.2s; }
+.animation-delay-5 { animation-delay: 0.25s; }
+.animation-delay-6 { animation-delay: 0.3s; }
+.animation-delay-7 { animation-delay: 0.35s; }
+.animation-delay-8 { animation-delay: 0.4s; }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fade-in;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-in-up {
+  animation-name: fade-in-up;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation-name: fade-out;
+}
+
+@keyframes fade-out-down {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.fade-out-down {
+  animation-name: fade-out-down;
+}

@@ -20,6 +20,7 @@ import './layout/split-cover.css';
 import './layout/bleed.css';
 import './layout/parallax.css';
 
+import './objects/animations.css';
 import './objects/aspect-ratios.css';
 import './objects/background.css';
 import './objects/borders.css';
