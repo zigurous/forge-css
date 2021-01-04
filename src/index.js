@@ -40,6 +40,7 @@ import './objects/padding.css';
 import './objects/position.css';
 import './objects/transitions.css';
 import './objects/typography.css';
+import './objects/whitespace.css';
 import './objects/widths.css';
 import './objects/wordbreak.css';
 import './objects/z-index.css';
