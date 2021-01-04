@@ -1,0 +1,24 @@
+/*
+  DEBUG CHILDREN
+  http://tachyons.io/docs/debug/
+*/
+
+.debug {
+  outline: 1px solid red;
+}
+
+.debug > * {
+  outline: 1px solid blue;
+}
+
+.debug > * > * {
+  outline: 1px solid green;
+}
+
+.debug > * > * > * {
+  outline: 1px solid magenta;
+}
+
+.debug > * > * > * > * {
+  outline: 1px solid gold;
+}
