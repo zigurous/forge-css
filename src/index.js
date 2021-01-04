@@ -34,6 +34,7 @@ import './objects/floats.css';
 import './objects/heights.css';
 import './objects/margins.css';
 import './objects/opacity.css';
+import './objects/outlines.css';
 import './objects/overflow.css';
 import './objects/padding.css';
 import './objects/transitions.css';
