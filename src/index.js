@@ -30,6 +30,7 @@ import './objects/colors.css';
 import './objects/cursor.css';
 import './objects/display.css';
 import './objects/flex.css';
+import './objects/floats.css';
 import './objects/heights.css';
 import './objects/margins.css';
 import './objects/opacity.css';

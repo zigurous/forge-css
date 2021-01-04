@@ -1,0 +1,24 @@
+/*
+  FLOATS
+  http://tachyons.io/docs/layout/floats/
+
+  1. Floated elements are automatically rendered as block level elements.
+     Setting floats to display inline will fix the double margin bug in
+     ie6. You know... just in case.
+
+  2. Don't forget to clearfix your floats.
+*/
+
+.float-left {
+  float: left;
+  _display: inline;
+}
+
+.float-right {
+  float: right;
+  _display: inline;
+}
+
+.float-none {
+  float: none;
+}
