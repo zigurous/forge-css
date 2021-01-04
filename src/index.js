@@ -37,6 +37,7 @@ import './objects/opacity.css';
 import './objects/outlines.css';
 import './objects/overflow.css';
 import './objects/padding.css';
+import './objects/position.css';
 import './objects/transitions.css';
 import './objects/typography.css';
 import './objects/widths.css';
