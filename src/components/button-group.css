@@ -1,36 +1,38 @@
 .btn-group {
   position: relative;
-  display: flex;
+  display: inline-flex;
+  vertical-align: middle;
   width: max-content;
 }
 
-.btn-group--row {
+.btn-group--horizontal {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
 
-.btn-group--row > button:not(:first-child),
-.btn-group--row > .btn:not(:first-child) {
-  margin-left: 8px;
-}
-
-.btn-group--row > button:not(:last-child),
-.btn-group--row > .btn:not(:last-child) {
-  margin-right: 8px;
-}
-
-.btn-group--column {
+.btn-group--vertical {
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
 }
 
-.btn-group--column > button:not(:first-child)
-.btn-group--column > .btn:not(:first-child) {
+.btn-group--spaced.btn-group--horizontal > button:not(:first-child),
+.btn-group--spaced.btn-group--horizontal > .btn:not(:first-child) {
+  margin-left: 8px;
+}
+
+.btn-group--spaced.btn-group--horizontal > button:not(:last-child),
+.btn-group--spaced.btn-group--horizontal > .btn:not(:last-child) {
+  margin-right: 8px;
+}
+
+.btn-group--spaced.btn-group--vertical > button:not(:first-child)
+.btn-group--spaced.btn-group--vertical > .btn:not(:first-child) {
   margin-top: 8px;
 }
 
-.btn-group--column > button:not(:last-child)
-.btn-group--column > .btn:not(:last-child) {
+.btn-group--spaced.btn-group--vertical > button:not(:last-child)
+.btn-group--spaced.btn-group--vertical > .btn:not(:last-child) {
   margin-bottom: 8px;
 }
