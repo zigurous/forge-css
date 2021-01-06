@@ -1,0 +1,29 @@
+.link {
+  color: var(--color-primary, inherit);
+  text-decoration: none;
+  border-bottom: solid 1px transparent;
+  transition: border 0.2s;
+}
+
+.link:visited {
+  color: var(--color-primary, inherit);
+}
+
+.link:hover {
+  border-bottom: solid 1px var(--color-primary);
+}
+
+.link--underlined {
+  border-bottom: solid 1px var(--color-primary);
+  text-decoration: none;
+}
+
+.link--undecorated {
+  border-bottom: solid 1px transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link--undecorated:visited {
+  color: inherit;
+}

@@ -15,6 +15,7 @@ import './elements/hr.css';
 
 import './components/button.css';
 import './components/button-group.css';
+import './components/link.css';
 import './components/image.css';
 import './components/icon.css';
 
