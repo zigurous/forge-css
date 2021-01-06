@@ -1,3 +1,4 @@
+.width-auto { width: auto; }
 .width-0 { width: 0; }
 
 .width-xs { width: calc(var(--spacing-unit, 8px) * 0.25); }

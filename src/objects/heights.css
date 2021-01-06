@@ -1,3 +1,4 @@
+.height-auto { height: auto; }
 .height-0 { height: 0; }
 
 .height-xs { height: calc(var(--spacing-unit, 8px) * 0.25); }
