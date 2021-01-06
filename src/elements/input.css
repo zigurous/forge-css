@@ -1,20 +1,26 @@
-input {
+input,
+select,
+textarea {
   font-family: inherit;
   font-size: 0.9375rem;
   line-height: 1.15rem;
   background: none;
   outline: none;
   border: solid 1px var(--color-gray);
-  border-radius: 5px;
+  border-radius: 0.25rem;
   color: inherit;
   padding: 8px 12px;
 }
 
-input:focus {
+input:focus,
+select:focus,
+textarea:focus {
   border-color: var(--color-primary);
 }
 
-input::placeholder {
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
   font-size: 0.875em;
   color: var(--color-gray);
 }
