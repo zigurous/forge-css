@@ -1,4 +1,6 @@
-.margin-none { margin: calc(var(--spacing-unit, 8px) * 0); }
+.margin-0,
+.margin-none { margin: 0; }
+
 .margin-xs { margin: calc(var(--spacing-unit, 8px) * 0.25); }
 .margin-sm { margin: calc(var(--spacing-unit, 8px) * 0.5); }
 .margin-md { margin: calc(var(--spacing-unit, 8px) * 1); }
@@ -19,7 +21,9 @@
 .margin-7em { margin: 7em; }
 .margin-8em { margin: 8em; }
 
-.margin-left-none { margin-left: calc(var(--spacing-unit, 8px) * 0); }
+.margin-left-0,
+.margin-left-none { margin-left: 0; }
+
 .margin-left-xs { margin-left: calc(var(--spacing-unit, 8px) * 0.25); }
 .margin-left-sm { margin-left: calc(var(--spacing-unit, 8px) * 0.5); }
 .margin-left-md { margin-left: calc(var(--spacing-unit, 8px) * 1); }
@@ -40,7 +44,9 @@
 .margin-left-7em { margin-left: 7em; }
 .margin-left-8em { margin-left: 8em; }
 
-.margin-right-none { margin-right: calc(var(--spacing-unit, 8px) * 0); }
+.margin-right-0,
+.margin-right-none { margin-right: 0; }
+
 .margin-right-xs { margin-right: calc(var(--spacing-unit, 8px) * 0.25); }
 .margin-right-sm { margin-right: calc(var(--spacing-unit, 8px) * 0.5); }
 .margin-right-md { margin-right: calc(var(--spacing-unit, 8px) * 1); }
@@ -61,7 +67,9 @@
 .margin-right-7em { margin-right: 7em; }
 .margin-right-8em { margin-right: 8em; }
 
-.margin-top-none { margin-top: calc(var(--spacing-unit, 8px) * 0); }
+.margin-top-0,
+.margin-top-none { margin-top: 0; }
+
 .margin-top-xs { margin-top: calc(var(--spacing-unit, 8px) * 0.25); }
 .margin-top-sm { margin-top: calc(var(--spacing-unit, 8px) * 0.5); }
 .margin-top-md { margin-top: calc(var(--spacing-unit, 8px) * 1); }
@@ -82,7 +90,9 @@
 .margin-top-7em { margin-top: 7em; }
 .margin-top-8em { margin-top: 8em; }
 
-.margin-bottom-none { margin-bottom: calc(var(--spacing-unit, 8px) * 0); }
+.margin-bottom-0,
+.margin-bottom-none { margin-bottom: 0; }
+
 .margin-bottom-xs { margin-bottom: calc(var(--spacing-unit, 8px) * 0.25); }
 .margin-bottom-sm { margin-bottom: calc(var(--spacing-unit, 8px) * 0.5); }
 .margin-bottom-md { margin-bottom: calc(var(--spacing-unit, 8px) * 1); }
