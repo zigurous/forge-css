@@ -4,13 +4,12 @@
 .text-light { color: var(--color-light); }
 .text-dark { color: var(--color-dark); }
 .text-gray { color: var(--color-gray); }
-.text-light-gray { color: var(--color-light-gray); }
-.text-dark-gray { color: var(--color-dark-gray); }
+.text-gray-light { color: var(--color-gray-light); }
+.text-gray-dark { color: var(--color-gray-dark); }
 
 .text-red { color: var(--color-red); }
 .text-orange { color: var(--color-orange); }
 .text-yellow { color: var(--color-yellow); }
-.text-lime { color: var(--color-lime); }
 .text-green { color: var(--color-green); }
 .text-teal { color: var(--color-teal); }
 .text-cyan { color: var(--color-cyan); }
@@ -18,7 +17,6 @@
 .text-indigo { color: var(--color-indigo); }
 .text-purple { color: var(--color-purple); }
 .text-pink { color: var(--color-pink); }
-.text-rose { color: var(--color-rose); }
 
 .text-primary { color: var(--color-primary); }
 .text-secondary { color: var(--color-secondary); }
@@ -34,13 +32,12 @@
 .bg-light { background-color: var(--color-light); }
 .bg-dark { background-color: var(--color-dark); }
 .bg-gray { background-color: var(--color-gray); }
-.bg-light-gray { background-color: var(--color-light-gray); }
-.bg-dark-gray { background-color: var(--color-dark-gray); }
+.bg-gray-light { background-color: var(--color-gray-light); }
+.bg-gray-dark { background-color: var(--color-gray-dark); }
 
 .bg-red { background-color: var(--color-red); }
 .bg-orange { background-color: var(--color-orange); }
 .bg-yellow { background-color: var(--color-yellow); }
-.bg-lime { background-color: var(--color-lime); }
 .bg-green { background-color: var(--color-green); }
 .bg-teal { background-color: var(--color-teal); }
 .bg-cyan { background-color: var(--color-cyan); }
@@ -48,7 +45,6 @@
 .bg-indigo { background-color: var(--color-indigo); }
 .bg-purple { background-color: var(--color-purple); }
 .bg-pink { background-color: var(--color-pink); }
-.bg-rose { background-color: var(--color-rose); }
 
 .bg-primary { background-color: var(--color-primary); }
 .bg-secondary { background-color: var(--color-secondary); }
@@ -64,13 +60,12 @@
 .fill-light { fill: var(--color-light); }
 .fill-dark { fill: var(--color-dark); }
 .fill-gray { fill: var(--color-gray); }
-.fill-light-gray { fill: var(--color-light-gray); }
-.fill-dark-gray { fill: var(--color-dark-gray); }
+.fill-gray-light { fill: var(--color-gray-light); }
+.fill-gray-dark { fill: var(--color-gray-dark); }
 
 .fill-red { fill: var(--color-red); }
 .fill-orange { fill: var(--color-orange); }
 .fill-yellow { fill: var(--color-yellow); }
-.fill-lime { fill: var(--color-lime); }
 .fill-green { fill: var(--color-green); }
 .fill-teal { fill: var(--color-teal); }
 .fill-cyan { fill: var(--color-cyan); }
@@ -78,7 +73,6 @@
 .fill-indigo { fill: var(--color-indigo); }
 .fill-purple { fill: var(--color-purple); }
 .fill-pink { fill: var(--color-pink); }
-.fill-rose { fill: var(--color-rose); }
 
 .fill-primary { fill: var(--color-primary); }
 .fill-secondary { fill: var(--color-secondary); }

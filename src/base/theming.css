@@ -4,7 +4,7 @@
   --color-theme-foreground: var(--color-light, white);
   /* contrast correction */
   --color-blue: #367ef2;
-  --color-gray: #737b8c;
+  --color-gray: #7e848d;
   --color-primary: var(--color-blue);
   --color-secondary: var(--color-gray);
 }
@@ -15,7 +15,7 @@
   --color-theme-foreground: var(--color-dark, black);
   /* contrast correction */
   --color-blue: #1d65d8;
-  --color-gray: #676f7e;
+  --color-gray: #656a73;
   --color-primary: var(--color-blue);
   --color-secondary: var(--color-gray);
 }
