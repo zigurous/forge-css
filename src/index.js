@@ -13,6 +13,8 @@ import './elements/icon.css';
 import './elements/list.css';
 import './elements/hr.css';
 
+import './components/button.css';
+import './components/button-group.css';
 import './layout/grid.css';
 import './layout/container.css';
 import './layout/page.css';
