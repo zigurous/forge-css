@@ -1,15 +1,15 @@
 .width-0 { width: 0; }
 
-.width-xs { width: calc(var(--spacing-base, 8px) * 0.25); }
-.width-sm { width: calc(var(--spacing-base, 8px) * 0.5); }
-.width-md { width: calc(var(--spacing-base, 8px) * 1); }
-.width-lg { width: calc(var(--spacing-base, 8px) * 2); }
-.width-xl { width: calc(var(--spacing-base, 8px) * 3); }
-.width-xxl { width: calc(var(--spacing-base, 8px) * 4); }
-.width-xxxl { width: calc(var(--spacing-base, 8px) * 5); }
-.width-2xl { width: calc(var(--spacing-base, 8px) * 6); }
-.width-2xxl { width: calc(var(--spacing-base, 8px) * 8); }
-.width-2xxxl { width: calc(var(--spacing-base, 8px) * 10); }
+.width-xs { width: calc(var(--spacing-unit, 8px) * 0.25); }
+.width-sm { width: calc(var(--spacing-unit, 8px) * 0.5); }
+.width-md { width: calc(var(--spacing-unit, 8px) * 1); }
+.width-lg { width: calc(var(--spacing-unit, 8px) * 2); }
+.width-xl { width: calc(var(--spacing-unit, 8px) * 3); }
+.width-xxl { width: calc(var(--spacing-unit, 8px) * 4); }
+.width-xxxl { width: calc(var(--spacing-unit, 8px) * 5); }
+.width-2xl { width: calc(var(--spacing-unit, 8px) * 6); }
+.width-2xxl { width: calc(var(--spacing-unit, 8px) * 8); }
+.width-2xxxl { width: calc(var(--spacing-unit, 8px) * 10); }
 
 .width-10p { width: 10%; }
 .width-20p { width: 20%; }
