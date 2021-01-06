@@ -1,7 +1,7 @@
-.font-family-base { font-family: var(--font-family-base); }
-.font-size-base { font-size: var(--font-size-base); }
-.font-weight-base { font-weight: var(--font-weight-base); }
-.line-height-base { line-height: var(--line-height-base); }
+.font-family-default { font-family: var(--font-family); }
+.font-size-default { font-size: var(--font-size); }
+.font-weight-default { font-weight: var(--font-weight); }
+.line-height-default { line-height: var(--line-height); }
 
 .font-weight-bold,
 .font-weight-700 { font-weight: 700; }

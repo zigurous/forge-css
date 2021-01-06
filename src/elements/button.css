@@ -1,3 +1,8 @@
+:root {
+  --color-button-primary: var(--color-theme-foreground, black);
+  --color-button-secondary: var(--color-theme-background, white);
+}
+
 button {
   font-family: inherit;
   appearance: none;

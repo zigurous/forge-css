@@ -4,7 +4,7 @@ hr {
   margin-block-end: 32px;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  background-color: var(--color-divider);
+  background-color: var(--color-gray);
   border: none;
 }
 

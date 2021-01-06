@@ -1,17 +1,15 @@
-[theme="light"] {
-  --color-background: var(--color-scale-white);
-  --color-body-text: var(--color-scale-black);
-  --color-button-primary: var(--color-scale-black);
-  --color-button-secondary: var(--color-scale-white);
-  --color-divider: var(--color-scale-gray-500);
-  --color-header-decoration: var(--color-scale-blue-500);
-  --color-headline-text: var(--color-scale-black);
-  --color-link: var(--color-scale-blue-500);
-  --color-link-decoration: var(--color-scale-blue-500);
-  --color-nav-skin: var(--color-scale-black);
-  --color-nav-skin-decoration: var(--color-scale-blue-500);
-  --color-social-icon: initial;
+[theme="light"],
+[theme="light"] * {
+  --color-theme-background: var(--color-light, white);
+  --color-theme-foreground: var(--color-dark, black);
+  /* contrast correction */
+  --color-blue: #1d65d8;
+  --color-gray: #676f7e;
+  --color-primary: var(--color-blue);
+  --color-secondary: var(--color-gray);
+}
 
-  background-color: var(--color-background);
-  color: var(--color-body-text);
+[theme="light"] {
+  background-color: var(--color-theme-background);
+  color: var(--color-theme-foreground);
 }

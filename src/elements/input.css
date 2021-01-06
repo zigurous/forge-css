@@ -4,19 +4,19 @@ input {
   line-height: 1.15rem;
   background: none;
   outline: none;
-  border: solid 1px var(--color-scale-gray-300);
+  border: solid 1px var(--color-gray);
   border-radius: 5px;
-  color: var(--color-body-text);
+  color: inherit;
   padding: 8px 12px;
 }
 
 input:focus {
-  border-color: var(--color-scale-blue-500);
+  border-color: var(--color-primary);
 }
 
 input::placeholder {
   font-size: 0.875em;
-  color: var(--color-scale-gray-500);
+  color: var(--color-gray);
 }
 
 input[type="search"]::-ms-clear,

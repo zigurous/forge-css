@@ -3,174 +3,34 @@
 }
 
 :root {
-  --font-family-base: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
-  --font-weight-base: 400;
-  --font-size-base: 1rem;
-  --line-height-base: 1.5;
+  --color-white: white;
+  --color-black: black;
+  --color-light: #f1f2f3;
+  --color-dark: #090c0f;
+  --color-gray: #6e7687;
+  --color-light-gray: #a8adb7;
+  --color-dark-gray: #424751;
+  --color-red: #e83030;
+  --color-orange: #e87d30;
+  --color-yellow: #e8ba30;
+  --color-lime: #6ee830;
+  --color-green: #30e84f;
+  --color-teal: #30e8ba;
+  --color-cyan: #30bae8;
+  --color-blue: #2070f0;
+  --color-indigo: #4030e8;
+  --color-purple: #8c30e8;
+  --color-pink: #e830c9;
+  --color-rose: #e8306e;
 }
 
 :root {
-  --color-scale-white: #fff;
-  --color-scale-black: #090c0f;
-
-  --color-scale-gray-050: #f1f2f3;
-  --color-scale-gray-100: #e2e4e6;
-  --color-scale-gray-200: #c5c8cf;
-  --color-scale-gray-300: #a8adb7;
-  --color-scale-gray-400: #8b919f;
-  --color-scale-gray-500: #6e7687;
-  --color-scale-gray-600: #585e6c;
-  --color-scale-gray-700: #424751;
-  --color-scale-gray-800: #2c2f36;
-  --color-scale-gray-900: #16181b;
-  --color-scale-gray-950: #0b0c0d;
-
-  --color-scale-red-100: #fad6d6;
-  --color-scale-red-200: #f6acac;
-  --color-scale-red-300: #f18383;
-  --color-scale-red-400: #ed5959;
-  --color-scale-red-500: #e83030;
-  --color-scale-red-600: #ba2626;
-  --color-scale-red-700: #8b1d1d;
-  --color-scale-red-800: #5d1313;
-  --color-scale-red-900: #2e0a0a;
-
-  --color-scale-orange-100: #fae5d6;
-  --color-scale-orange-200: #f6cbac;
-  --color-scale-orange-300: #f1b183;
-  --color-scale-orange-400: #ed9759;
-  --color-scale-orange-500: #e87d30;
-  --color-scale-orange-600: #ba6426;
-  --color-scale-orange-700: #8b4b1d;
-  --color-scale-orange-800: #5d3213;
-  --color-scale-orange-900: #2e190a;
-
-  --color-scale-yellow-100: #faf1d6;
-  --color-scale-yellow-200: #f6e3ac;
-  --color-scale-yellow-300: #f1d683;
-  --color-scale-yellow-400: #edc859;
-  --color-scale-yellow-500: #e8ba30;
-  --color-scale-yellow-600: #ba9526;
-  --color-scale-yellow-700: #8b701d;
-  --color-scale-yellow-800: #5d4a13;
-  --color-scale-yellow-900: #2e250a;
-
-  --color-scale-lime-100: #e2fad6;
-  --color-scale-lime-200: #c5f6ac;
-  --color-scale-lime-300: #a8f183;
-  --color-scale-lime-400: #8bed59;
-  --color-scale-lime-500: #6ee830;
-  --color-scale-lime-600: #58ba26;
-  --color-scale-lime-700: #428b1d;
-  --color-scale-lime-800: #2c5d13;
-  --color-scale-lime-900: #162e0a;
-
-  --color-scale-green-100: #d6fadc;
-  --color-scale-green-200: #acf6b9;
-  --color-scale-green-300: #83f195;
-  --color-scale-green-400: #59ed72;
-  --color-scale-green-500: #30e84f;
-  --color-scale-green-600: #26ba3f;
-  --color-scale-green-700: #1d8b2f;
-  --color-scale-green-800: #135d20;
-  --color-scale-green-900: #0a2e10;
-
-  --color-scale-teal-100: #d6faf1;
-  --color-scale-teal-200: #acf6e3;
-  --color-scale-teal-300: #83f1d6;
-  --color-scale-teal-400: #59edc8;
-  --color-scale-teal-500: #30e8ba;
-  --color-scale-teal-600: #26ba95;
-  --color-scale-teal-700: #1d8b70;
-  --color-scale-teal-800: #135d4a;
-  --color-scale-teal-900: #0a2e25;
-
-  --color-scale-cyan-100: #d6f1fa;
-  --color-scale-cyan-200: #ace3f6;
-  --color-scale-cyan-300: #83d6f1;
-  --color-scale-cyan-400: #59c8ed;
-  --color-scale-cyan-500: #30bae8;
-  --color-scale-cyan-600: #2695ba;
-  --color-scale-cyan-700: #1d708b;
-  --color-scale-cyan-800: #134a5d;
-  --color-scale-cyan-900: #0a252e;
-
-  --color-scale-blue-100: #d2e2fc;
-  --color-scale-blue-200: #a6c6f9;
-  --color-scale-blue-300: #79a9f6;
-  --color-scale-blue-400: #4d8df3;
-  --color-scale-blue-500: #2070f0;
-  --color-scale-blue-600: #1a5ac0;
-  --color-scale-blue-700: #134390;
-  --color-scale-blue-800: #0d2d60;
-  --color-scale-blue-900: #061630;
-
-  --color-scale-indigo-100: #d9d6fa;
-  --color-scale-indigo-200: #b3acf6;
-  --color-scale-indigo-300: #8c83f1;
-  --color-scale-indigo-400: #6659ed;
-  --color-scale-indigo-500: #4030e8;
-  --color-scale-indigo-600: #3326ba;
-  --color-scale-indigo-700: #261d8b;
-  --color-scale-indigo-800: #1a135d;
-  --color-scale-indigo-900: #0d0a2e;
-
-  --color-scale-purple-100: #e8d6fa;
-  --color-scale-purple-200: #d1acf6;
-  --color-scale-purple-300: #ba83f1;
-  --color-scale-purple-400: #a359ed;
-  --color-scale-purple-500: #8c30e8;
-  --color-scale-purple-600: #7026ba;
-  --color-scale-purple-700: #541d8b;
-  --color-scale-purple-800: #38135d;
-  --color-scale-purple-900: #1c0a2e;
-
-  --color-scale-pink-100: #fad6f4;
-  --color-scale-pink-200: #f6ace9;
-  --color-scale-pink-300: #f183df;
-  --color-scale-pink-400: #ed59d4;
-  --color-scale-pink-500: #e830c9;
-  --color-scale-pink-600: #ba26a1;
-  --color-scale-pink-700: #8b1d79;
-  --color-scale-pink-800: #5d1350;
-  --color-scale-pink-900: #2e0a28;
-
-  --color-scale-rose-100: #fad6e2;
-  --color-scale-rose-200: #f6acc5;
-  --color-scale-rose-300: #f183a8;
-  --color-scale-rose-400: #ed598b;
-  --color-scale-rose-500: #e8306e;
-  --color-scale-rose-600: #ba2658;
-  --color-scale-rose-700: #8b1d42;
-  --color-scale-rose-800: #5d132c;
-  --color-scale-rose-900: #2e0a16;
-
-  --color-pastel-gray: #3d424c;
-  --color-pastel-red: #cc3e3e;
-  --color-pastel-orange: #cc6d3d;
-  --color-pastel-yellow: #cca93d;
-  --color-pastel-lime: #79cc3d;
-  --color-pastel-green: #3dcc49;
-  --color-pastel-teal: #3dcc85;
-  --color-pastel-cyan: #3dcccc;
-  --color-pastel-blue: #3d85cc;
-  --color-pastel-indigo: #3d55cc;
-  --color-pastel-purple: #853dcc;
-  --color-pastel-pink: #cc3db5;
-  --color-pastel-rose: #cc3d6d;
-}
-
-:root {
-  --color-background: var(--color-scale-white);
-  --color-body-text: var(--color-scale-black);
-  --color-button-primary: var(--color-scale-black);
-  --color-button-secondary: var(--color-scale-white);
-  --color-divider: var(--color-scale-gray-500);
-  --color-header-decoration: var(--color-scale-blue-500);
-  --color-headline-text: var(--color-scale-black);
-  --color-link: var(--color-scale-blue-500);
-  --color-link-decoration: var(--color-scale-blue-500);
-  --color-nav-skin: var(--color-scale-black);
-  --color-nav-skin-decoration: var(--color-scale-blue-500);
-  --color-social-icon: inherit;
+  --color-primary: var(--color-blue);
+  --color-secondary: var(--color-gray);
+  --color-success: var(--color-green);
+  --color-danger: var(--color-red);
+  --color-warning: var(--color-yellow);
+  --color-info: var(--color-cyan);
+  --color-theme-background: var(--color-light);
+  --color-theme-foreground: var(--color-dark);
 }
