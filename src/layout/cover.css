@@ -20,7 +20,3 @@
   pointer-events: none;
   background-attachment: fixed;
 }
-
-.cover > section {
-  z-index: 5;
-}
