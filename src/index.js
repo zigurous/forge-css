@@ -16,6 +16,8 @@ import './elements/hr.css';
 import './components/button.css';
 import './components/button-group.css';
 import './components/image.css';
+import './components/icon.css';
+
 import './layout/grid.css';
 import './layout/container.css';
 import './layout/page.css';

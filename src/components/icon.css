@@ -1,0 +1,29 @@
+.icon {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  color: inherit;
+}
+
+.icon--sm,
+.icon--small { font-size: 18px; }
+.icon--md,
+.icon--medium { font-size: 24px; }
+.icon--lg,
+.icon--large { font-size: 36px; }
+.icon--xl,
+.icon--extraLarge { font-size: 48px; }
+
+.icon--light { color: var(--color-light); }
+.icon--dark { color: var(--color-dark); }
+.icon--disabled { opacity: 0.5; }
+
+.material-icon { font-family: 'Material Icons'; }
