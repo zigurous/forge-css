@@ -1,4 +1,5 @@
 import './base/variables.css';
+import './base/theming.css';
 import './base/fonts.css';
 
 import './generic/normalize.css';
@@ -25,9 +26,6 @@ import './layout/cover.css';
 import './layout/bleed.css';
 import './layout/parallax.css';
 import './layout/z-index.css';
-
-import './themes/light.css';
-import './themes/dark.css';
 
 import './objects/animations.css';
 import './objects/aspect-ratios.css';
