@@ -1,15 +1,15 @@
-.aspectratio {
+.ratio {
   position: relative;
   height: 0;
 }
 
-.aspectratio-embed {
+.ratio-embed {
   display: block;
   position: relative;
   overflow: hidden;
 }
 
-.aspectratio-content {
+.ratio-content {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -20,14 +20,18 @@
   z-index: 100;
 }
 
-.aspectratio-16x9 { padding-bottom: 56.25%; }
-.aspectratio-9x16 { padding-bottom: 177.77%; }
-.aspectratio-4x3 { padding-bottom: 75%; }
-.aspectratio-3x4 { padding-bottom: 133.33%; }
-.aspectratio-6x4 { padding-bottom: 66.6%; }
-.aspectratio-4x6 { padding-bottom: 150%; }
-.aspectratio-8x5 { padding-bottom: 62.5%; }
-.aspectratio-5x8 { padding-bottom: 160%; }
-.aspectratio-7x5 { padding-bottom: 71.42%; }
-.aspectratio-5x7 { padding-bottom: 140%; }
-.aspectratio-1x1 { padding-bottom: 100%; }
+.ratio-21x9 { padding-bottom: calc(9 / 21 * 100%); }
+.ratio-9x21 { padding-bottom: calc(21 / 9 * 100%); }
+.ratio-16x9 { padding-bottom: calc(9 / 16 * 100%); }
+.ratio-9x16 { padding-bottom: calc(16 / 9 * 100%); }
+.ratio-4x3 { padding-bottom: calc(3 / 4 * 100%); }
+.ratio-3x4 { padding-bottom: calc(4 / 3 * 100%); }
+.ratio-6x4 { padding-bottom: calc(4 / 6 * 100%); }
+.ratio-4x6 { padding-bottom: calc(6 / 4 * 100%); }
+.ratio-8x5 { padding-bottom: calc(5 / 8 * 100%); }
+.ratio-5x8 { padding-bottom: calc(8 / 5 * 100%); }
+.ratio-7x5 { padding-bottom: calc(5 / 7 * 100%); }
+.ratio-5x7 { padding-bottom: calc(7 / 5 * 100%); }
+.ratio-2x1 { padding-bottom: calc(1 / 2 * 100%); }
+.ratio-1x2 { padding-bottom: calc(2 / 1 * 100%); }
+.ratio-1x1 { padding-bottom: calc(1 / 1 * 100%); }
