@@ -18,6 +18,7 @@ import './components/button-group.css';
 import './components/link.css';
 import './components/image.css';
 import './components/icon.css';
+import './components/badge.css';
 
 import './layout/grid.css';
 import './layout/container.css';
