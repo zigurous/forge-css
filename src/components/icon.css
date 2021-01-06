@@ -24,6 +24,6 @@
 
 .icon--light { color: var(--color-light); }
 .icon--dark { color: var(--color-dark); }
-.icon--disabled { opacity: 0.5; }
+.icon--inactive { opacity: 0.5; }
 
 .material-icon { font-family: 'Material Icons'; }
