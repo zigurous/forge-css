@@ -27,6 +27,9 @@ import './layout/bleed.css';
 import './layout/parallax.css';
 import './layout/z-index.css';
 
+import './themes/light.css';
+import './themes/dark.css';
+
 import './objects/animations.css';
 import './objects/aspect-ratios.css';
 import './objects/background.css';
@@ -52,9 +55,6 @@ import './objects/whitespace.css';
 import './objects/widths.css';
 import './objects/wordbreak.css';
 import './objects/z-index.css';
-
-import './themes/light.css';
-import './themes/dark.css';
 
 import './utilities/debug-children.css';
 import './utilities/debug-grid.css';
