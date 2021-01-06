@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
@@ -25,8 +24,7 @@ a:hover {
   border-bottom: solid 1px var(--color-link-decoration);
 }
 
-b,
-strong {
+b, strong {
   font-weight: 600;
 }
 

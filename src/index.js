@@ -8,8 +8,9 @@ import './generic/root.css';
 import './elements/typography.css';
 import './elements/button.css';
 import './elements/input.css';
-import './elements/list.css';
 import './elements/img.css';
+import './elements/icon.css';
+import './elements/list.css';
 import './elements/hr.css';
 
 import './layout/grid.css';
