@@ -1,0 +1,7 @@
+.z-index-dropdown { z-index: 1000; }
+.z-index-sticky { z-index: 1020; }
+.z-index-fixed { z-index: 1030; }
+.z-index-overlay { z-index: 1040; }
+.z-index-modal { z-index: 1050; }
+.z-index-popover { z-index: 1060; }
+.z-index-tooltip { z-index: 1070; }

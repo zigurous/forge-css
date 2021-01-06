@@ -19,6 +19,7 @@ import './layout/page.css';
 import './layout/cover.css';
 import './layout/bleed.css';
 import './layout/parallax.css';
+import './layout/z-index.css';
 
 import './objects/animations.css';
 import './objects/aspect-ratios.css';
