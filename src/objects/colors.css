@@ -4,8 +4,8 @@
 .text-light { color: var(--color-light); }
 .text-dark { color: var(--color-dark); }
 .text-gray { color: var(--color-gray); }
-.text-gray-light { color: var(--color-gray-light); }
-.text-gray-dark { color: var(--color-gray-dark); }
+.text-light-gray { color: var(--color-light-gray); }
+.text-dark-gray { color: var(--color-dark-gray); }
 
 .text-red { color: var(--color-red); }
 .text-orange { color: var(--color-orange); }
@@ -32,8 +32,8 @@
 .bg-light { background-color: var(--color-light); }
 .bg-dark { background-color: var(--color-dark); }
 .bg-gray { background-color: var(--color-gray); }
-.bg-gray-light { background-color: var(--color-gray-light); }
-.bg-gray-dark { background-color: var(--color-gray-dark); }
+.bg-light-gray { background-color: var(--color-light-gray); }
+.bg-dark-gray { background-color: var(--color-dark-gray); }
 
 .bg-red { background-color: var(--color-red); }
 .bg-orange { background-color: var(--color-orange); }
@@ -60,8 +60,8 @@
 .fill-light { fill: var(--color-light); }
 .fill-dark { fill: var(--color-dark); }
 .fill-gray { fill: var(--color-gray); }
-.fill-gray-light { fill: var(--color-gray-light); }
-.fill-gray-dark { fill: var(--color-gray-dark); }
+.fill-light-gray { fill: var(--color-light-gray); }
+.fill-dark-gray { fill: var(--color-dark-gray); }
 
 .fill-red { fill: var(--color-red); }
 .fill-orange { fill: var(--color-orange); }
