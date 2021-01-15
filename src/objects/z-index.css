@@ -9,3 +9,11 @@
 .z-index-8 { z-index: 8; }
 .z-index-9 { z-index: 9; }
 .z-index-10 { z-index: 10; }
+
+.z-index-dropdown { z-index: var(--z-index-dropdown, 1000); }
+.z-index-sticky { z-index: var(--z-index-sticky, 1020); }
+.z-index-fixed { z-index: var(--z-index-fixed, 1030); }
+.z-index-overlay { z-index: var(--z-index-overlay, 1040); }
+.z-index-modal { z-index: var(--z-index-modal, 1050); }
+.z-index-popover { z-index: var(--z-index-popover, 1060); }
+.z-index-tooltip { z-index: var(--z-index-tooltip, 1070); }

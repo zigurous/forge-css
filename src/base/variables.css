@@ -32,3 +32,13 @@
   --color-theme-background: var(--color-light);
   --color-theme-foreground: var(--color-dark);
 }
+
+:root {
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-overlay: 1040;
+  --z-index-modal: 1050;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+}

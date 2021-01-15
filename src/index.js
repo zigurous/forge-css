@@ -26,7 +26,6 @@ import './layout/page.css';
 import './layout/cover.css';
 import './layout/bleed.css';
 import './layout/parallax.css';
-import './layout/z-index.css';
 
 import './objects/alignment.css';
 import './objects/animations.css';
