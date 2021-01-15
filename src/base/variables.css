@@ -42,3 +42,10 @@
   --z-index-popover: 1060;
   --z-index-tooltip: 1070;
 }
+
+:root {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
