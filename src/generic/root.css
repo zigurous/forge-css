@@ -16,12 +16,6 @@ body {
   height: 100%;
 }
 
-body.modal-open,
-body.ReactModal__Body--open,
-body.fullscreen-menu-open {
-  overflow: hidden;
-}
-
 [id="root"] {
   overflow-x: hidden;
 }
