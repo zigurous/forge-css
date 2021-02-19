@@ -58,10 +58,17 @@
 
 .modal__footer {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   padding: 1rem;
   border-top: solid 1px var(--color-light-gray, lightgray);
+}
+
+.modal__footer--left-aligned {
+  justify-content: flex-start;
+}
+
+.modal__footer--right-aligned {
+  justify-content: flex-end;
 }
 
 .modal__title {
