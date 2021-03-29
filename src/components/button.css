@@ -30,9 +30,9 @@
   outline-offset: 1px;
 }
 
-.btn:hover:not(:disabled):not(.btn--icon-only),
-.btn:focus:not(:disabled):not(.btn--icon-only),
-.btn:active:not(:disabled):not(.btn--icon-only) {
+.btn:hover:not(:disabled):not(.btn--icon-only.btn--borderless),
+.btn:focus:not(:disabled):not(.btn--icon-only.btn--borderless),
+.btn:active:not(:disabled):not(.btn--icon-only.btn--borderless) {
   background-color: var(--color-button-primary);
   color: var(--color-button-secondary);
 }
