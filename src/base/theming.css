@@ -3,7 +3,7 @@
   --color-theme-background: var(--color-dark, black);
   --color-theme-foreground: var(--color-light, white);
   /* contrast correction */
-  --color-blue: #367ef2;
+  --color-blue: #2176ff;
   --color-gray: #7e848d;
   --color-primary: var(--color-blue);
   --color-secondary: var(--color-gray);
