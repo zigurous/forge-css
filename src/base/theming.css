@@ -1,3 +1,9 @@
+[theme="black"],
+[theme="black"] * {
+  --color-theme-background: var(--color-black, black);
+  --color-theme-foreground: var(--color-white, white);
+}
+
 [theme="dark"],
 [theme="dark"] * {
   --color-theme-background: var(--color-dark, black);
@@ -20,8 +26,16 @@
   --color-secondary: var(--color-gray);
 }
 
+[theme="white"],
+[theme="white"] * {
+  --color-theme-background: var(--color-white, white);
+  --color-theme-foreground: var(--color-black, black);
+}
+
+[theme="black"],
 [theme="dark"],
-[theme="light"] {
+[theme="light"],
+[theme="White"] {
   background-color: var(--color-theme-background);
   color: var(--color-theme-foreground);
 }
