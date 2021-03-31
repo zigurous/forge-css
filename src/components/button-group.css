@@ -19,24 +19,24 @@
   align-items: flex-start;
 }
 
-.btn-group--spaced.btn-group--horizontal > button,
-.btn-group--spaced.btn-group--horizontal > .btn {
+.btn-group--spacing.btn-group--horizontal > button,
+.btn-group--spacing.btn-group--horizontal > .btn {
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
-.btn-group--spaced.btn-group--horizontal > button:not(:last-child),
-.btn-group--spaced.btn-group--horizontal > .btn:not(:last-child) {
+.btn-group--spacing.btn-group--horizontal > button:not(:last-child),
+.btn-group--spacing.btn-group--horizontal > .btn:not(:last-child) {
   margin-right: 16px;
 }
 
-.btn-group--spaced.btn-group--vertical > button,
-.btn-group--spaced.btn-group--vertical > .btn {
+.btn-group--spacing.btn-group--vertical > button,
+.btn-group--spacing.btn-group--vertical > .btn {
   margin-left: 8px;
   margin-right: 8px;
 }
 
-.btn-group--spaced.btn-group--vertical > button:not(:last-child)
-.btn-group--spaced.btn-group--vertical > .btn:not(:last-child) {
+.btn-group--spacing.btn-group--vertical > button:not(:last-child)
+.btn-group--spacing.btn-group--vertical > .btn:not(:last-child) {
   margin-bottom: 16px;
 }
