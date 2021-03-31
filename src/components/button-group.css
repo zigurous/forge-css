@@ -1,8 +1,10 @@
 .btn-group {
   position: relative;
   display: inline-flex;
+  flex-wrap: wrap;
   vertical-align: middle;
   width: max-content;
+  max-width: 100%;
 }
 
 .btn-group--horizontal {
@@ -17,22 +19,24 @@
   align-items: flex-start;
 }
 
-.btn-group--spaced.btn-group--horizontal > button:not(:first-child),
-.btn-group--spaced.btn-group--horizontal > .btn:not(:first-child) {
-  margin-left: 8px;
+.btn-group--spaced.btn-group--horizontal > button,
+.btn-group--spaced.btn-group--horizontal > .btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .btn-group--spaced.btn-group--horizontal > button:not(:last-child),
 .btn-group--spaced.btn-group--horizontal > .btn:not(:last-child) {
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
-.btn-group--spaced.btn-group--vertical > button:not(:first-child)
-.btn-group--spaced.btn-group--vertical > .btn:not(:first-child) {
-  margin-top: 8px;
+.btn-group--spaced.btn-group--vertical > button,
+.btn-group--spaced.btn-group--vertical > .btn {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .btn-group--spaced.btn-group--vertical > button:not(:last-child)
 .btn-group--spaced.btn-group--vertical > .btn:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
