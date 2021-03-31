@@ -25,6 +25,7 @@
 .text-warning { color: var(--color-warning); }
 .text-info { color: var(--color-info); }
 .text-themed { color: var(--color-theme-foreground); }
+.text-themed-gray { color: var(--color-theme-shaded-gray); }
 
 .bg-transparent { background-color: transparent; }
 .bg-white { background-color: white; }
@@ -53,6 +54,7 @@
 .bg-warning { background-color: var(--color-warning); }
 .bg-info { background-color: var(--color-info); }
 .bg-themed { background-color: var(--color-theme-background); }
+.bg-themed-gray { background-color: var(--color-theme-shaded-gray); }
 
 .fill-transparent { fill: transparent; }
 .fill-white { fill: white; }
@@ -81,3 +83,4 @@
 .fill-warning { fill: var(--color-warning); }
 .fill-info { fill: var(--color-info); }
 .fill-themed { fill: var(--color-theme-foreground); }
+.fill-themed-gray { fill: var(--color-theme-shaded-gray); }
