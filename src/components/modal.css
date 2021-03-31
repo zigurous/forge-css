@@ -7,7 +7,7 @@
   right: 0;
   z-index: var(--z-index-modal, 1050);
   background-color: rgba(0, 0, 0, 0);
-  transition: background-color 0.3s;
+  transition: background-color 300ms;
   overflow: hidden;
   outline: none;
 }
@@ -79,7 +79,7 @@
   padding: 1rem;
   margin: -1rem -0.65rem -1rem auto;
   opacity: 0.5;
-  transition: opacity 0.2s;
+  transition: opacity 200ms;
 }
 
 .modal__close-button:hover,

@@ -20,7 +20,7 @@ a {
   color: var(--color-primary, inherit);
   text-decoration: none;
   border-bottom: solid 1px transparent;
-  transition: border 0.2s;
+  transition: border 200ms;
 }
 
 a:visited {

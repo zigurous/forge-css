@@ -1,7 +1,7 @@
 .transition.fade-in {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s, visibility 0.3s;
+  transition: opacity 300ms, visibility 300ms;
 }
 
 .transition.fade-in.visible {
@@ -12,7 +12,7 @@
 .transition.fade-out {
   opacity: 1;
   visibility: visible;
-  transition: opacity 0.3s, visibility 0.3s;
+  transition: opacity 300ms, visibility 300ms;
 }
 
 .transition.fade-out.hidden {
@@ -25,7 +25,7 @@
 .transition.translate-down,
 .transition.translate-left,
 .transition.translate-right {
-  transition: transform 0.3s, visibility 0.3s;
+  transition: transform 300ms, visibility 300ms;
 }
 
 .transition.translate-up.hidden {
