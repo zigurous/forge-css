@@ -1,30 +1,17 @@
 {
-  "name": "@zigurous/styles-example",
-  "homepage": ".",
+  "name": "@zigurous/css-styles-example",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
-    "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
-    "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react": "link:../node_modules/react",
-    "react-dom": "link:../node_modules/react-dom",
-    "react-scripts": "link:../node_modules/react-scripts",
-    "@zigurous/styles": "link:.."
-  },
-  "devDependencies": {
-    "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@zigurous/css-styles": "link:..",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^4.0.3"
+  }
 }
