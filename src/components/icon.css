@@ -1,3 +1,7 @@
+.material-icon {
+  font-family: 'Material Icons';
+}
+
 .icon {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -13,17 +17,30 @@
   color: inherit;
 }
 
+.icon--inherit {
+  font-size: inherit;
+}
+
 .icon--sm,
-.icon--small { font-size: 18px; }
+.icon--small {
+  font-size: 18px;
+}
+
 .icon--md,
-.icon--medium { font-size: 24px; }
+.icon--medium {
+  font-size: 24px;
+}
+
 .icon--lg,
-.icon--large { font-size: 36px; }
+.icon--large {
+  font-size: 36px;
+}
+
 .icon--xl,
-.icon--extraLarge { font-size: 48px; }
+.icon--extraLarge {
+  font-size: 48px;
+}
 
 .icon--light { color: var(--color-light); }
 .icon--dark { color: var(--color-dark); }
 .icon--inactive { opacity: 0.5; }
-
-.material-icon { font-family: 'Material Icons'; }
