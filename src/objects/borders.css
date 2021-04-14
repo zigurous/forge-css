@@ -29,6 +29,15 @@
   border-width: 0;
 }
 
-.rounded {
+.rounded,
+.rounded-md {
   border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
