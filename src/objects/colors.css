@@ -1,3 +1,6 @@
+.color-inherit,
+.color-inherit:visited { color: inherit; }
+
 .text-transparent { color: transparent; }
 .text-white { color: white; }
 .text-black { color: black; }

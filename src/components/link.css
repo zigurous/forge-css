@@ -1,29 +1,20 @@
 .link {
   color: var(--color-primary, inherit);
   text-decoration: none;
-  border-bottom: solid 1px transparent;
-  transition: border 200ms;
 }
 
 .link:visited {
   color: var(--color-primary, inherit);
 }
 
-.link:hover {
-  border-bottom: solid 1px var(--color-primary);
-}
-
+.link:hover,
 .link--underlined {
-  border-bottom: solid 1px var(--color-primary);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-.link--undecorated {
-  border-bottom: solid 1px transparent;
+.link--unstyled,
+.link--unstyled:visited,
+.link--unstyled:hover {
+  color: inherit;
   text-decoration: none;
-  color: inherit;
-}
-
-.link--undecorated:visited {
-  color: inherit;
 }
