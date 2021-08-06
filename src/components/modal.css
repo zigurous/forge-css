@@ -36,7 +36,7 @@
   pointer-events: auto;
   background-color: white;
   background-clip: padding-box;
-  border: solid 1px var(--color-light-gray, lightgray);
+  border: 1px solid lightgray;
   border-radius: 0.25rem;
   outline: none;
   overflow: hidden;
@@ -53,14 +53,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border-bottom: solid 1px var(--color-light-gray, lightgray);
+  border-bottom: 1px solid lightgray;
 }
 
 .modal__footer {
   display: flex;
   align-items: center;
   padding: 1rem;
-  border-top: solid 1px var(--color-light-gray, lightgray);
+  border-top: 1px solid lightgray;
 }
 
 .modal__footer--left-aligned {

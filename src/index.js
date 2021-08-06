@@ -1,5 +1,5 @@
 import './base/variables.css';
-import './base/theming.css';
+import './base/themes.css';
 import './base/fonts.css';
 
 import './generic/normalize.css';
@@ -13,9 +13,9 @@ import './elements/img.css';
 import './elements/list.css';
 import './elements/hr.css';
 
+import './components/link.css';
 import './components/button.css';
 import './components/button-group.css';
-import './components/link.css';
 import './components/image.css';
 import './components/icon.css';
 import './components/badge.css';

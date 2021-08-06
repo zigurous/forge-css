@@ -6,7 +6,7 @@ textarea {
   line-height: 1.15rem;
   background: none;
   outline: none;
-  border: solid 1px var(--color-gray);
+  border: 1px solid var(--color-foreground-secondary);
   border-radius: 0.25rem;
   color: inherit;
   padding: 8px 12px;
@@ -22,7 +22,32 @@ input::placeholder,
 select::placeholder,
 textarea::placeholder {
   font-size: 0.875em;
-  color: var(--color-gray);
+  color: var(--color-foreground-secondary);
+}
+
+input:disabled,
+select:disabled,
+textarea:disabled {
+  cursor: not-allowed;
+}
+
+input[type="submit"] {
+  font-weight: 500;
+  min-width: 80px;
+  transition: background-color 200ms, color 200ms;
+}
+
+input[type="submit"]:not(:disabled) {
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: var(--color-background);
+  background-color: var(--color-foreground);
+}
+
+input[type="submit"]:focus {
+  border-color: var(--color-foreground-secondary);
 }
 
 input[type="search"]::-ms-clear,

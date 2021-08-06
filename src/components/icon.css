@@ -41,6 +41,8 @@
   font-size: 48px;
 }
 
-.icon--light { color: var(--color-light); }
-.icon--dark { color: var(--color-dark); }
-.icon--inactive { opacity: 0.5; }
+.icon--light.icon--active { opacity: 1.0; }
+.icon--light.icon--inactive { opacity: 0.5; }
+
+.icon--dark.icon--active { opacity: 0.54; }
+.icon--dark.icon--inactive { opacity: 0.38; }
