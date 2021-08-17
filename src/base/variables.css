@@ -16,8 +16,8 @@
 
 :root {
   --color-background: white;
-  --color-background-secondary: #f5f5f5;
-  --color-background-tertiary: #eeeeee;
+  --color-background-secondary: #f2f4f6;
+  --color-background-tertiary: #e8eaec;
   --color-foreground: rgba(0,0,0,0.87);
   --color-foreground-secondary: rgba(0,0,0,0.54);
   --color-foreground-tertiary: rgba(0,0,0,0.38);

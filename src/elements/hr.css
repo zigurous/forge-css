@@ -4,7 +4,7 @@ hr {
   margin-block-end: 1.5rem;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  background-color: var(--color-foreground-tertiary);
+  background-color: var(--color-background-tertiary);
   border: none;
 }
 
