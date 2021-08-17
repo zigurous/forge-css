@@ -1,11 +1,14 @@
 .page {
   position: relative;
-  min-height: calc(100vh - var(--header-height, 0) - var(--footer-height, 0));
+  min-height: calc(100vh - var(--header-height, 0));
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 128px;
 }
 
 .js-parallax .page {
   transform-style: preserve-3d;
+}
+
+.page > article {
+  padding-bottom: 128px;
 }
