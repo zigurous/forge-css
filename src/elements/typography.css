@@ -67,3 +67,11 @@ h6, .h6, .display-6 {
 .font-xs { font-size: 0.75rem; }
 .font-xxs { font-size: 0.625rem; }
 .font-xxxs { font-size: 0.5rem; }
+
+.eyebrow {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025rem;
+  color: #8a9199;
+}
