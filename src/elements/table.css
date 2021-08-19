@@ -1,0 +1,34 @@
+table {
+  width: calc(100% + 16px);
+  margin-left: -16px;
+}
+
+table th,
+table td {
+  height: 40px;
+  padding: 8px 16px;
+}
+
+table th {
+  text-align: left;
+}
+
+table.bordered,
+table.bordered th,
+table.bordered td {
+  border: 1px solid var(--color-background-tertiary);
+}
+
+table.bordered {
+  width: 100%;
+  margin-left: 0;
+}
+
+table.bordered th,
+table.bordered td {
+  padding: 8px;
+}
+
+table.striped tbody tr:nth-child(odd) {
+  background-color: var(--color-background-secondary);
+}

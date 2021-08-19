@@ -12,6 +12,7 @@ import './elements/input.css';
 import './elements/img.css';
 import './elements/list.css';
 import './elements/hr.css';
+import './elements/table.css';
 
 import './components/link.css';
 import './components/button.css';
