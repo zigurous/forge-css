@@ -21,6 +21,7 @@ import './components/image.css';
 import './components/icon.css';
 import './components/badge.css';
 import './components/modal.css';
+import './components/navbar.css';
 
 import './layout/grid.css';
 import './layout/container.css';
