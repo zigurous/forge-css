@@ -13,6 +13,10 @@
   color: inherit;
 }
 
+.icon--material {
+  font-family: 'Material Icons';
+}
+
 .icon--inherit {
   font-size: inherit;
 }
