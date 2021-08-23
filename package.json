@@ -11,8 +11,8 @@
     "microbundle-crl": "^0.13.11"
   },
   "scripts": {
-    "build": "microbundle-crl --css-modules \"[local]\" --format modern,es,cjs,umd",
-    "start": "microbundle-crl watch --no-compress --format modern,es,cjs,umd",
+    "build": "microbundle-crl --compress --sourcemap false --css-modules \"[local]\"",
+    "start": "microbundle-crl watch --no-compress",
     "predeploy": "yarn build",
     "prepare": "yarn build"
   },
