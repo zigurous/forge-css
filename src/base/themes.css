@@ -1,7 +1,5 @@
 [data-theme="light"],
 [data-theme="light"] * {
-  --color-primary: #2979ff;
-  --color-primary-hover: #2962ff;
   --color-background: white;
   --color-background-secondary: #f2f4f6;
   --color-background-tertiary: #e8eaec;
@@ -17,8 +15,6 @@
 
 [data-theme="dark"],
 [data-theme="dark"] * {
-  --color-primary: #448aff;
-  --color-primary-hover: #2979ff;
   --color-background: #101214;
   --color-background-secondary: #14171a;
   --color-background-tertiary: #212529;
@@ -34,8 +30,6 @@
 
 [data-theme="high-contrast"],
 [data-theme="high-contrast"] * {
-  --color-primary: #448aff;
-  --color-primary-hover: #2979ff;
   --color-background: black;
   --color-background-secondary: #0b0c0d;
   --color-background-tertiary: #16181a;

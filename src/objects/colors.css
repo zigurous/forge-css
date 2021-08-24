@@ -1,19 +1,18 @@
 .color-inherit,
 .color-inherit:visited { color: inherit; }
+.color-transparent { color: transparent; }
+.color-white { color: white; }
+.color-black { color: black; }
 
-.text-transparent { color: transparent; }
-.text-white { color: white; }
-.text-black { color: black; }
-
-.text-primary { color: var(--color-primary); }
-.text-foreground { color: var(--color-foreground); }
-.text-foreground-primary { color: var(--color-foreground); }
-.text-foreground-secondary { color: var(--color-foreground-secondary); }
-.text-foreground-tertiary { color: var(--color-foreground-tertiary); }
-.text-background { color: var(--color-background); }
-.text-background-primary { color: var(--color-background); }
-.text-background-secondary { color: var(--color-background-secondary); }
-.text-background-tertiary { color: var(--color-background-tertiary); }
+.color-primary { color: var(--color-primary); }
+.color-foreground { color: var(--color-foreground); }
+.color-foreground-primary { color: var(--color-foreground); }
+.color-foreground-secondary { color: var(--color-foreground-secondary); }
+.color-foreground-tertiary { color: var(--color-foreground-tertiary); }
+.color-background { color: var(--color-background); }
+.color-background-primary { color: var(--color-background); }
+.color-background-secondary { color: var(--color-background-secondary); }
+.color-background-tertiary { color: var(--color-background-tertiary); }
 
 .bg-transparent { background-color: transparent; }
 .bg-white { background-color: white; }
