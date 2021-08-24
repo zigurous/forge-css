@@ -6,23 +6,24 @@ import './generic/normalize.css';
 import './generic/clearfix.css';
 import './generic/root.css';
 
+import './elements/img.css';
 import './elements/typography.css';
 import './elements/button.css';
 import './elements/input.css';
-import './elements/img.css';
-import './elements/list.css';
+import './elements/code.css';
 import './elements/hr.css';
+import './elements/list.css';
 import './elements/table.css';
 
+import './components/image.css';
+import './components/icon.css';
 import './components/link.css';
 import './components/button.css';
 import './components/button-group.css';
-import './components/image.css';
-import './components/icon.css';
 import './components/badge.css';
-import './components/modal.css';
-import './components/navbar.css';
 import './components/scrollbar.css';
+import './components/navbar.css';
+import './components/modal.css';
 
 import './layout/grid.css';
 import './layout/container.css';
