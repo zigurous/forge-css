@@ -154,13 +154,13 @@
   padding-right: 32px;
 }
 
-.no-gutters {
+.gutters-none {
   margin-left: 0;
   margin-right: 0;
 }
 
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
+.gutters-none > .col,
+.gutters-none > [class*="col-"] {
   padding-left: 0;
   padding-right: 0;
 }
