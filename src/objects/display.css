@@ -1,9 +1,7 @@
 .display-none { display: none; }
-
 .display-block { display: block; }
 .display-flex { display: flex; }
 .display-grid { display: grid; }
-
 .display-inline-block { display: inline-block; }
 .display-inline-flex { display: inline-flex; }
 .display-inline-grid { display: inline-grid; }

@@ -1,2 +1,3 @@
 .visible { visibility: visible; }
-.invisible, .hidden { visibility: hidden; }
+.invisible { visibility: hidden; }
+.hidden { visibility: hidden; }
