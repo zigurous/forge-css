@@ -20,14 +20,17 @@
   margin-right: 0;
 }
 
+.badge,
 .badge--solid {
-  background-color: var(--color-foreground, black);
+  background-color: var(--color-on-background, black);
+  border: 1px solid var(--color-on-background, black);
   color: var(--color-background, white);
 }
 
 .badge--outline {
-  border: 1px solid var(--color-foreground, black);
-  color: var(--color-foreground, black);
+  background-color: transparent;
+  border: 1px solid var(--color-on-background, black);
+  color: var(--color-on-background, black);
 }
 
 .badge--pill {

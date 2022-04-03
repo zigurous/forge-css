@@ -1,21 +1,19 @@
 .btn, .btn--default {
-  --button-solid-primary: var(--color-elevation-12p);
-  --button-solid-secondary: var(--color-foreground);
-  --button-solid-tertiary: var(--color-elevation-24p);
-  --button-outline-primary: var(--color-foreground);
-  --button-outline-secondary: var(--color-background);
-  --button-text-primary: var(--color-foreground-secondary);
-  --button-text-secondary: var(--color-background);
+  --button-color-primary: var(--color-on-surface-high);
+  --button-color-primary-hover: var(--color-on-background);
+  --button-color-secondary: var(--color-surface-1dp);
 }
 
 .btn--primary {
-  --button-solid-primary: var(--color-primary);
-  --button-solid-secondary: var(--color-primary-text);
-  --button-solid-tertiary: var(--color-primary-hover);
-  --button-outline-primary: var(--color-primary);
-  --button-outline-secondary: var(--color-primary-text);
-  --button-text-primary: var(--color-primary);
-  --button-text-secondary: var(--color-primary-text);
+  --button-color-primary: var(--color-primary);
+  --button-color-primary-hover: var(--color-primary-dark);
+  --button-color-secondary: var(--color-on-primary);
+}
+
+.btn--secondary {
+  --button-color-primary: var(--color-secondary);
+  --button-color-primary-hover: var(--color-secondary-dark);
+  --button-color-secondary: var(--color-on-secondary);
 }
 
 .btn {
@@ -27,16 +25,18 @@
   padding: 8px 16px;
   font-size: 0.875rem;
   font-weight: 600;
-  background-color: var(--button-solid-primary);
+  background-color: var(--button-color-primary);
   border: 1px solid transparent;
   border-radius: 0.5rem;
+  color: var(--button-color-secondary);
+  fill: var(--button-color-secondary);
   transform: scale(1);
-  transition: background-color 200ms, color 200ms, transform 200ms;
+  transition: color 200ms, background-color 200ms, transform 200ms;
 }
 
 .btn:disabled {
   cursor: not-allowed;
-  opacity: 0.5;
+  opacity: var(--opacity-disabled, 0.38);
 }
 
 .btn:not(:disabled) {
@@ -49,16 +49,16 @@
 }
 
 .btn--solid {
-  background-color: var(--button-solid-primary);
+  background-color: var(--button-color-primary);
   border-color: transparent;
-  color: var(--button-solid-secondary);
-  fill: var(--button-solid-secondary);
+  color: var(--button-color-secondary);
+  fill: var(--button-color-secondary);
 }
 
 .btn--solid:not(:disabled):hover,
 .btn--solid:not(:disabled):active,
 .btn--solid:not(:disabled).active {
-  background-color: var(--button-solid-tertiary);
+  background-color: var(--button-color-primary-hover);
 }
 
 .btn--solid:not(:disabled):active,
@@ -68,37 +68,39 @@
 
 .btn--outline {
   background-color: transparent;
-  border-color: var(--button-outline-primary);
-  color: var(--button-outline-primary);
-  fill: var(--button-outline-primary);
+  border-color: var(--button-color-primary);
+  color: var(--button-color-primary);
+  fill: var(--button-color-primary);
 }
 
 .btn--outline:not(:disabled):hover,
 .btn--outline:not(:disabled):active,
 .btn--outline:not(:disabled).active {
-  background-color: var(--button-outline-primary);
-  color: var(--button-outline-secondary);
-  fill: var(--button-outline-secondary);
+  background-color: var(--button-color-primary);
+  color: var(--button-color-secondary);
+  fill: var(--button-color-secondary);
 }
 
 .btn--text,
 .btn--text:visited {
   background-color: transparent;
   border-color: transparent;
-  color: var(--button-text-primary);
-  fill: var(--button-text-primary);
+  color: var(--button-color-primary);
+  fill: var(--button-color-primary);
 }
 
 .btn--text:hover,
 .btn--text:active {
-  background-color: var(--button-text-primary);
-  color: var(--button-text-secondary);
-  fill: var(--button-text-secondary);
+  background-color: var(--button-color-primary);
+  color: var(--button-color-secondary);
+  fill: var(--button-color-secondary);
 }
 
 .btn--unstyled {
   background-color: transparent;
   border-color: transparent;
+  color: inherit;
+  fill: inherit;
 }
 
 .btn--rounded-corners {

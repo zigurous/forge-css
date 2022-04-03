@@ -16,7 +16,7 @@
   display: block;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0,0,0.54);
 }
 
 .modal__dialog {
@@ -34,10 +34,11 @@
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: white;
+  background-color: var(--color-surface-1dp, white);
   background-clip: padding-box;
-  border: 1px solid lightgray;
+  border: 1px solid var(--color-surface-24dp, lightgray);
   border-radius: 0.25rem;
+  color: var(--color-on-surface-high, black);
   outline: none;
   overflow: hidden;
 }
@@ -53,14 +54,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid var(--color-surface-24dp, lightgray);
 }
 
 .modal__footer {
   display: flex;
   align-items: center;
   padding: 1rem;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid var(--color-surface-24dp, lightgray);
 }
 
 .modal__footer--left-aligned {

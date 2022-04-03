@@ -1,6 +1,7 @@
 blockquote {
-  border-left: 0.25em solid var(--color-background-tertiary);
+  color: var(--color-on-surface-medium);
+  border-left: 3px solid var(--color-on-surface-low);
   margin-inline-start: 0;
   margin-inline-end: 0;
-  padding: 0 1em;
+  padding: 0 .75em;
 }
