@@ -68,12 +68,12 @@
 
 [data-theme="high-contrast"],
 [data-theme="high-contrast"] * {
-  --color-primary: #2962ff;
-  --color-primary-light: #768fff;
-  --color-primary-dark: #0039cb;
-  --color-secondary: #673ab7;
-  --color-secondary-light: #9a67ea;
-  --color-secondary-dark: #320b86;
+  --color-primary: #2979ff;
+  --color-primary-light: #75a7ff;
+  --color-primary-dark: #004ecb;
+  --color-secondary: #7e57c2;
+  --color-secondary-light: #b085f5;
+  --color-secondary-dark: #4d2c91;
   --color-error: #b00020;
 
   --color-background: black;
@@ -87,7 +87,7 @@
   --color-surface-16dp: #262626;
   --color-surface-24dp: #292929;
 
-  --color-on-primary: white;
+  --color-on-primary: black;
   --color-on-primary-light: black;
   --color-on-primary-dark: white;
   --color-on-secondary: white;
