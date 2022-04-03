@@ -1,7 +1,7 @@
 .btn, .btn--default {
   --button-color-primary: var(--color-on-surface-high);
   --button-color-primary-hover: var(--color-on-background);
-  --button-color-secondary: var(--color-surface-1dp);
+  --button-color-secondary: var(--color-background);
 }
 
 .btn--primary {
