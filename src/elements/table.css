@@ -16,7 +16,7 @@ table th {
 table.bordered,
 table.bordered th,
 table.bordered td {
-  border: 1px solid var(--color-on-surface-low);
+  border: 1px solid var(--color-surface-24dp);
 }
 
 table.bordered {
