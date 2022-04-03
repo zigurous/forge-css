@@ -1,3 +1,5 @@
+.opacity-disabled { opacity: var(--opacity-disabled, 0.38); }
+.opacity-overlay { opacity: var(--opacity-overlay, 0.32); }
 .opacity-100p { opacity: 1; }
 .opacity-90p { opacity: 0.9; }
 .opacity-80p { opacity: 0.8; }

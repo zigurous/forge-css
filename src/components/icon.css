@@ -41,8 +41,18 @@
   font-size: 48px;
 }
 
-.icon--light.icon--active { opacity: 1.0; }
-.icon--light.icon--inactive { opacity: 0.5; }
+.icon--light.icon--active {
+  opacity: 1.0;
+}
 
-.icon--dark.icon--active { opacity: 0.54; }
-.icon--dark.icon--inactive { opacity: 0.38; }
+.icon--light.icon--inactive {
+  opacity: 0.3;
+}
+
+.icon--dark.icon--active {
+  opacity: 0.54;
+}
+
+.icon--dark.icon--inactive {
+  opacity: 0.26;
+}

@@ -40,6 +40,11 @@
 }
 
 :root {
+  --opacity-disabled: 0.38;
+  --opacity-overlay: 0.32;
+}
+
+:root {
   --z-index-dropdown: 1000;
   --z-index-sticky: 1020;
   --z-index-fixed: 1030;
