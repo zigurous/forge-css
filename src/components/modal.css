@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: var(--z-index-modal, 1050);
+  z-index: var(--z-index-modal, 1060);
   background-color: rgba(0, 0, 0, 0);
   transition: background-color 300ms;
   overflow: hidden;
