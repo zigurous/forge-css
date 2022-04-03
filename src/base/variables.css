@@ -16,15 +16,15 @@
   --color-error: #b00020;
 
   --color-background: #ffffff;
-  --color-surface-1dp: #f2f2f2;
-  --color-surface-2dp: #ededed;
-  --color-surface-3dp: #ebebeb;
-  --color-surface-4dp: #e8e8e8;
-  --color-surface-6dp: #e3e3e3;
-  --color-surface-8dp: #e0e0e0;
-  --color-surface-12dp: #dbdbdb;
-  --color-surface-16dp: #d9d9d9;
-  --color-surface-24dp: #d6d6d6;
+  --color-surface-1dp: #f2f4f5;
+  --color-surface-2dp: #edeff2;
+  --color-surface-3dp: #ebeef0;
+  --color-surface-4dp: #e8ebee;
+  --color-surface-6dp: #e3e7ea;
+  --color-surface-8dp: #e0e4e8;
+  --color-surface-12dp: #dbe0e4;
+  --color-surface-16dp: #d9dee3;
+  --color-surface-24dp: #d6dbe0;
 
   --color-on-primary: white;
   --color-on-primary-light: black;
