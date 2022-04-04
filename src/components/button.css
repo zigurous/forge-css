@@ -6,13 +6,13 @@
 
 .btn--primary {
   --button-color-primary: var(--color-primary);
-  --button-color-primary-hover: var(--color-primary-dark);
+  --button-color-primary-hover: var(--color-primary-hover);
   --button-color-secondary: var(--color-on-primary);
 }
 
 .btn--secondary {
   --button-color-primary: var(--color-secondary);
-  --button-color-primary-hover: var(--color-secondary-dark);
+  --button-color-primary-hover: var(--color-secondary-hover);
   --button-color-secondary: var(--color-on-secondary);
 }
 

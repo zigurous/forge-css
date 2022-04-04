@@ -7,9 +7,11 @@
 .color-primary { color: var(--color-primary); }
 .color-primary-light { color: var(--color-primary-light); }
 .color-primary-dark { color: var(--color-primary-dark); }
+.color-primary-hover { color: var(--color-primary-hover); }
 .color-secondary { color: var(--color-secondary); }
 .color-secondary-light { color: var(--color-secondary-light); }
 .color-secondary-dark { color: var(--color-secondary-dark); }
+.color-secondary-hover { color: var(--color-secondary-hover); }
 .color-error { color: var(--color-error); }
 
 .color-background { color: var(--color-background); }
@@ -43,9 +45,11 @@
 .bg-primary { background-color: var(--color-primary); }
 .bg-primary-light { background-color: var(--color-primary-light); }
 .bg-primary-dark { background-color: var(--color-primary-dark); }
+.bg-primary-hover { background-color: var(--color-primary-hover); }
 .bg-secondary { background-color: var(--color-secondary); }
 .bg-secondary-light { background-color: var(--color-secondary-light); }
 .bg-secondary-dark { background-color: var(--color-secondary-dark); }
+.bg-secondary-hover { background-color: var(--color-secondary-hover); }
 .bg-error { background-color: var(--color-error); }
 
 .bg-background { background-color: var(--color-background); }
@@ -79,9 +83,11 @@
 .fill-primary { fill: var(--color-primary); }
 .fill-primary-light { fill: var(--color-primary-light); }
 .fill-primary-dark { fill: var(--color-primary-dark); }
+.fill-primary-hover { fill: var(--color-primary-hover); }
 .fill-secondary { fill: var(--color-secondary); }
 .fill-secondary-light { fill: var(--color-secondary-light); }
 .fill-secondary-dark { fill: var(--color-secondary-dark); }
+.fill-secondary-hover { fill: var(--color-secondary-hover); }
 .fill-error { fill: var(--color-error); }
 
 .fill-background { fill: var(--color-background); }
