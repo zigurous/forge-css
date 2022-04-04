@@ -21,11 +21,7 @@
   --color-surface-24dp: #d6dbe0;
 
   --color-on-primary: white;
-  --color-on-primary-muted: black;
-  --color-on-primary-emphasis: white;
   --color-on-secondary: white;
-  --color-on-secondary-muted: black;
-  --color-on-secondary-emphasis: white;
   --color-on-background: black;
   --color-on-surface-high: #212121;
   --color-on-surface-medium: #666666;
@@ -60,11 +56,7 @@
   --color-surface-24dp: #383838;
 
   --color-on-primary: black;
-  --color-on-primary-muted: black;
-  --color-on-primary-emphasis: white;
   --color-on-secondary: black;
-  --color-on-secondary-muted: black;
-  --color-on-secondary-emphasis: white;
   --color-on-background: white;
   --color-on-surface-high: #dedede;
   --color-on-surface-medium: #999999;
@@ -99,11 +91,7 @@
   --color-surface-24dp: #292929;
 
   --color-on-primary: black;
-  --color-on-primary-muted: black;
-  --color-on-primary-emphasis: white;
-  --color-on-secondary: white;
-  --color-on-secondary-muted: black;
-  --color-on-secondary-emphasis: white;
+  --color-on-secondary: black;
   --color-on-background: white;
   --color-on-surface-high: white;
   --color-on-surface-medium: #dedede;
