@@ -2,18 +2,21 @@
   --button-color-primary: var(--color-on-surface-high);
   --button-color-primary-hover: var(--color-on-background);
   --button-color-secondary: var(--color-background);
+  --button-color-tertiary: rgba(var(--rgb-on-background), var(--opacity-4dp));
 }
 
 .btn--primary {
   --button-color-primary: var(--color-primary);
   --button-color-primary-hover: var(--color-primary-hover);
   --button-color-secondary: var(--color-on-primary);
+  --button-color-tertiary: rgba(var(--rgb-primary), var(--opacity-4dp));
 }
 
 .btn--secondary {
   --button-color-primary: var(--color-secondary);
   --button-color-primary-hover: var(--color-secondary-hover);
   --button-color-secondary: var(--color-on-secondary);
+  --button-color-tertiary: rgba(var(--rgb-secondary), var(--opacity-4dp));
 }
 
 .btn {
@@ -21,6 +24,7 @@
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+  text-decoration: none;
   white-space: nowrap;
   padding: 8px 16px;
   line-height: 20px;
@@ -44,6 +48,15 @@
   cursor: pointer;
 }
 
+.btn:hover,
+.btn:active {
+  text-decoration: none;
+}
+
+.btn:not(.btn--unstyled):not(:disabled):active {
+  transform: scale(0.975);
+}
+
 .btn:focus-visible {
   outline: -webkit-focus-ring-color auto 1px;
   outline-offset: 1px;
@@ -60,11 +73,6 @@
 .btn--solid:not(:disabled):active,
 .btn--solid:not(:disabled).active {
   background-color: var(--button-color-primary-hover);
-}
-
-.btn--solid:not(:disabled):active,
-.btn--outline:not(:disabled):active {
-  transform: scale(0.98);
 }
 
 .btn--outline {
@@ -92,9 +100,7 @@
 
 .btn--text:hover,
 .btn--text:active {
-  background-color: var(--button-color-primary);
-  color: var(--button-color-secondary);
-  fill: var(--button-color-secondary);
+  background-color: var(--button-color-tertiary);
 }
 
 .btn--unstyled {
