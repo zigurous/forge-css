@@ -23,6 +23,7 @@
 .navbar li a {
   padding: 6px 12px;
   font-size: 1rem;
+  font-weight: 500;
 }
 
 .navbar li a.active {
