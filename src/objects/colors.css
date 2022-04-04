@@ -5,12 +5,12 @@
 .color-black { color: black; }
 
 .color-primary { color: var(--color-primary); }
-.color-primary-muted { color: var(--color-primary-muted); }
-.color-primary-emphasis { color: var(--color-primary-emphasis); }
+.color-primary-lighter { color: var(--color-primary-lighter); }
+.color-primary-darker { color: var(--color-primary-darker); }
 .color-primary-hover { color: var(--color-primary-hover); }
 .color-secondary { color: var(--color-secondary); }
-.color-secondary-muted { color: var(--color-secondary-muted); }
-.color-secondary-emphasis { color: var(--color-secondary-emphasis); }
+.color-secondary-lighter { color: var(--color-secondary-lighter); }
+.color-secondary-darker { color: var(--color-secondary-darker); }
 .color-secondary-hover { color: var(--color-secondary-hover); }
 
 .color-background { color: var(--color-background); }
@@ -37,12 +37,12 @@
 .bg-black { background-color: black; }
 
 .bg-primary { background-color: var(--color-primary); }
-.bg-primary-muted { background-color: var(--color-primary-muted); }
-.bg-primary-emphasis { background-color: var(--color-primary-emphasis); }
+.bg-primary-lighter { background-color: var(--color-primary-lighter); }
+.bg-primary-darker { background-color: var(--color-primary-darker); }
 .bg-primary-hover { background-color: var(--color-primary-hover); }
 .bg-secondary { background-color: var(--color-secondary); }
-.bg-secondary-muted { background-color: var(--color-secondary-muted); }
-.bg-secondary-emphasis { background-color: var(--color-secondary-emphasis); }
+.bg-secondary-lighter { background-color: var(--color-secondary-lighter); }
+.bg-secondary-darker { background-color: var(--color-secondary-darker); }
 .bg-secondary-hover { background-color: var(--color-secondary-hover); }
 
 .bg-background { background-color: var(--color-background); }
@@ -69,12 +69,12 @@
 .fill-black { fill: black; }
 
 .fill-primary { fill: var(--color-primary); }
-.fill-primary-muted { fill: var(--color-primary-muted); }
-.fill-primary-emphasis { fill: var(--color-primary-emphasis); }
+.fill-primary-lighter { fill: var(--color-primary-lighter); }
+.fill-primary-darker { fill: var(--color-primary-darker); }
 .fill-primary-hover { fill: var(--color-primary-hover); }
 .fill-secondary { fill: var(--color-secondary); }
-.fill-secondary-muted { fill: var(--color-secondary-muted); }
-.fill-secondary-emphasis { fill: var(--color-secondary-emphasis); }
+.fill-secondary-lighter { fill: var(--color-secondary-lighter); }
+.fill-secondary-darker { fill: var(--color-secondary-darker); }
 .fill-secondary-hover { fill: var(--color-secondary-hover); }
 
 .fill-background { fill: var(--color-background); }
