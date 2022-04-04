@@ -5,12 +5,12 @@
 .color-black { color: black; }
 
 .color-primary { color: var(--color-primary); }
-.color-primary-light { color: var(--color-primary-light); }
-.color-primary-dark { color: var(--color-primary-dark); }
+.color-primary-muted { color: var(--color-primary-muted); }
+.color-primary-emphasis { color: var(--color-primary-emphasis); }
 .color-primary-hover { color: var(--color-primary-hover); }
 .color-secondary { color: var(--color-secondary); }
-.color-secondary-light { color: var(--color-secondary-light); }
-.color-secondary-dark { color: var(--color-secondary-dark); }
+.color-secondary-muted { color: var(--color-secondary-muted); }
+.color-secondary-emphasis { color: var(--color-secondary-emphasis); }
 .color-secondary-hover { color: var(--color-secondary-hover); }
 .color-error { color: var(--color-error); }
 
@@ -26,11 +26,11 @@
 .color-surface-24dp { color: var(--color-surface-24dp); }
 
 .color-on-primary { color: var(--color-on-primary); }
-.color-on-primary-light { color: var(--color-on-primary-light); }
-.color-on-primary-dark { color: var(--color-on-primary-dark); }
+.color-on-primary-muted { color: var(--color-on-primary-muted); }
+.color-on-primary-emphasis { color: var(--color-on-primary-emphasis); }
 .color-on-secondary { color: var(--color-on-secondary); }
-.color-on-secondary-light { color: var(--color-on-secondary-light); }
-.color-on-secondary-dark { color: var(--color-on-secondary-dark); }
+.color-on-secondary-muted { color: var(--color-on-secondary-muted); }
+.color-on-secondary-emphasis { color: var(--color-on-secondary-emphasis); }
 .color-on-error { color: var(--color-on-error); }
 .color-on-background { color: var(--color-on-background); }
 .color-on-surface-high { color: var(--color-on-surface-high); }
@@ -43,12 +43,12 @@
 .bg-black { background-color: black; }
 
 .bg-primary { background-color: var(--color-primary); }
-.bg-primary-light { background-color: var(--color-primary-light); }
-.bg-primary-dark { background-color: var(--color-primary-dark); }
+.bg-primary-muted { background-color: var(--color-primary-muted); }
+.bg-primary-emphasis { background-color: var(--color-primary-emphasis); }
 .bg-primary-hover { background-color: var(--color-primary-hover); }
 .bg-secondary { background-color: var(--color-secondary); }
-.bg-secondary-light { background-color: var(--color-secondary-light); }
-.bg-secondary-dark { background-color: var(--color-secondary-dark); }
+.bg-secondary-muted { background-color: var(--color-secondary-muted); }
+.bg-secondary-emphasis { background-color: var(--color-secondary-emphasis); }
 .bg-secondary-hover { background-color: var(--color-secondary-hover); }
 .bg-error { background-color: var(--color-error); }
 
@@ -64,11 +64,11 @@
 .bg-surface-24dp { background-color: var(--color-surface-24dp); }
 
 .bg-on-primary { background-color: var(--color-on-primary); }
-.bg-on-primary-light { background-color: var(--color-on-primary-light); }
-.bg-on-primary-dark { background-color: var(--color-on-primary-dark); }
+.bg-on-primary-muted { background-color: var(--color-on-primary-muted); }
+.bg-on-primary-emphasis { background-color: var(--color-on-primary-emphasis); }
 .bg-on-secondary { background-color: var(--color-on-secondary); }
-.bg-on-secondary-light { background-color: var(--color-on-secondary-light); }
-.bg-on-secondary-dark { background-color: var(--color-on-secondary-dark); }
+.bg-on-secondary-muted { background-color: var(--color-on-secondary-muted); }
+.bg-on-secondary-emphasis { background-color: var(--color-on-secondary-emphasis); }
 .bg-on-error { background-color: var(--color-on-error); }
 .bg-on-background { background-color: var(--color-on-background); }
 .bg-on-surface-high { background-color: var(--color-on-surface-high); }
@@ -81,12 +81,12 @@
 .fill-black { fill: black; }
 
 .fill-primary { fill: var(--color-primary); }
-.fill-primary-light { fill: var(--color-primary-light); }
-.fill-primary-dark { fill: var(--color-primary-dark); }
+.fill-primary-muted { fill: var(--color-primary-muted); }
+.fill-primary-emphasis { fill: var(--color-primary-emphasis); }
 .fill-primary-hover { fill: var(--color-primary-hover); }
 .fill-secondary { fill: var(--color-secondary); }
-.fill-secondary-light { fill: var(--color-secondary-light); }
-.fill-secondary-dark { fill: var(--color-secondary-dark); }
+.fill-secondary-muted { fill: var(--color-secondary-muted); }
+.fill-secondary-emphasis { fill: var(--color-secondary-emphasis); }
 .fill-secondary-hover { fill: var(--color-secondary-hover); }
 .fill-error { fill: var(--color-error); }
 
@@ -102,11 +102,11 @@
 .fill-surface-24dp { fill: var(--color-surface-24dp); }
 
 .fill-on-primary { fill: var(--color-on-primary); }
-.fill-on-primary-light { fill: var(--color-on-primary-light); }
-.fill-on-primary-dark { fill: var(--color-on-primary-dark); }
+.fill-on-primary-muted { fill: var(--color-on-primary-muted); }
+.fill-on-primary-emphasis { fill: var(--color-on-primary-emphasis); }
 .fill-on-secondary { fill: var(--color-on-secondary); }
-.fill-on-secondary-light { fill: var(--color-on-secondary-light); }
-.fill-on-secondary-dark { fill: var(--color-on-secondary-dark); }
+.fill-on-secondary-muted { fill: var(--color-on-secondary-muted); }
+.fill-on-secondary-emphasis { fill: var(--color-on-secondary-emphasis); }
 .fill-on-error { fill: var(--color-on-error); }
 .fill-on-background { fill: var(--color-on-background); }
 .fill-on-surface-high { fill: var(--color-on-surface-high); }
