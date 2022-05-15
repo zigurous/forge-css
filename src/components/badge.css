@@ -2,7 +2,7 @@
   display: inline-block;
   min-width: 48px;
   margin: 0.5em;
-  padding: 0.5em 0.675em;
+  padding: 0.5em 0.75em;
   border-radius: 0.25rem;
   font-size: 0.75em;
   font-weight: 500;
@@ -22,15 +22,15 @@
 
 .badge,
 .badge--solid {
-  background-color: var(--color-on-background, black);
-  border: 1px solid var(--color-on-background, black);
+  background-color: var(--color-on-surface-high, black);
+  border: 1px solid var(--color-on-surface-high, black);
   color: var(--color-background, white);
 }
 
 .badge--outline {
   background-color: transparent;
-  border: 1px solid var(--color-on-background, black);
-  color: var(--color-on-background, black);
+  border: 1px solid var(--color-on-surface-high, black);
+  color: var(--color-on-surface-high, black);
 }
 
 .badge--pill {
