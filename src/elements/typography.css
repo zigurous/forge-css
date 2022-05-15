@@ -8,22 +8,14 @@ html, body {
   color: var(--color-on-surface-high, inherit);
 }
 
-a {
-  color: var(--color-primary, inherit);
+a, a:visited, a:hover {
+  color: inherit;
+  font-weight: inherit;
   text-decoration: none;
-  font-weight: 500;
 }
 
 a:not(:disabled) {
   cursor: pointer;
-}
-
-a:visited {
-  color: var(--color-primary, inherit);
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 b, strong {
