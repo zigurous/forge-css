@@ -48,14 +48,17 @@
   z-index: 1055;
 }
 
-@media (max-width: 1199px) {
-  .app-header .navbar,
-  .app-header .social-nav-links {
-    display: none;
-  }
+.app-header .navbar,
+.app-header .social-nav-links {
+  display: none;
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .app-header .navbar,
+  .app-header .social-nav-links {
+    display: block;
+  }
+
   .app-header .navmenu,
   .app-header .navmenu__button {
     display: none;
