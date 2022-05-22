@@ -1,6 +1,6 @@
 {
   "name": "@zigurous/css-styles",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/zigurous/css-styles",
   "source": "src/index.js",
