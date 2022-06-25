@@ -27,6 +27,26 @@
   --color-on-surface-medium: #57606a;
   --color-on-surface-low: #8c959f;
 
+  --color-syntax-background: #f2f4f5;
+  --color-syntax-comment: #57606a;
+  --color-syntax-constant: #0969da;
+  --color-syntax-diff-changed-text: #953800;
+  --color-syntax-diff-changed-bg: #ffd8b5;
+  --color-syntax-diff-deleted-text: #82071e;
+  --color-syntax-diff-deleted-bg: #ffebe9;
+  --color-syntax-diff-ignored-text: #0550ae;
+  --color-syntax-diff-ignored-bg: #eaeef2;
+  --color-syntax-diff-inserted-text: #116329;
+  --color-syntax-diff-inserted-bg: #dafbe1;
+  --color-syntax-foreground: #24292f;
+  --color-syntax-function: #0550ae;
+  --color-syntax-keyword: #cf222e;
+  --color-syntax-property: #1a7f37;
+  --color-syntax-scrollbar: #d6dbe0;
+  --color-syntax-selection: #8c959f;
+  --color-syntax-string: #bc4c00;
+  --color-syntax-type: #6639ba;
+
   --rgb-primary: 9, 105, 218;
   --rgb-secondary: 130, 80, 223;
   --rgb-background: 255, 255, 255;
@@ -61,6 +81,26 @@
   --color-on-surface-high: #c9d1d9;
   --color-on-surface-medium: #8b949e;
   --color-on-surface-low: #484f58;
+
+  --color-syntax-background: #1d2127;
+  --color-syntax-comment: #8b949e;
+  --color-syntax-constant: #a5d6ff;
+  --color-syntax-diff-changed-text: #ffdfb6;
+  --color-syntax-diff-changed-bg: #5a1e02;
+  --color-syntax-diff-deleted-text: #ffdcd7;
+  --color-syntax-diff-deleted-bg: #67060c;
+  --color-syntax-diff-ignored-text: #c9d1d9;
+  --color-syntax-diff-ignored-bg: #1158c7;
+  --color-syntax-diff-inserted-text: #aff5b4;
+  --color-syntax-diff-inserted-bg: #033a16;
+  --color-syntax-foreground: #c9d1d9;
+  --color-syntax-function: #79c0ff;
+  --color-syntax-keyword: #ff7b72;
+  --color-syntax-property: #7ee787;
+  --color-syntax-scrollbar: #31363c;
+  --color-syntax-selection: #484f58;
+  --color-syntax-string: #ffc680;
+  --color-syntax-type: #d2a8ff;
 
   --rgb-primary: 56, 139, 253;
   --rgb-secondary: 163, 113, 247;

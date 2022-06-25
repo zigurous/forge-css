@@ -1,18 +1,169 @@
-code::-webkit-scrollbar {
-  height: 12px;
+code[class*="language-"],
+pre[class*="language-"] {
+  background: var(--color-syntax-background);
+  color: var(--color-syntax-foreground);
+  font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  font-size: 0.925rem;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
-code::-webkit-scrollbar-track {
+/* Selection */
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] *::-moz-selection,
+pre[class*="language-"] *::-moz-selection {
+  background: var(--color-syntax-selection);
+  color: inherit;
+  text-shadow: none;
+}
+
+code[class*="language-"]::selection,
+code[class*="language-"] *::selection,
+pre[class*="language-"] *::selection {
+  background: var(--color-syntax-selection);
+  color: inherit;
+  text-shadow: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 1em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+pre[class*="language-"] {
+  overflow-x: auto;
+}
+
+pre[class*="language-"]::-webkit-scrollbar {
+  height: 8px;
+}
+
+pre[class*="language-"]::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
-code::-webkit-scrollbar-thumb {
-  background-color: rgba(255,255,255,0.24);
-  border-radius: 12px;
-  border: 2px solid transparent;
+pre[class*="language-"]::-webkit-scrollbar-thumb {
+  background-color: var(--color-syntax-scrollbar);
+  border-radius: 6px;
+  border: none;
   background-clip: content-box;
 }
 
-code::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255,255,255,0.38);
+pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-syntax-scrollbar);
+}
+
+/* Inline code */
+:not(pre) > code {
+  background-color: var(--color-syntax-background);
+  border-radius: 0.25em;
+  padding: 0.125em 0.25em;
+  white-space: normal;
+}
+
+/* Print */
+@media print {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+
+/* Tokens */
+.token.punctuation {
+  color: var(--color-syntax-foreground);
+}
+
+.token.comment,
+.token.doctype,
+.token.prolog,
+.token.cdata {
+  color: var(--color-syntax-comment);
+}
+
+.token.keyword,
+.token.builtin,
+.token.important,
+.token.operator,
+.token.atrule {
+  color: var(--color-syntax-keyword);
+}
+
+.token.class-name,
+.token.return-type,
+.token.namespace {
+  color: var(--color-syntax-type);
+}
+
+.token.function,
+.token.function-definition,
+.token.variable {
+  color: var(--color-syntax-function);
+}
+
+.token.constant,
+.token.boolean,
+.token.number,
+.token.attr-name,
+.token.property,
+.token.entity {
+  color: var(--color-syntax-constant);
+}
+
+.token.string,
+.token.char,
+.token.regex,
+.token.url,
+.token.attr-value {
+  color: var(--color-syntax-string);
+}
+
+.token.symbol,
+.token.tag,
+.token.selector {
+  color: var(--color-syntax-property);
+}
+
+/* Diff */
+.token.changed {
+  color: var(--color-syntax-diff-changed-text);
+  background-color: var(--color-syntax-diff-changed-bg);
+}
+
+.token.deleted {
+  color: var(--color-syntax-diff-deleted-text);
+  background-color: var(--color-syntax-diff-deleted-bg);
+}
+
+.token.ignored {
+  color: var(--color-syntax-diff-ignored-text);
+  background-color: var(--color-syntax-diff-ignored-bg);
+}
+
+.token.inserted {
+  color: var(--color-syntax-diff-inserted-text);
+  background-color: var(--color-syntax-diff-inserted-bg);
+}
+
+/* General */
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
 }
