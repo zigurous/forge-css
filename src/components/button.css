@@ -12,13 +12,6 @@
   --button-color-tertiary: rgba(var(--rgb-primary), var(--opacity-4dp));
 }
 
-.btn--secondary {
-  --button-color-primary: var(--color-secondary);
-  --button-color-primary-hover: var(--color-secondary-hover);
-  --button-color-secondary: var(--color-on-secondary);
-  --button-color-tertiary: rgba(var(--rgb-secondary), var(--opacity-4dp));
-}
-
 .btn {
   display: inline-flex;
   justify-content: center;

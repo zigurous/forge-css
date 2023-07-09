@@ -11,10 +11,6 @@
   --color-primary-lighter: #218bff;
   --color-primary-darker: #0550ae;
   --color-primary-hover: var(--color-primary-darker);
-  --color-secondary: #8250df;
-  --color-secondary-lighter: #a475f9;
-  --color-secondary-darker: #6639ba;
-  --color-secondary-hover: var(--color-secondary-darker);
 
   --color-background: #ffffff;
   --color-surface-1dp: #f2f4f5;
@@ -28,7 +24,6 @@
   --color-surface-24dp: #d6dbe0;
 
   --color-on-primary: #ffffff;
-  --color-on-secondary: #ffffff;
   --color-on-background: #000000;
   --color-on-surface-high: #24292f;
   --color-on-surface-medium: #57606a;
@@ -57,7 +52,6 @@
 
 :root {
   --rgb-primary: 9, 105, 218;
-  --rgb-secondary: 130, 80, 223;
   --rgb-background: 255, 255, 255;
   --rgb-on-background: 0, 0, 0;
 }

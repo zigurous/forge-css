@@ -4,10 +4,6 @@
   --color-primary-lighter: #218bff;
   --color-primary-darker: #0550ae;
   --color-primary-hover: var(--color-primary-darker);
-  --color-secondary: #8250df;
-  --color-secondary-lighter: #a475f9;
-  --color-secondary-darker: #6639ba;
-  --color-secondary-hover: var(--color-secondary-darker);
 
   --color-background: #ffffff;
   --color-surface-1dp: #f2f4f5;
@@ -21,7 +17,6 @@
   --color-surface-24dp: #d6dbe0;
 
   --color-on-primary: #ffffff;
-  --color-on-secondary: #ffffff;
   --color-on-background: #000000;
   --color-on-surface-high: #24292f;
   --color-on-surface-medium: #57606a;
@@ -48,7 +43,6 @@
   --color-syntax-type: #6639ba;
 
   --rgb-primary: 9, 105, 218;
-  --rgb-secondary: 130, 80, 223;
   --rgb-background: 255, 255, 255;
   --rgb-on-background: 0, 0, 0;
 }
@@ -59,10 +53,6 @@
   --color-primary-lighter: #58a6ff;
   --color-primary-darker: #1f6feb;
   --color-primary-hover: var(--color-primary-lighter);
-  --color-secondary: #a371f7;
-  --color-secondary-lighter: #bc8cff;
-  --color-secondary-darker: #8957e5;
-  --color-secondary-hover: var(--color-secondary-lighter);
 
   --color-background: #0d1117;
   --color-surface-1dp: #11151b;
@@ -76,7 +66,6 @@
   --color-surface-24dp: #31363c;
 
   --color-on-primary: #0d1117;
-  --color-on-secondary: #0d1117;
   --color-on-background: #f0f6fc;
   --color-on-surface-high: #c9d1d9;
   --color-on-surface-medium: #8b949e;
@@ -103,7 +92,6 @@
   --color-syntax-type: #d2a8ff;
 
   --rgb-primary: 56, 139, 253;
-  --rgb-secondary: 163, 113, 247;
   --rgb-background: 13, 17, 23;
   --rgb-on-background: 240, 246, 252;
 
@@ -118,10 +106,6 @@
   --color-primary-lighter: #71b7ff;
   --color-primary-darker: #318bf8;
   --color-primary-hover: var(--color-primary-lighter);
-  --color-secondary: #b87fff;
-  --color-secondary-lighter: #cb9eff;
-  --color-secondary-darker: #a66bff;
-  --color-secondary-hover: var(--color-secondary-lighter);
 
   --color-background: #0a0c10;
   --color-surface-1dp: #0f1115;
@@ -135,7 +119,6 @@
   --color-surface-24dp: #2f3135;
 
   --color-on-primary: #0a0c10;
-  --color-on-secondary: #0a0c10;
   --color-on-background: #f0f3f6;
   --color-on-surface-high: #d9dee3;
   --color-on-surface-medium: #bdc4cc;
@@ -162,7 +145,6 @@
   --color-syntax-type: #d2a8ff;
 
   --rgb-primary: 64, 158, 255;
-  --rgb-secondary: 184, 127, 255;
   --rgb-background: 10, 12, 16;
   --rgb-on-background: 240, 243, 246;
 

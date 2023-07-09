@@ -8,10 +8,6 @@
 .color-primary-lighter { color: var(--color-primary-lighter); }
 .color-primary-darker { color: var(--color-primary-darker); }
 .color-primary-hover { color: var(--color-primary-hover); }
-.color-secondary { color: var(--color-secondary); }
-.color-secondary-lighter { color: var(--color-secondary-lighter); }
-.color-secondary-darker { color: var(--color-secondary-darker); }
-.color-secondary-hover { color: var(--color-secondary-hover); }
 
 .color-background { color: var(--color-background); }
 .color-surface-1dp { color: var(--color-surface-1dp); }
@@ -25,7 +21,6 @@
 .color-surface-24dp { color: var(--color-surface-24dp); }
 
 .color-on-primary { color: var(--color-on-primary); }
-.color-on-secondary { color: var(--color-on-secondary); }
 .color-on-background { color: var(--color-on-background); }
 .color-on-surface-high { color: var(--color-on-surface-high); }
 .color-on-surface-medium { color: var(--color-on-surface-medium); }
@@ -40,10 +35,6 @@
 .bg-primary-lighter { background-color: var(--color-primary-lighter); }
 .bg-primary-darker { background-color: var(--color-primary-darker); }
 .bg-primary-hover { background-color: var(--color-primary-hover); }
-.bg-secondary { background-color: var(--color-secondary); }
-.bg-secondary-lighter { background-color: var(--color-secondary-lighter); }
-.bg-secondary-darker { background-color: var(--color-secondary-darker); }
-.bg-secondary-hover { background-color: var(--color-secondary-hover); }
 
 .bg-background { background-color: var(--color-background); }
 .bg-surface-1dp { background-color: var(--color-surface-1dp); }
@@ -57,7 +48,6 @@
 .bg-surface-24dp { background-color: var(--color-surface-24dp); }
 
 .bg-on-primary { background-color: var(--color-on-primary); }
-.bg-on-secondary { background-color: var(--color-on-secondary); }
 .bg-on-background { background-color: var(--color-on-background); }
 .bg-on-surface-high { background-color: var(--color-on-surface-high); }
 .bg-on-surface-medium { background-color: var(--color-on-surface-medium); }
@@ -72,10 +62,6 @@
 .fill-primary-lighter { fill: var(--color-primary-lighter); }
 .fill-primary-darker { fill: var(--color-primary-darker); }
 .fill-primary-hover { fill: var(--color-primary-hover); }
-.fill-secondary { fill: var(--color-secondary); }
-.fill-secondary-lighter { fill: var(--color-secondary-lighter); }
-.fill-secondary-darker { fill: var(--color-secondary-darker); }
-.fill-secondary-hover { fill: var(--color-secondary-hover); }
 
 .fill-background { fill: var(--color-background); }
 .fill-surface-1dp { fill: var(--color-surface-1dp); }
@@ -89,7 +75,6 @@
 .fill-surface-24dp { fill: var(--color-surface-24dp); }
 
 .fill-on-primary { fill: var(--color-on-primary); }
-.fill-on-secondary { fill: var(--color-on-secondary); }
 .fill-on-background { fill: var(--color-on-background); }
 .fill-on-surface-high { fill: var(--color-on-surface-high); }
 .fill-on-surface-medium { fill: var(--color-on-surface-medium); }
