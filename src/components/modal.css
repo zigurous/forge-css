@@ -6,7 +6,7 @@
   left: 0;
   right: 0;
   z-index: var(--z-index-modal, 1060);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(var(--rgb-black, black), 0);
   transition: background-color 300ms;
   overflow: hidden;
   outline: none;
@@ -16,7 +16,7 @@
   display: block;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: rgba(0,0,0,0.54);
+  background-color: rgba(var(--rgb-black, black), var(--opacity-medium, 0.54));
 }
 
 .modal__dialog {
@@ -34,11 +34,11 @@
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: var(--color-surface-1dp, white);
+  background-color: var(--color-surface-1);
   background-clip: padding-box;
-  border: 1px solid var(--color-surface-24dp, lightgray);
+  border: 1px solid var(--color-border);
   border-radius: 0.25rem;
-  color: var(--color-on-surface-high, black);
+  color: var(--color-foreground);
   outline: none;
   overflow: hidden;
 }
@@ -54,14 +54,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border-bottom: 1px solid var(--color-surface-24dp, lightgray);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .modal__footer {
   display: flex;
   align-items: center;
   padding: 1rem;
-  border-top: 1px solid var(--color-surface-24dp, lightgray);
+  border-top: 1px solid var(--color-border);
 }
 
 .modal__footer--left-aligned {

@@ -3,7 +3,7 @@
   display: inline-flex;
   align-items: center;
   vertical-align: middle;
-  border: 1px solid var(--color-on-surface-medium);
+  border: 1px solid var(--color-foreground);
   border-radius: 0.25rem;
   padding: 8px;
   height: 36px;
@@ -15,6 +15,7 @@
 
 .input-wrapper.disabled {
   cursor: not-allowed;
+  border-color: var(--color-foreground-disabled);
 }
 
 .input-wrapper > input {
@@ -27,6 +28,7 @@
 .input-wrapper > .icon {
   pointer-events: none;
   font-size: 18px;
+  color: var(--color-foreground-inactive);
 }
 
 .input-wrapper.disabled > .icon {

@@ -18,7 +18,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-background, white);
+  background-color: var(--color-background);
   z-index: var(--z-index-overlay, 1040);
 }
 
@@ -31,7 +31,7 @@
 }
 
 .navmenu__container .social-nav-links {
-  fill: var(--color-on-background, black);
+  fill: var(--color-foreground);
   margin-left: -8px;
 }
 
@@ -39,6 +39,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
   margin-left: 16px;
   height: 100%;
 }
@@ -49,7 +50,7 @@
   align-items: center;
   width: 56px;
   height: 56px;
-  color: var(--color-on-background, black);
+  color: var(--color-foreground);
   pointer-events: all !important;
   transition: transform 200ms;
 }
@@ -73,7 +74,7 @@
 }
 
 .navmenu__item {
-  color: var(--color-on-background, black);
+  color: var(--color-foreground);
   margin-bottom: 0.5rem;
   transition: opacity 200ms;
 }

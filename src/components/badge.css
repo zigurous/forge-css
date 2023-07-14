@@ -22,15 +22,15 @@
 
 .badge,
 .badge--solid {
-  background-color: var(--color-on-surface-high, black);
-  border: 1px solid var(--color-on-surface-high, black);
-  color: var(--color-background, white);
+  background-color: var(--color-foreground);
+  border: 1px solid var(--color-foreground);
+  color: var(--color-background);
 }
 
 .badge--outline {
   background-color: transparent;
-  border: 1px solid var(--color-on-surface-high, black);
-  color: var(--color-on-surface-high, black);
+  border: 1px solid var(--color-foreground);
+  color: var(--color-foreground);
 }
 
 .badge--pill {

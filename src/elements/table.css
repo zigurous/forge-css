@@ -17,7 +17,7 @@ table th {
 table.bordered,
 table.bordered th,
 table.bordered td {
-  border: 1px solid var(--color-surface-24dp);
+  border: 1px solid var(--color-border);
 }
 
 table.bordered {
@@ -30,6 +30,6 @@ table.bordered td {
   padding: 8px;
 }
 
-table.striped tbody tr:nth-child(odd) {
-  background-color: var(--color-surface-2dp);
+table.striped tr:nth-child(even) {
+  background-color: var(--color-surface-1);
 }

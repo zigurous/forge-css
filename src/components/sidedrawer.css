@@ -18,7 +18,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: var(--color-black, black);
   opacity: var(--opacity-medium, 0.54);
   z-index: var(--z-index-overlay, 1040);
 }
@@ -29,8 +29,8 @@
   width: 287px;
   height: 100%;
   margin-right: auto;
-  color: var(--color-on-background, black);
-  background-color: var(--color-background, white);
+  color: var(--color-foreground);
+  background-color: var(--color-background);
   box-shadow: .25rem 0 .5rem rgba(0, 0, 0, 10%);
   z-index: var(--z-index-menu, 1050);
 }

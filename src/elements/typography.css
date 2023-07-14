@@ -5,7 +5,7 @@ html, body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--color-on-surface-high, inherit);
+  color: var(--color-foreground, inherit);
 }
 
 a, a:visited, a:hover {
@@ -71,7 +71,7 @@ h6, .h6, .display-6 {
   text-transform: uppercase;
   letter-spacing: 0;
   margin-bottom: 0.25rem;
-  color: var(--color-on-surface-medium);
+  color: var(--color-foreground-muted);
 }
 
 .subtitle {

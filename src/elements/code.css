@@ -41,6 +41,7 @@ pre[class*="language-"] {
   padding: 1em;
   margin: 1em 0;
   overflow: auto;
+  border: 1px solid var(--color-border);
   border-radius: 0.3em;
 }
 
@@ -100,29 +101,29 @@ pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
 .token.builtin,
 .token.important,
 .token.operator,
-.token.atrule {
+.token.atrule,
+.token.symbol,
+.token.tag {
   color: var(--color-syntax-keyword);
 }
 
-.token.class-name,
-.token.return-type,
-.token.namespace {
-  color: var(--color-syntax-type);
-}
-
 .token.function,
-.token.function-definition,
-.token.variable {
+.token.function-definition {
   color: var(--color-syntax-function);
 }
 
-.token.constant,
-.token.boolean,
-.token.number,
+.token.entity,
+.token.selector,
 .token.attr-name,
+.token.class-name,
+.token.return-type,
+.token.namespace {
+  color: var(--color-syntax-entity);
+}
+
 .token.property,
-.token.entity {
-  color: var(--color-syntax-constant);
+.token.variable {
+  color: var(--color-syntax-property);
 }
 
 .token.string,
@@ -133,10 +134,10 @@ pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
   color: var(--color-syntax-string);
 }
 
-.token.symbol,
-.token.tag,
-.token.selector {
-  color: var(--color-syntax-property);
+.token.constant,
+.token.boolean,
+.token.number {
+  color: var(--color-syntax-constant);
 }
 
 /* Diff */
