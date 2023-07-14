@@ -79,6 +79,8 @@
   --z-index-modal: 1060;
   --z-index-popover: 1070;
   --z-index-tooltip: 1080;
+  --z-index-toast: 1090;
+  --z-index-max: 1100;
 }
 
 :root {

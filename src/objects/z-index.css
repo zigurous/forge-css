@@ -18,3 +18,5 @@
 .z-index-modal { z-index: var(--z-index-modal, 1060); }
 .z-index-popover { z-index: var(--z-index-popover, 1070); }
 .z-index-tooltip { z-index: var(--z-index-tooltip, 1080); }
+.z-index-toast { z-index: var(--z-index-toast, 1090); }
+.z-index-max { z-index: var(--z-index-max, 1100); }
