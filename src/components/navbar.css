@@ -48,5 +48,5 @@
 }
 
 .navbar li a.active:hover {
-  background-color: rgba(var(--rgb-primary), var(--opacity-4dp));
+  background-color: rgba(var(--rgb-primary), var(--opacity-low));
 }

@@ -30,6 +30,7 @@ input:disabled,
 select:disabled,
 textarea:disabled {
   cursor: not-allowed;
+  opacity: var(--opacity-disabled);
 }
 
 input[type="submit"] {

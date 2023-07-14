@@ -75,6 +75,7 @@
 .navmenu__item {
   color: var(--color-on-background, black);
   margin-bottom: 0.5rem;
+  transition: opacity 200ms;
 }
 
 .navmenu__item > a {
@@ -110,6 +111,16 @@
 .navmenu--animated.navmenu--closed .navmenu__overlay,
 .navmenu--animated.navmenu--closed .navmenu__item {
   opacity: 0;
+}
+
+@media (hover: hover) {
+  .navmenu__list:hover .navmenu__item {
+    opacity: var(--opacity-inactive, 0.62);
+  }
+
+  .navmenu__item:hover {
+    opacity: 1 !important;
+  }
 }
 
 @media (min-width: 360px) {

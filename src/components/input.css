@@ -27,7 +27,10 @@
 .input-wrapper > .icon {
   pointer-events: none;
   font-size: 18px;
-  color: var(--color-on-surface-medium);
+}
+
+.input-wrapper.disabled > .icon {
+  opacity: var(--opacity-disabled);
 }
 
 .input-wrapper--icon-left {
