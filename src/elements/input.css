@@ -2,7 +2,7 @@ input,
 select,
 textarea {
   font-family: inherit;
-  font-size: 0.9375rem;
+  font-size: 0.875em;
   line-height: 1.125rem;
   vertical-align: middle;
   border: 1px solid var(--color-on-surface-medium);
@@ -22,7 +22,7 @@ textarea:focus {
 input::placeholder,
 select::placeholder,
 textarea::placeholder {
-  font-size: 0.875em;
+  font-size: 1em;
   color: var(--color-on-surface-low);
 }
 
@@ -33,6 +33,7 @@ textarea:disabled {
 }
 
 input[type="submit"] {
+  font-size: 0.9375em;
   font-weight: 500;
   min-width: 80px;
   transition: color 200ms, background-color 200ms, border-color 200ms;
