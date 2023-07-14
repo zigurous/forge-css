@@ -44,7 +44,7 @@
   --color-syntax-property: #1a7f37;
   --color-syntax-scrollbar: #d6dbe0;
   --color-syntax-selection: #8c959f;
-  --color-syntax-string: #bc4c00;
+  --color-syntax-string: #cc6600;
   --color-syntax-type: #6639ba;
 
   --rgb-primary: 9, 105, 218;
@@ -99,7 +99,7 @@
   --color-syntax-property: #7ee787;
   --color-syntax-scrollbar: #31363c;
   --color-syntax-selection: #484f58;
-  --color-syntax-string: #ffc680;
+  --color-syntax-string: #e6c78a;
   --color-syntax-type: #d2a8ff;
 
   --rgb-primary: 56, 139, 253;
@@ -158,7 +158,7 @@
   --color-syntax-property: #7ee787;
   --color-syntax-scrollbar: #31363c;
   --color-syntax-selection: #484f58;
-  --color-syntax-string: #ffc680;
+  --color-syntax-string: #e6c78a;
   --color-syntax-type: #d2a8ff;
 
   --rgb-primary: 64, 158, 255;
