@@ -26,6 +26,13 @@
 .animation-delay-7 { animation-delay: 350ms; }
 .animation-delay-8 { animation-delay: 400ms; }
 
+.fade-in { animation-name: fade-in; }
+.fade-out { animation-name: fade-out; }
+.translate-in { animation-name: translate-in; }
+.translate-out { animation-name: translate-out; }
+.fade-translate-in { animation-name: fade-translate-in; }
+.fade-translate-out { animation-name: fade-translate-out; }
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -34,26 +41,6 @@
   to {
     opacity: 1;
   }
-}
-
-.fade-in {
-  animation-name: fade-in;
-}
-
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 10%, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.fade-in-up {
-  animation-name: fade-in-up;
 }
 
 @keyframes fade-out {
@@ -66,21 +53,46 @@
   }
 }
 
-.fade-out {
-  animation-name: fade-out;
+@keyframes translate-in {
+  from {
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    transform: none;
+  }
 }
 
-@keyframes fade-out-down {
+@keyframes translate-out {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: translate3d(0, 10%, 0);
+  }
+}
+
+@keyframes fade-translate-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-translate-out {
   from {
     opacity: 1;
+    transform: none;
   }
 
   to {
     opacity: 0;
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 10%, 0);
   }
-}
-
-.fade-out-down {
-  animation-name: fade-out-down;
 }
