@@ -69,6 +69,7 @@ pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
 
 /* Inline code */
 :not(pre) > code {
+  color: var(--color-syntax-foreground);
   background-color: var(--color-syntax-background);
   border-radius: 0.25em;
   padding: 0.125em 0.25em;
