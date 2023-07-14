@@ -1,0 +1,49 @@
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: var(--z-index-fixed, 1030);
+  box-shadow: 0 -0.5rem 1rem rgba(var(--rgb-black), 10%);
+}
+
+.cookie-consent[data-theme="light"] {
+  background-color: var(--color-white, white);
+}
+
+.cookie-consent[data-theme="dark"],
+.cookie-consent[data-theme="high-contrast"] {
+  background-color: var(--color-black, black);
+}
+
+.cookie-consent__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cookie-consent__text {
+  margin: 12px 16px;
+}
+
+.cookie-consent__text > a,
+.cookie-consent__text > a:visited,
+.cookie-consent__text > a:hover {
+  font-weight: 400;
+}
+
+.cookie-consent__button {
+  height: 100%;
+  min-height: 48px;
+}
+
+.cookie-consent__button:not(.cookie-consent__button--unstyled):not(:disabled):active {
+  transform: none;
+}
+
+@media (max-width: 784px) {
+  .cookie-consent__button {
+    margin-right: 16px;
+  }
+}
