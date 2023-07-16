@@ -7,6 +7,7 @@
 .contact-form input:not([type="submit"]),
 .contact-form textarea {
   width: 100%;
+  max-width: 100%;
 }
 
 .contact-form textarea {
