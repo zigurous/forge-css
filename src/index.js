@@ -24,6 +24,7 @@ import './components/badge.css';
 import './components/button.css';
 import './components/button-group.css';
 import './components/contact-form.css';
+import './components/cookie-consent.css';
 import './components/embedded-video.css';
 import './components/icon.css';
 import './components/image.css';
