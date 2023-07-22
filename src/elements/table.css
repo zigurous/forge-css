@@ -14,20 +14,46 @@ table th {
   font-weight: 600;
 }
 
-table.bordered,
-table.bordered th,
-table.bordered td {
-  border: 1px solid var(--color-border);
-}
-
 table.bordered {
   width: 100%;
   margin-left: 0;
+  border-spacing: 0;
 }
 
 table.bordered th,
 table.bordered td {
+  border: 1px solid var(--color-border);
   padding: 8px;
+}
+
+table.bordered tr:first-child th:first-child,
+table.bordered tr:first-child td:first-child {
+  border-top-left-radius: 0.25rem;
+}
+
+table.bordered tr:first-child th:last-child,
+table.bordered tr:first-child td:last-child {
+  border-top-right-radius: 0.25rem;
+}
+
+table.bordered tr:last-child th:first-child,
+table.bordered tr:last-child td:first-child {
+  border-bottom-left-radius: 0.25rem;
+}
+
+table.bordered tr:last-child th:last-child,
+table.bordered tr:last-child td:last-child {
+  border-bottom-right-radius: 0.25rem;
+}
+
+table.bordered tr:not(:first-child) th,
+table.bordered tr:not(:first-child) td {
+  border-top: none;
+}
+
+table.bordered tr th:not(:first-child),
+table.bordered tr td:not(:first-child){
+  border-left: none;
 }
 
 table.striped tr:nth-child(even) {
