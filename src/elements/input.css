@@ -5,12 +5,19 @@ textarea {
   font-size: 0.875em;
   line-height: 1.125rem;
   vertical-align: middle;
-  border: 1px solid var(--color-foreground);
+  border: 1px solid var(--color-border);
   border-radius: 0.25rem;
   background: none;
   outline: none;
   color: inherit;
   padding: 8px;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  font-size: 1em;
+  color: var(--color-foreground-subtle, inherit);
 }
 
 input:focus,
@@ -19,25 +26,17 @@ textarea:focus {
   border-color: var(--color-primary);
 }
 
-input::placeholder,
-select::placeholder,
-textarea::placeholder {
-  font-size: 1em;
-  color: var(--color-foreground-inactive);
-}
-
 input:disabled,
 select:disabled,
 textarea:disabled {
   cursor: not-allowed;
-  opacity: var(--opacity-disabled);
-  border-color: var(--color-foreground-disabled);
+  opacity: var(--opacity-disabled, 0.38);
 }
 
 input[type="submit"] {
-  font-size: 0.9375em;
-  font-weight: 500;
   min-width: 80px;
+  font-weight: 500;
+  color: var(--color-foreground-subtle, inherit);
   transition: color 200ms, background-color 200ms, border-color 200ms;
 }
 

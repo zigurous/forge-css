@@ -19,7 +19,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--color-black, black);
-  opacity: var(--opacity-medium, 0.54);
+  opacity: var(--opacity-scrim, 0.54);
   z-index: var(--z-index-overlay, 1040);
 }
 
@@ -46,7 +46,7 @@
   align-items: center;
   width: 56px;
   height: 56px;
-  color: var(--color-on-surface-high);
+  color: var(--color-foreground);
   pointer-events: all !important;
   transition: transform 200ms;
 }
@@ -78,7 +78,7 @@
 }
 
 .sidedrawer--animated.sidedrawer--open .sidedrawer__overlay  {
-  opacity: var(--opacity-medium, 0.54);
+  opacity: var(--opacity-scrim, 0.54);
 }
 
 .sidedrawer--animated.sidedrawer--closed .sidedrawer__overlay  {

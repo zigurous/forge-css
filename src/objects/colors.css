@@ -4,14 +4,10 @@
 .color-black { color: var(--color-black, black); }
 .color-white { color: var(--color-white, white); }
 .color-foreground { color: var(--color-foreground); }
-.color-foreground-high { color: var(--color-foreground-high); }
 .color-foreground-muted { color: var(--color-foreground-muted); }
-.color-foreground-inactive { color: var(--color-foreground-inactive); }
-.color-foreground-medium { color: var(--color-foreground-medium); }
-.color-foreground-disabled { color: var(--color-foreground-disabled); }
 .color-foreground-subtle { color: var(--color-foreground-subtle); }
-.color-foreground-low { color: var(--color-foreground-low); }
 .color-background { color: var(--color-background); }
+.color-surface-0 { color: var(--color-surface-0); }
 .color-surface-1 { color: var(--color-surface-1); }
 .color-surface-2 { color: var(--color-surface-2); }
 .color-surface-3 { color: var(--color-surface-3); }
@@ -51,14 +47,10 @@
 .bg-black { background-color: var(--color-black, black); }
 .bg-white { background-color: var(--color-white, white); }
 .bg-foreground { background-color: var(--color-foreground); }
-.bg-foreground-high { background-color: var(--color-foreground-high); }
 .bg-foreground-muted { background-color: var(--color-foreground-muted); }
-.bg-foreground-inactive { background-color: var(--color-foreground-inactive); }
-.bg-foreground-medium { background-color: var(--color-foreground-medium); }
-.bg-foreground-disabled { background-color: var(--color-foreground-disabled); }
 .bg-foreground-subtle { background-color: var(--color-foreground-subtle); }
-.bg-foreground-low { background-color: var(--color-foreground-low); }
 .bg-background { background-color: var(--color-background); }
+.bg-surface-0 { background-color: var(--color-surface-0); }
 .bg-surface-1 { background-color: var(--color-surface-1); }
 .bg-surface-2 { background-color: var(--color-surface-2); }
 .bg-surface-3 { background-color: var(--color-surface-3); }
@@ -98,14 +90,10 @@
 .fill-black { fill: var(--color-black, black); }
 .fill-white { fill: var(--color-white, white); }
 .fill-foreground { fill: var(--color-foreground); }
-.fill-foreground-high { fill: var(--color-foreground-high); }
 .fill-foreground-muted { fill: var(--color-foreground-muted); }
-.fill-foreground-inactive { fill: var(--color-foreground-inactive); }
-.fill-foreground-medium { fill: var(--color-foreground-medium); }
-.fill-foreground-disabled { fill: var(--color-foreground-disabled); }
 .fill-foreground-subtle { fill: var(--color-foreground-subtle); }
-.fill-foreground-low { fill: var(--color-foreground-low); }
 .fill-background { fill: var(--color-background); }
+.fill-surface-0 { fill: var(--color-surface-0); }
 .fill-surface-1 { fill: var(--color-surface-1); }
 .fill-surface-2 { fill: var(--color-surface-2); }
 .fill-surface-3 { fill: var(--color-surface-3); }

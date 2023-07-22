@@ -7,16 +7,12 @@
   --color-transparent: transparent;
   --color-black: #1f2328;
   --color-white: #ffffff;
-  --color-foreground: #24292f;
-  --color-foreground-high: rgba(var(--rgb-foreground), var(--opacity-high));
-  --color-foreground-muted: rgba(var(--rgb-foreground), var(--opacity-muted));
-  --color-foreground-inactive: rgba(var(--rgb-foreground), var(--opacity-inactive));
-  --color-foreground-medium: rgba(var(--rgb-foreground), var(--opacity-medium));
-  --color-foreground-disabled: rgba(var(--rgb-foreground), var(--opacity-disabled));
-  --color-foreground-subtle: rgba(var(--rgb-foreground), var(--opacity-subtle));
-  --color-foreground-low: rgba(var(--rgb-foreground), var(--opacity-low));
+  --color-foreground: #1f2328;
+  --color-foreground-muted: #656d76;
+  --color-foreground-subtle: #6e7781;
   --color-background: #ffffff;
-  --color-surface-1: #f2f4f5;
+  --color-surface-0: #ffffff;
+  --color-surface-1: #f6f8fa;
   --color-surface-2: #edeff2;
   --color-surface-3: #ebeef0;
   --color-surface-4: #e8ebee;
@@ -26,16 +22,16 @@
   --color-surface-8: #d9dee3;
   --color-surface-9: #d6dbe0;
   --color-border: #d0d7de;
-  --color-default: #32383f;
+  --color-default: #282e34;
   --color-default-emphasis: #24292f;
   --color-default-subtle: rgba(var(--rgb-default), var(--opacity-subtle));
   --color-primary: #0969da;
   --color-primary-emphasis: #0550ae;
   --color-primary-subtle: rgba(var(--rgb-primary), var(--opacity-subtle));
-  --color-secondary: #32383f;
+  --color-secondary: #282e34;
   --color-secondary-emphasis: #24292f;
   --color-secondary-subtle: rgba(var(--rgb-secondary), var(--opacity-subtle));
-  --color-tertiary: #32383f;
+  --color-tertiary: #282e34;
   --color-tertiary-emphasis: #24292f;
   --color-tertiary-subtle: rgba(var(--rgb-tertiary), var(--opacity-subtle));
   --color-success: #198754;
@@ -58,7 +54,6 @@
   --color-on-danger: var(--color-white, white);
   --color-on-warning: var(--color-black, black);
   --color-on-info: var(--color-black, black);
-  --color-syntax-background: #f2f4f5;
   --color-syntax-comment: #57606a;
   --color-syntax-constant: #99286e;
   --color-syntax-diff-changed-text: #953800;
@@ -70,40 +65,30 @@
   --color-syntax-diff-inserted-text: #116329;
   --color-syntax-diff-inserted-bg: #dafbe1;
   --color-syntax-entity: #0550ae;
-  --color-syntax-foreground: #24292f;
   --color-syntax-function: #6639ba;
   --color-syntax-keyword: #cf222e;
   --color-syntax-property: #116329;
-  --color-syntax-scrollbar: #d6dbe0;
-  --color-syntax-selection: #d6dbe0;
   --color-syntax-string: #0a3069;
 }
 
 :root {
-  --rgb-black: 31,35,40;
-  --rgb-white: 255,255,255;
-  --rgb-foreground: 36,41,47;
-  --rgb-background: 255,255,255;
-  --rgb-surface: 242,244,245;
-  --rgb-border: 208,215,222;
-  --rgb-default: 50,56,63;
-  --rgb-primary: 9,105,218;
-  --rgb-secondary: 50,56,63;
-  --rgb-tertiary: 50,56,63;
-  --rgb-success: 25,135,84;
-  --rgb-danger: 220,53,69;
-  --rgb-warning: 255,193,7;
-  --rgb-info: 13,202,240;
+  --rgb-black: 31, 35, 40;
+  --rgb-white: 255, 255, 255;
+  --rgb-default: 40, 46, 52;
+  --rgb-primary: 9, 105, 218;
+  --rgb-secondary: 40, 46, 52;
+  --rgb-tertiary: 40, 46, 52;
+  --rgb-success: 25, 135, 84;
+  --rgb-danger: 220, 53, 69;
+  --rgb-warning: 255, 193, 7;
+  --rgb-info: 13, 202, 240;
 }
 
 :root {
-  --opacity-high: 0.87;
-  --opacity-muted: 0.74;
   --opacity-inactive: 0.62;
-  --opacity-medium: 0.54;
   --opacity-disabled: 0.38;
-  --opacity-subtle: 0.26;
-  --opacity-low: 0.12;
+  --opacity-subtle: 0.12;
+  --opacity-scrim: 0.54;
 }
 
 :root {

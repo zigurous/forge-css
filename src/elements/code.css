@@ -1,7 +1,7 @@
 code[class*="language-"],
 pre[class*="language-"] {
-  background: var(--color-syntax-background);
-  color: var(--color-syntax-foreground);
+  background: var(--color-background);
+  color: var(--color-foreground);
   font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
   direction: ltr;
   text-align: left;
@@ -23,7 +23,7 @@ pre[class*="language-"] {
 code[class*="language-"]::-moz-selection,
 code[class*="language-"] *::-moz-selection,
 pre[class*="language-"] *::-moz-selection {
-  background: var(--color-syntax-selection);
+  background: var(--color-surface-9);
   color: inherit;
   text-shadow: none;
 }
@@ -31,7 +31,7 @@ pre[class*="language-"] *::-moz-selection {
 code[class*="language-"]::selection,
 code[class*="language-"] *::selection,
 pre[class*="language-"] *::selection {
-  background: var(--color-syntax-selection);
+  background: var(--color-surface-9);
   color: inherit;
   text-shadow: none;
 }
@@ -58,20 +58,19 @@ pre[class*="language-"]::-webkit-scrollbar-track {
 }
 
 pre[class*="language-"]::-webkit-scrollbar-thumb {
-  background-color: var(--color-syntax-scrollbar);
+  background-color: var(--color-surface-5);
+  background-clip: content-box;
   border-radius: 6px;
   border: none;
-  background-clip: content-box;
 }
 
 pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
-  background-color: var(--color-syntax-scrollbar);
+  background-color: var(--color-surface-7);
 }
 
 /* Inline code */
 :not(pre) > code {
-  color: var(--color-syntax-foreground);
-  background-color: var(--color-syntax-background);
+  background-color: var(--color-surface-3);
   border-radius: 0.25em;
   padding: 0.125em 0.25em;
   white-space: normal;

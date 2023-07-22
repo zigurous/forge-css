@@ -14,11 +14,3 @@
 .opacity-10p { opacity: 0.1; }
 .opacity-0p { opacity: 0; }
 .opacity-0 { opacity: 0; }
-
-.opacity-high { opacity: var(--opacity-high, 0.87); }
-.opacity-muted { opacity: var(--opacity-muted, 0.74); }
-.opacity-inactive { opacity: var(--opacity-inactive, 0.62); }
-.opacity-medium { opacity: var(--opacity-medium, 0.54); }
-.opacity-disabled { opacity: var(--opacity-disabled, 0.38); }
-.opacity-subtle { opacity: var(--opacity-subtle, 0.26); }
-.opacity-low { opacity: var(--opacity-low, 0.12); }

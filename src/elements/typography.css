@@ -71,7 +71,7 @@ h6, .h6, .display-6 {
   text-transform: uppercase;
   letter-spacing: 0;
   margin-bottom: 0.25rem;
-  color: var(--color-foreground-muted);
+  color: var(--color-foreground-muted, inherit);
 }
 
 .subtitle {
