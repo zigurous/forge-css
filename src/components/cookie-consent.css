@@ -5,16 +5,8 @@
   right: 0;
   width: 100%;
   z-index: var(--z-index-fixed, 1030);
+  background-color: var(--color-background);
   box-shadow: 0 -0.5rem 1rem rgba(var(--rgb-black), 10%);
-}
-
-.cookie-consent[data-theme="light"] {
-  background-color: var(--color-white, white);
-}
-
-.cookie-consent[data-theme="dark"],
-.cookie-consent[data-theme="high-contrast"] {
-  background-color: var(--color-black, black);
 }
 
 .cookie-consent__container {
