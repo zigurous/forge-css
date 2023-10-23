@@ -76,6 +76,11 @@ pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
   white-space: normal;
 }
 
+[data-theme="dark"] :not(pre) > code,
+[data-theme="high-contrast"] :not(pre) > code {
+  background-color: var(--color-surface-9);
+}
+
 /* Print */
 @media print {
   code[class*="language-"],
