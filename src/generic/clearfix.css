@@ -1,15 +1,11 @@
 .clearfix:before,
 .clearfix:after {
-  content: " ";
+  content: "";
   display: table;
 }
 
 .clearfix:after {
   clear: both;
-}
-
-.clearfix {
-  *zoom: 1;
 }
 
 .clear-left {
