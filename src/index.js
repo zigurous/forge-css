@@ -48,9 +48,10 @@ import './components/thumbnail.css';
 
 import './layout/container.css';
 import './layout/grid.css';
+import './layout/bleed.css';
 import './layout/page.css';
 import './layout/cover.css';
-import './layout/bleed.css';
+import './layout/overlay.css';
 import './layout/parallax.css';
 
 import './objects/alignment.css';
