@@ -85,10 +85,13 @@
 }
 
 :root {
+  --opacity-transparent: 0;
   --opacity-inactive: 0.62;
   --opacity-disabled: 0.38;
   --opacity-subtle: 0.12;
   --opacity-scrim: 0.54;
+  --opacity-active: 0.87;
+  --opacity-opaque: 1;
 }
 
 :root {
