@@ -8,11 +8,11 @@
   "module": "dist/index.modern.js",
   "unpkg": "dist/index.umd.js",
   "devDependencies": {
-    "microbundle-crl": "^0.13.11"
+    "microbundle": "^0.15.1"
   },
   "scripts": {
-    "build": "microbundle-crl --compress --sourcemap false --css-modules \"[local]\"",
-    "start": "microbundle-crl watch --no-compress",
+    "build": "microbundle --compress --sourcemap false --css-modules \"[local]\"",
+    "start": "microbundle watch --no-compress",
     "predeploy": "yarn build",
     "prepare": "yarn build"
   },
