@@ -9,7 +9,7 @@
   height: 36px;
 }
 
-.input-wrapper.focus {
+.input-wrapper.focused {
   border-color: var(--color-primary);
 }
 
