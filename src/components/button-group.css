@@ -5,6 +5,7 @@
   vertical-align: middle;
   width: max-content;
   max-width: 100%;
+  gap: 8px 16px;
 }
 
 .btn-group--horizontal {
@@ -17,26 +18,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-}
-
-.btn-group--spacing.btn-group--horizontal > button,
-.btn-group--spacing.btn-group--horizontal > a {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-.btn-group--spacing.btn-group--horizontal > button:not(:last-child),
-.btn-group--spacing.btn-group--horizontal > a:not(:last-child) {
-  margin-right: 16px;
-}
-
-.btn-group--spacing.btn-group--vertical > button,
-.btn-group--spacing.btn-group--vertical > a {
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.btn-group--spacing.btn-group--vertical > button:not(:last-child)
-.btn-group--spacing.btn-group--vertical > a:not(:last-child) {
-  margin-bottom: 16px;
 }
