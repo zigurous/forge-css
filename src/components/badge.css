@@ -1,7 +1,6 @@
 .badge {
   display: inline-block;
   min-width: 48px;
-  margin: 0.5em;
   padding: 0.5em 1em;
   border-radius: 0.25rem;
   font-size: 0.75em;
@@ -10,14 +9,6 @@
   text-align: center;
   vertical-align: baseline;
   white-space: nowrap;
-}
-
-.badge:first-child {
-  margin-left: 0;
-}
-
-.badge:last-child {
-  margin-right: 0;
 }
 
 .badge,

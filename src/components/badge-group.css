@@ -1,0 +1,21 @@
+.badge-group {
+  position: relative;
+  display: inline-flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  width: max-content;
+  max-width: 100%;
+  gap: 0.5em;
+}
+
+.badge-group--horizontal {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.badge-group--vertical {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

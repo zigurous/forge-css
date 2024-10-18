@@ -21,6 +21,7 @@ import './components/app-header.css';
 import './components/app-store-badge.css';
 import './components/app-utility-bar.css';
 import './components/badge.css';
+import './components/badge-group.css';
 import './components/button.css';
 import './components/button-group.css';
 import './components/contact-form.css';
