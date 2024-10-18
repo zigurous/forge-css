@@ -68,6 +68,8 @@
 
   --rgb-black: 31, 35, 40;
   --rgb-white: 255, 255, 255;
+  --rgb-foreground: 31, 35, 40;
+  --rgb-background: 255, 255, 255;
   --rgb-default: 40, 46, 52;
   --rgb-primary: 9, 105, 218;
   --rgb-secondary: 40, 46, 52;
@@ -150,6 +152,8 @@
 
   --rgb-black: 1, 4, 9;
   --rgb-white: 255, 255, 255;
+  --rgb-foreground: 230, 237, 243;
+  --rgb-background: 13, 17, 23;
   --rgb-default: 230, 237, 243;
   --rgb-primary: 47, 129, 247;
   --rgb-secondary: 230, 237, 243;
@@ -232,6 +236,8 @@
 
   --rgb-black: 1, 4, 9;
   --rgb-white: 255, 255, 255;
+  --rgb-foreground: 240, 243, 246;
+  --rgb-background: 10, 12, 16;
   --rgb-default: 240, 243, 246;
   --rgb-primary: 64, 158, 255;
   --rgb-secondary: 240, 243, 246;

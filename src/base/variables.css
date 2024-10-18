@@ -74,6 +74,8 @@
 :root {
   --rgb-black: 31, 35, 40;
   --rgb-white: 255, 255, 255;
+  --rgb-foreground: 31, 35, 40;
+  --rgb-background: 255, 255, 255;
   --rgb-default: 40, 46, 52;
   --rgb-primary: 9, 105, 218;
   --rgb-secondary: 40, 46, 52;
