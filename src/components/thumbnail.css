@@ -22,6 +22,12 @@
 
 @media (hover: none) {
   .thumbnail {
-    animation: 0;
+    animation: none !important;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .thumbnail {
+    transition: none !important;
   }
 }
