@@ -218,6 +218,10 @@
   padding: 16px;
 }
 
+.btn .icon svg {
+  transition: fill 200ms;
+}
+
 .btn > .icon-wrapper {
   display: inline-flex;
   justify-content: center;

@@ -22,7 +22,6 @@
 
 .social-icon svg {
   fill: inherit;
-  transition: fill 200ms;
   width: 100%;
   height: 100%;
 }
