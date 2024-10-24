@@ -39,3 +39,9 @@
     margin-right: 16px;
   }
 }
+
+@media not screen {
+  .cookie-consent {
+    display: none;
+  }
+}
