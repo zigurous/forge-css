@@ -21,6 +21,11 @@
   font-size: inherit;
 }
 
+.icon--xs,
+.icon--extraSmall {
+  font-size: 12px;
+}
+
 .icon--sm,
 .icon--small {
   font-size: 18px;
