@@ -3,29 +3,29 @@
   fill: var(--color-foreground);
 }
 
-.logo.xs,
-.logo.extraSmall {
-  height: 32px;
+.logo--xs,
+.logo--extraSmall {
+  height: 2em;
 }
 
-.logo.sm,
-.logo.small {
-  height: 48px;
+.logo--sm,
+.logo--small {
+  height: 3em;
 }
 
-.logo.md,
-.logo.medium {
-  height: 72px;
+.logo--md,
+.logo--medium {
+  height: 4em;
 }
 
-.logo.lg,
-.logo.large {
-  height: 96px;
+.logo--lg,
+.logo--large {
+  height: 5em;
 }
 
-.logo.xl,
-.logo.extraLarge {
-  height: 128px;
+.logo--xl,
+.logo--extraLarge {
+  height: 6em;
 }
 
 .logo svg {
