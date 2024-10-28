@@ -33,7 +33,7 @@
 .input-wrapper > .icon {
   pointer-events: none;
   font-size: 18px;
-  color: var(--color-foreground-muted, inherit);
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-inactive));
 }
 
 .input-wrapper--icon-left {

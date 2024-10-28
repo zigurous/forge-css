@@ -6,7 +6,7 @@
   width: 100%;
   z-index: var(--z-index-fixed, 1030);
   background-color: var(--color-background);
-  box-shadow: 0 -0.5rem 1rem rgba(var(--rgb-black), 10%);
+  box-shadow: 0 -4px 6px -1px rgb(from var(--color-shadow) r g b / 0.1), 0 -2px 4px -2px rgb(from var(--color-shadow) r g b / 0.1);
 }
 
 .cookie-consent__container {

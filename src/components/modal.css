@@ -6,7 +6,7 @@
   left: 0;
   right: 0;
   z-index: var(--z-index-modal, 1060);
-  background-color: rgba(var(--rgb-black, black), 0);
+  background-color: rgba(var(--rgb-black), 0);
   transition: background-color 300ms;
   overflow: hidden;
   outline: none;
@@ -16,7 +16,7 @@
   display: block;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: rgba(var(--rgb-black, black), var(--opacity-scrim, 0.54));
+  background-color: rgba(var(--rgb-black), var(--opacity-scrim, 0.54));
 }
 
 .modal__dialog {
