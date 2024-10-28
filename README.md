@@ -12,5 +12,5 @@ yarn add @zigurous/css-styles
 ## Usage
 
 ```jsx
-import '@zigurous/css-styles/dist/index.css'
+import '@zigurous/css-styles/dist/index.min.css'
 ```

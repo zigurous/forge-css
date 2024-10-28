@@ -3,16 +3,11 @@
   "version": "3.0.0",
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/zigurous/css-styles",
-  "source": "src/index.js",
-  "main": "dist/index.js",
-  "module": "dist/index.modern.js",
-  "unpkg": "dist/index.umd.js",
   "devDependencies": {
-    "microbundle": "^0.15.1"
+    "lightningcss-cli": "^1.27.0"
   },
   "scripts": {
-    "build": "microbundle --compress --sourcemap false --css-modules \"[local]\"",
-    "start": "microbundle watch --no-compress",
+    "build": "lightningcss --minify --bundle --sourcemap --targets \">= 0.25%\" src/index.css -o dist/index.min.css",
     "predeploy": "yarn build",
     "prepare": "yarn build"
   },
