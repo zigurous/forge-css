@@ -1,0 +1,25 @@
+.skew-x-0, .hover\:skew-x-0:hover { transform: skewX(0deg); }
+.skew-x-1, .hover\:skew-x-1:hover { transform: skewX(1deg); }
+.skew-x-2, .hover\:skew-x-2:hover { transform: skewX(2deg); }
+.skew-x-3, .hover\:skew-x-3:hover { transform: skewX(3deg); }
+.skew-x-6, .hover\:skew-x-6:hover { transform: skewX(6deg); }
+.skew-x-12, .hover\:skew-x-12:hover { transform: skewX(12deg); }
+
+.skew-y-0, .hover\:skew-y-0:hover { transform: skewY(0deg); }
+.skew-y-1, .hover\:skew-y-1:hover { transform: skewY(1deg); }
+.skew-y-2, .hover\:skew-y-2:hover { transform: skewY(2deg); }
+.skew-y-3, .hover\:skew-y-3:hover { transform: skewY(3deg); }
+.skew-y-6, .hover\:skew-y-6:hover { transform: skewY(6deg); }
+.skew-y-12, .hover\:skew-y-12:hover { transform: skewY(12deg); }
+
+.-skew-x-1, .hover\:-skew-x-1:hover { transform: skewX(-1deg); }
+.-skew-x-2, .hover\:-skew-x-2:hover { transform: skewX(-2deg); }
+.-skew-x-3, .hover\:-skew-x-3:hover { transform: skewX(-3deg); }
+.-skew-x-6, .hover\:-skew-x-6:hover { transform: skewX(-6deg); }
+.-skew-x-12, .hover\:-skew-x-12:hover { transform: skewX(-12deg); }
+
+.-skew-y-1, .hover\:-skew-y-1:hover { transform: skewY(-1deg); }
+.-skew-y-2, .hover\:-skew-y-2:hover { transform: skewY(-2deg); }
+.-skew-y-3, .hover\:-skew-y-3:hover { transform: skewY(-3deg); }
+.-skew-y-6, .hover\:-skew-y-6:hover { transform: skewY(-6deg); }
+.-skew-y-12, .hover\:-skew-y-12:hover { transform: skewY(-12deg); }

@@ -1,0 +1,14 @@
+.indent-0 { text-indent: 0; }
+.indent-1px { text-indent: 1px; }
+.indent-xxxs { text-indent: var(--spacing-xxxs); }
+.indent-xxs { text-indent: var(--spacing-xxs); }
+.indent-xs { text-indent: var(--spacing-xs); }
+.indent-sm { text-indent: var(--spacing-sm); }
+.indent-md { text-indent: var(--spacing-md); }
+.indent-lg { text-indent: var(--spacing-lg); }
+.indent-xl { text-indent: var(--spacing-xl); }
+.indent-xxl { text-indent: var(--spacing-xxl); }
+.indent-xxxl { text-indent: var(--spacing-xxxl); }
+.indent-2xl { text-indent: var(--spacing-2xl); }
+.indent-2xxl { text-indent: var(--spacing-2xxl); }
+.indent-2xxxl { text-indent: var(--spacing-2xxxl); }

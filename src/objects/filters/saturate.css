@@ -1,0 +1,64 @@
+.saturate-0,
+.hover\:saturate-0:hover {
+  filter: saturate(0);
+}
+
+.saturate-25,
+.hover\:saturate-25:hover {
+  filter: saturate(.25);
+}
+
+.saturate-50,
+.hover\:saturate-50:hover {
+  filter: saturate(.5);
+}
+
+.saturate-75,
+.hover\:saturate-75:hover {
+  filter: saturate(.75);
+}
+
+.saturate-90,
+.hover\:saturate-90:hover {
+  filter: saturate(.9);
+}
+
+.saturate-95,
+.hover\:saturate-95:hover {
+  filter: saturate(.95);
+}
+
+.saturate-100,
+.hover\:saturate-100:hover {
+  filter: saturate(1);
+}
+
+.saturate-105,
+.hover\:saturate-105:hover {
+  filter: saturate(1.05);
+}
+
+.saturate-110,
+.hover\:saturate-110:hover {
+  filter: saturate(1.1);
+}
+
+.saturate-125,
+.hover\:saturate-125:hover {
+  filter: saturate(1.25);
+}
+
+.saturate-150,
+.hover\:saturate-150:hover {
+  filter: saturate(1.5);
+}
+
+.saturate-175,
+.hover\:saturate-175:hover {
+  filter: saturate(1.75);
+}
+
+.saturate-200,
+.hover\:saturate-200:hover {
+  filter: saturate(2);
+}

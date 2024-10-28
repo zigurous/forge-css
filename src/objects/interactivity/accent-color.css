@@ -1,0 +1,23 @@
+.accent-inherit { accent-color: inherit; }
+.accent-current { accent-color: currentColor; }
+.accent-transparent { accent-color: transparent; }
+.accent-black { accent-color: var(--color-black, black); }
+.accent-white { accent-color: var(--color-white, white); }
+.accent-default { accent-color: var(--color-default); }
+.accent-primary { accent-color: var(--color-primary); }
+.accent-secondary { accent-color: var(--color-secondary); }
+.accent-success { accent-color: var(--color-success); }
+.accent-danger { accent-color: var(--color-danger); }
+.accent-warning { accent-color: var(--color-warning); }
+.accent-info { accent-color: var(--color-info); }
+.accent-foreground { accent-color: var(--color-foreground); }
+.accent-background { accent-color: var(--color-background); }
+.accent-surface-1 { accent-color: var(--color-surface-1); }
+.accent-surface-2 { accent-color: var(--color-surface-2); }
+.accent-surface-3 { accent-color: var(--color-surface-3); }
+.accent-surface-4 { accent-color: var(--color-surface-4); }
+.accent-surface-5 { accent-color: var(--color-surface-5); }
+.accent-surface-6 { accent-color: var(--color-surface-6); }
+.accent-surface-7 { accent-color: var(--color-surface-7); }
+.accent-surface-8 { accent-color: var(--color-surface-8); }
+.accent-surface-9 { accent-color: var(--color-surface-9); }

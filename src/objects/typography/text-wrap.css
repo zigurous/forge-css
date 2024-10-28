@@ -1,0 +1,5 @@
+.text-wrap { text-wrap: wrap; }
+.text-nowrap { text-wrap: nowrap; }
+.text-balance { text-wrap: balance; }
+.text-stable { text-wrap: stable; }
+.text-pretty { text-wrap: pretty; }

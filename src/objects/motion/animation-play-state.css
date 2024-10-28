@@ -1,0 +1,2 @@
+.play { animation-play-state: running; }
+.pause { animation-play-state: paused; }

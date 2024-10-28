@@ -1,0 +1,23 @@
+.outline-inherit { outline-color: inherit; }
+.outline-current { outline-color: currentColor; }
+.outline-transparent { outline-color: transparent; }
+.outline-black { outline-color: var(--color-black, black); }
+.outline-white { outline-color: var(--color-white, white); }
+.outline-default { outline-color: var(--color-default); }
+.outline-primary { outline-color: var(--color-primary); }
+.outline-secondary { outline-color: var(--color-secondary); }
+.outline-success { outline-color: var(--color-success); }
+.outline-danger { outline-color: var(--color-danger); }
+.outline-warning { outline-color: var(--color-warning); }
+.outline-info { outline-color: var(--color-info); }
+.outline-foreground { outline-color: var(--color-foreground); }
+.outline-background { outline-color: var(--color-background); }
+.outline-surface-1 { outline-color: var(--color-surface-1); }
+.outline-surface-2 { outline-color: var(--color-surface-2); }
+.outline-surface-3 { outline-color: var(--color-surface-3); }
+.outline-surface-4 { outline-color: var(--color-surface-4); }
+.outline-surface-5 { outline-color: var(--color-surface-5); }
+.outline-surface-6 { outline-color: var(--color-surface-6); }
+.outline-surface-7 { outline-color: var(--color-surface-7); }
+.outline-surface-8 { outline-color: var(--color-surface-8); }
+.outline-surface-9 { outline-color: var(--color-surface-9); }

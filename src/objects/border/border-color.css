@@ -1,0 +1,24 @@
+.border { border-color: var(--color-border); }
+.border-inherit { border-color: inherit; }
+.border-current { border-color: currentColor; }
+.border-transparent { border-color: transparent; }
+.border-black { border-color: var(--color-black, black); }
+.border-white { border-color: var(--color-white, white); }
+.border-default { border-color: var(--color-default); }
+.border-primary { border-color: var(--color-primary); }
+.border-secondary { border-color: var(--color-secondary); }
+.border-success { border-color: var(--color-success); }
+.border-danger { border-color: var(--color-danger); }
+.border-warning { border-color: var(--color-warning); }
+.border-info { border-color: var(--color-info); }
+.border-foreground { border-color: var(--color-foreground); }
+.border-background { border-color: var(--color-background); }
+.border-surface-1 { border-color: var(--color-surface-1); }
+.border-surface-2 { border-color: var(--color-surface-2); }
+.border-surface-3 { border-color: var(--color-surface-3); }
+.border-surface-4 { border-color: var(--color-surface-4); }
+.border-surface-5 { border-color: var(--color-surface-5); }
+.border-surface-6 { border-color: var(--color-surface-6); }
+.border-surface-7 { border-color: var(--color-surface-7); }
+.border-surface-8 { border-color: var(--color-surface-8); }
+.border-surface-9 { border-color: var(--color-surface-9); }

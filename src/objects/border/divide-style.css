@@ -1,0 +1,10 @@
+.divide-solid > * + * { border-style: solid; }
+.divide-dashed > * + * { border-style: dashed; }
+.divide-dotted > * + * { border-style: dotted; }
+.divide-double > * + * { border-style: double; }
+.divide-groove > * + * { border-style: groove; }
+.divide-ridge > * + * { border-style: ridge; }
+.divide-inset > * + * { border-style: inset; }
+.divide-outset > * + * { border-style: outset; }
+.divide-hidden > * + * { border-style: hidden; }
+.divide-none > * + * { border-style: none; }

@@ -1,0 +1,23 @@
+.caret-inherit { caret-color: inherit; }
+.caret-current { caret-color: currentColor; }
+.caret-transparent { caret-color: transparent; }
+.caret-black { caret-color: var(--color-black, black); }
+.caret-white { caret-color: var(--color-white, white); }
+.caret-default { caret-color: var(--color-default); }
+.caret-primary { caret-color: var(--color-primary); }
+.caret-secondary { caret-color: var(--color-secondary); }
+.caret-success { caret-color: var(--color-success); }
+.caret-danger { caret-color: var(--color-danger); }
+.caret-warning { caret-color: var(--color-warning); }
+.caret-info { caret-color: var(--color-info); }
+.caret-foreground { caret-color: var(--color-foreground); }
+.caret-background { caret-color: var(--color-background); }
+.caret-surface-1 { caret-color: var(--color-surface-1); }
+.caret-surface-2 { caret-color: var(--color-surface-2); }
+.caret-surface-3 { caret-color: var(--color-surface-3); }
+.caret-surface-4 { caret-color: var(--color-surface-4); }
+.caret-surface-5 { caret-color: var(--color-surface-5); }
+.caret-surface-6 { caret-color: var(--color-surface-6); }
+.caret-surface-7 { caret-color: var(--color-surface-7); }
+.caret-surface-8 { caret-color: var(--color-surface-8); }
+.caret-surface-9 { caret-color: var(--color-surface-9); }

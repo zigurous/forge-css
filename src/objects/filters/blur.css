@@ -1,0 +1,92 @@
+.blur-0,
+.blur-none,
+.hover\:blur-0:hover,
+.hover\:blur-none:hover {
+  filter: blur(0);
+}
+
+.blur-2,
+.blur-xxxs,
+.hover\:blur-2:hover,
+.hover\:blur-xxxs:hover {
+  filter: blur(2px);
+}
+
+.blur-4,
+.blur-xxs,
+.hover\:blur-4:hover,
+.hover\:blur-xxs:hover {
+  filter: blur(4px);
+}
+
+.blur-6,
+.blur-xs,
+.hover\:blur-6:hover,
+.hover\:blur-xs:hover {
+  filter: blur(6px);
+}
+
+.blur,
+.blur-8,
+.blur-sm,
+.hover\:blur:hover,
+.hover\:blur-8:hover,
+.hover\:blur-sm:hover {
+  filter: blur(8px);
+}
+
+.blur-12,
+.blur-md,
+.hover\:blur-12:hover,
+.hover\:blur-md:hover {
+  filter: blur(12px);
+}
+
+.blur-16,
+.blur-lg,
+.hover\:blur-16:hover,
+.hover\:blur-lg:hover {
+  filter: blur(16px);
+}
+
+.blur-24,
+.blur-xl,
+.hover\:blur-24:hover,
+.hover\:blur-xl:hover {
+  filter: blur(24px);
+}
+
+.blur-32,
+.blur-xxl,
+.hover\:blur-32:hover,
+.hover\:blur-xxl:hover {
+  filter: blur(32px);
+}
+
+.blur-40,
+.blur-xxxl,
+.hover\:blur-40:hover,
+.hover\:blur-xxxl:hover {
+  filter: blur(40px);
+}
+
+.blur-48,
+.blur-2xl,
+.hover\:blur-48:hover,
+.hover\:blur-2xl:hover {
+  filter: blur(48px);
+}
+
+.blur-64,
+.blur-2xxl,
+.hover\:blur-64:hover,
+.hover\:blur-2xxl:hover {
+  filter: blur(64px);
+}
+
+.blur-80,
+.blur-2xxxl,
+.hover\:blur-80:hover,
+.hover\:blur-2xxxl:hover {
+  filter: blur(80px);
+}

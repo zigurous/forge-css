@@ -1,0 +1,6 @@
+.justify-items-normal { justify-items: normal; }
+.justify-items-center { justify-items: center; }
+.justify-items-start { justify-items: flex-start; }
+.justify-items-end { justify-items: flex-end; }
+.justify-items-stretch { justify-items: stretch; }
+.justify-items-baseline { justify-items: baseline; }

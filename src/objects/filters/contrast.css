@@ -1,0 +1,64 @@
+.contrast-0,
+.hover\:contrast-0:hover {
+  filter: contrast(0);
+}
+
+.contrast-25,
+.hover\:contrast-25:hover {
+  filter: contrast(.25);
+}
+
+.contrast-50,
+.hover\:contrast-50:hover {
+  filter: contrast(.5);
+}
+
+.contrast-75,
+.hover\:contrast-75:hover {
+  filter: contrast(.75);
+}
+
+.contrast-90,
+.hover\:contrast-90:hover {
+  filter: contrast(.9);
+}
+
+.contrast-95,
+.hover\:contrast-95:hover {
+  filter: contrast(.95);
+}
+
+.contrast-100,
+.hover\:contrast-100:hover {
+  filter: contrast(1);
+}
+
+.contrast-105,
+.hover\:contrast-105:hover {
+  filter: contrast(1.05);
+}
+
+.contrast-110,
+.hover\:contrast-110:hover {
+  filter: contrast(1.1);
+}
+
+.contrast-125,
+.hover\:contrast-125:hover {
+  filter: contrast(1.25);
+}
+
+.contrast-150,
+.hover\:contrast-150:hover {
+  filter: contrast(1.5);
+}
+
+.contrast-175,
+.hover\:contrast-175:hover {
+  filter: contrast(1.75);
+}
+
+.contrast-200,
+.hover\:contrast-200:hover {
+  filter: contrast(2);
+}

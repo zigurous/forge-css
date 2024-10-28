@@ -1,0 +1,42 @@
+.align-normal { align-items: normal; }
+.align-center { align-items: center; }
+.align-start { align-items: flex-start; }
+.align-end { align-items: flex-end; }
+.align-stretch { align-items: stretch; }
+.align-baseline { align-items: baseline; }
+
+@media (min-width: 576px) {
+  .sm\:align-normal { align-items: normal; }
+  .sm\:align-center { align-items: center; }
+  .sm\:align-start { align-items: flex-start; }
+  .sm\:align-end { align-items: flex-end; }
+  .sm\:align-stretch { align-items: stretch; }
+  .sm\:align-baseline { align-items: baseline; }
+}
+
+@media (min-width: 768px) {
+  .md\:align-normal { align-items: normal; }
+  .md\:align-center { align-items: center; }
+  .md\:align-start { align-items: flex-start; }
+  .md\:align-end { align-items: flex-end; }
+  .md\:align-stretch { align-items: stretch; }
+  .md\:align-baseline { align-items: baseline; }
+}
+
+@media (min-width: 992px) {
+  .lg\:align-normal { align-items: normal; }
+  .lg\:align-center { align-items: center; }
+  .lg\:align-start { align-items: flex-start; }
+  .lg\:align-end { align-items: flex-end; }
+  .lg\:align-stretch { align-items: stretch; }
+  .lg\:align-baseline { align-items: baseline; }
+}
+
+@media (min-width: 1200px) {
+  .xl\:align-normal { align-items: normal; }
+  .xl\:align-center { align-items: center; }
+  .xl\:align-start { align-items: flex-start; }
+  .xl\:align-end { align-items: flex-end; }
+  .xl\:align-stretch { align-items: stretch; }
+  .xl\:align-baseline { align-items: baseline; }
+}

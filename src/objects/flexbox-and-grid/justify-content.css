@@ -1,0 +1,57 @@
+.justify-normal { justify-content: normal; }
+.justify-center { justify-content: center; }
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
+.justify-stretch { justify-content: stretch; }
+.justify-baseline { justify-content: baseline; }
+
+@media (min-width: 576px) {
+  .sm\:justify-normal { justify-content: normal; }
+  .sm\:justify-center { justify-content: center; }
+  .sm\:justify-start { justify-content: flex-start; }
+  .sm\:justify-end { justify-content: flex-end; }
+  .sm\:justify-between { justify-content: space-between; }
+  .sm\:justify-around { justify-content: space-around; }
+  .sm\:justify-evenly { justify-content: space-evenly; }
+  .sm\:justify-stretch { justify-content: stretch; }
+  .sm\:justify-baseline { justify-content: baseline; }
+}
+
+@media (min-width: 768px) {
+  .md\:justify-normal { justify-content: normal; }
+  .md\:justify-center { justify-content: center; }
+  .md\:justify-start { justify-content: flex-start; }
+  .md\:justify-end { justify-content: flex-end; }
+  .md\:justify-between { justify-content: space-between; }
+  .md\:justify-around { justify-content: space-around; }
+  .md\:justify-evenly { justify-content: space-evenly; }
+  .md\:justify-stretch { justify-content: stretch; }
+  .md\:justify-baseline { justify-content: baseline; }
+}
+
+@media (min-width: 992px) {
+  .lg\:justify-normal { justify-content: normal; }
+  .lg\:justify-center { justify-content: center; }
+  .lg\:justify-start { justify-content: flex-start; }
+  .lg\:justify-end { justify-content: flex-end; }
+  .lg\:justify-between { justify-content: space-between; }
+  .lg\:justify-around { justify-content: space-around; }
+  .lg\:justify-evenly { justify-content: space-evenly; }
+  .lg\:justify-stretch { justify-content: stretch; }
+  .lg\:justify-baseline { justify-content: baseline; }
+}
+
+@media (min-width: 1200px) {
+  .xl\:justify-normal { justify-content: normal; }
+  .xl\:justify-center { justify-content: center; }
+  .xl\:justify-start { justify-content: flex-start; }
+  .xl\:justify-end { justify-content: flex-end; }
+  .xl\:justify-between { justify-content: space-between; }
+  .xl\:justify-around { justify-content: space-around; }
+  .xl\:justify-evenly { justify-content: space-evenly; }
+  .xl\:justify-stretch { justify-content: stretch; }
+  .xl\:justify-baseline { justify-content: baseline; }
+}

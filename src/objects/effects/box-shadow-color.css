@@ -1,0 +1,23 @@
+.shadow-inherit { --color-shadow: inherit; }
+.shadow-current { --color-shadow: currentColor; }
+.shadow-transparent { --color-shadow: transparent; }
+.shadow-black { --color-shadow: var(--color-black, black); }
+.shadow-white { --color-shadow: var(--color-white, white); }
+.shadow-default { --color-shadow: var(--color-default); }
+.shadow-primary { --color-shadow: var(--color-primary); }
+.shadow-secondary { --color-shadow: var(--color-secondary); }
+.shadow-success { --color-shadow: var(--color-success); }
+.shadow-danger { --color-shadow: var(--color-danger); }
+.shadow-warning { --color-shadow: var(--color-warning); }
+.shadow-info { --color-shadow: var(--color-info); }
+.shadow-foreground { --color-shadow: var(--color-foreground); }
+.shadow-background { --color-shadow: var(--color-background); }
+.shadow-surface-1 { --color-shadow: var(--color-surface-1); }
+.shadow-surface-2 { --color-shadow: var(--color-surface-2); }
+.shadow-surface-3 { --color-shadow: var(--color-surface-3); }
+.shadow-surface-4 { --color-shadow: var(--color-surface-4); }
+.shadow-surface-5 { --color-shadow: var(--color-surface-5); }
+.shadow-surface-6 { --color-shadow: var(--color-surface-6); }
+.shadow-surface-7 { --color-shadow: var(--color-surface-7); }
+.shadow-surface-8 { --color-shadow: var(--color-surface-8); }
+.shadow-surface-9 { --color-shadow: var(--color-surface-9); }

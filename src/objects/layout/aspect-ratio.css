@@ -1,0 +1,20 @@
+.aspect-21x9 { aspect-ratio: 21 / 9; }
+.aspect-9x21 { aspect-ratio: 9 / 21; }
+.aspect-16x9 { aspect-ratio: 16 / 9; }
+.aspect-9x16 { aspect-ratio: 9 / 16; }
+.aspect-4x3 { aspect-ratio: 4 / 3; }
+.aspect-3x4 { aspect-ratio: 3 / 4; }
+.aspect-6x4 { aspect-ratio: 6 / 4; }
+.aspect-4x6 { aspect-ratio: 4 / 6; }
+.aspect-8x5 { aspect-ratio: 8 / 5; }
+.aspect-5x8 { aspect-ratio: 5 / 8; }
+.aspect-7x5 { aspect-ratio: 7 / 5; }
+.aspect-5x7 { aspect-ratio: 5 / 7; }
+.aspect-2x1 { aspect-ratio: 2 / 1; }
+.aspect-1x2 { aspect-ratio: 1 / 2; }
+.aspect-1x1 { aspect-ratio: 1 / 1; }
+.aspect-auto { aspect-ratio: auto; }
+.aspect-square { aspect-ratio: 1 / 1; }
+.aspect-video { aspect-ratio: 16 / 9; }
+.aspect-fullscreen { aspect-ratio: 4 / 3; }
+.aspect-widescreen { aspect-ratio: 16 / 9; }

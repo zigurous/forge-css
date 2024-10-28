@@ -1,0 +1,13 @@
+.snap-none { scroll-snap-type: none; }
+.snap-x { scroll-snap-type: x proximity; }
+.snap-x\! { scroll-snap-type: x mandatory; }
+.snap-y { scroll-snap-type: y proximity; }
+.snap-y\! { scroll-snap-type: y mandatory; }
+.snap-both { scroll-snap-type: both proximity; }
+.snap-both\! { scroll-snap-type: both mandatory; }
+.snap-start { scroll-snap-align: start; }
+.snap-end { scroll-snap-align: end; }
+.snap-center { scroll-snap-align: center; }
+.snap-align-none { scroll-snap-align: none; }
+.snap-normal { scroll-snap-stop: normal; }
+.snap-always { scroll-snap-stop: always; }

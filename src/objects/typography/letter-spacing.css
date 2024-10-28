@@ -1,0 +1,6 @@
+.letter-tighter { letter-spacing: -0.05em; }
+.letter-tight { letter-spacing: -0.025em; }
+.letter-normal { letter-spacing: 0em; }
+.letter-wide { letter-spacing: 0.025em; }
+.letter-wider { letter-spacing: 0.05em; }
+.letter-widest { letter-spacing: 0.1em; }

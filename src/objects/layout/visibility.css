@@ -1,0 +1,27 @@
+.visible { visibility: visible; }
+.invisible { visibility: hidden; }
+.collapse { visibility: collapse; }
+
+@media (min-width: 576px) {
+  .sm\:visible { visibility: visible; }
+  .sm\:invisible { visibility: hidden; }
+  .sm\:collapse { visibility: collapse; }
+}
+
+@media (min-width: 768px) {
+  .md\:visible { visibility: visible; }
+  .md\:invisible { visibility: hidden; }
+  .md\:collapse { visibility: collapse; }
+}
+
+@media (min-width: 992px) {
+  .lg\:visible { visibility: visible; }
+  .lg\:invisible { visibility: hidden; }
+  .lg\:collapse { visibility: collapse; }
+}
+
+@media (min-width: 1200px) {
+  .xl\:visible { visibility: visible; }
+  .xl\:invisible { visibility: hidden; }
+  .xl\:collapse { visibility: collapse; }
+}

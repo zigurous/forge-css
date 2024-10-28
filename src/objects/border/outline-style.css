@@ -1,0 +1,11 @@
+.outline { outline-style: solid; }
+.outline-solid { outline-style: solid; }
+.outline-dashed { outline-style: dashed; }
+.outline-dotted { outline-style: dotted; }
+.outline-double { outline-style: double; }
+.outline-groove { outline-style: groove; }
+.outline-ridge { outline-style: ridge; }
+.outline-inset { outline-style: inset; }
+.outline-outset { outline-style: outset; }
+.outline-hidden { outline-style: hidden; }
+.outline-none { outline-style: none; }

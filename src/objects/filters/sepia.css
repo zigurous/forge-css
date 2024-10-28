@@ -1,0 +1,9 @@
+.sepia-0,
+.hover\:sepia-0:hover {
+  filter: sepia(0);
+}
+
+.sepia,
+.hover\:sepia:hover {
+  filter: sepia(100%);
+}

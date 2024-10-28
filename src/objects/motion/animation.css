@@ -1,0 +1,91 @@
+:root {
+  --animation-fade-in: fade-in 300ms ease;
+  --animation-fade-out: fade-out 300ms ease;
+  --animation-translate-in: translate-in 300ms ease;
+  --animation-translate-out: translate-out 300ms ease;
+  --animation-spin: spin 1s linear infinite;
+  --animation-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  --animation-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animation-bounce: bounce 1s infinite;
+}
+
+.animate-fade-in { animation: var(--animation-fade-in); }
+.animate-fade-out { animation: var(--animation-fade-out); }
+.animate-translate-in { animation: var(--animation-translate-in); }
+.animate-translate-out { animation: var(--animation-translate-out); }
+.animate-spin { animation: var(--animation-spin); }
+.animate-ping { animation: var(--animation-ping); }
+.animate-pulse { animation: var(--animation-pulse); }
+.animate-bounce { animation: var(--animation-bounce); }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes translate-in {
+  from {
+    transform: translate3d(0, 10%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes translate-out {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 10%, 0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

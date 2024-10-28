@@ -1,0 +1,64 @@
+.brightness-0,
+.hover\:brightness-0:hover {
+  filter: brightness(0);
+}
+
+.brightness-25,
+.hover\:brightness-25:hover {
+  filter: brightness(.25);
+}
+
+.brightness-50,
+.hover\:brightness-50:hover {
+  filter: brightness(.5);
+}
+
+.brightness-75,
+.hover\:brightness-75:hover {
+  filter: brightness(.75);
+}
+
+.brightness-90,
+.hover\:brightness-90:hover {
+  filter: brightness(.9);
+}
+
+.brightness-95,
+.hover\:brightness-95:hover {
+  filter: brightness(.95);
+}
+
+.brightness-100,
+.hover\:brightness-100:hover {
+  filter: brightness(1);
+}
+
+.brightness-105,
+.hover\:brightness-105:hover {
+  filter: brightness(1.05);
+}
+
+.brightness-110,
+.hover\:brightness-110:hover {
+  filter: brightness(1.1);
+}
+
+.brightness-125,
+.hover\:brightness-125:hover {
+  filter: brightness(1.25);
+}
+
+.brightness-150,
+.hover\:brightness-150:hover {
+  filter: brightness(1.5);
+}
+
+.brightness-175,
+.hover\:brightness-175:hover {
+  filter: brightness(1.75);
+}
+
+.brightness-200,
+.hover\:brightness-200:hover {
+  filter: brightness(2);
+}

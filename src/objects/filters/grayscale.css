@@ -1,0 +1,9 @@
+.grayscale-0,
+.hover\:grayscale-0:hover {
+  filter: grayscale(0);
+}
+
+.grayscale,
+.hover\:grayscale:hover {
+  filter: grayscale(100%);
+}

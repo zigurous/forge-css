@@ -1,0 +1,9 @@
+.invert-0,
+.hover\:invert-0:hover {
+  filter: invert(0);
+}
+
+.invert,
+.hover\:invert:hover {
+  filter: invert(100%);
+}

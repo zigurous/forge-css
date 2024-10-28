@@ -1,0 +1,6 @@
+.place-items-normal { place-items: normal; }
+.place-items-center { place-items: center; }
+.place-items-start { place-items: start; }
+.place-items-end { place-items: end; }
+.place-items-stretch { place-items: stretch; }
+.place-items-baseline { place-items: baseline; }

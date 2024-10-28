@@ -1,0 +1,24 @@
+.fill-none { fill: none; }
+.fill-inherit { fill: inherit; }
+.fill-current { fill: currentColor; }
+.fill-transparent { fill: transparent; }
+.fill-black { fill: var(--color-black, black); }
+.fill-white { fill: var(--color-white, white); }
+.fill-default { fill: var(--color-default); }
+.fill-primary { fill: var(--color-primary); }
+.fill-secondary { fill: var(--color-secondary); }
+.fill-success { fill: var(--color-success); }
+.fill-danger { fill: var(--color-danger); }
+.fill-warning { fill: var(--color-warning); }
+.fill-info { fill: var(--color-info); }
+.fill-foreground { fill: var(--color-foreground); }
+.fill-background { fill: var(--color-background); }
+.fill-surface-1 { fill: var(--color-surface-1); }
+.fill-surface-2 { fill: var(--color-surface-2); }
+.fill-surface-3 { fill: var(--color-surface-3); }
+.fill-surface-4 { fill: var(--color-surface-4); }
+.fill-surface-5 { fill: var(--color-surface-5); }
+.fill-surface-6 { fill: var(--color-surface-6); }
+.fill-surface-7 { fill: var(--color-surface-7); }
+.fill-surface-8 { fill: var(--color-surface-8); }
+.fill-surface-9 { fill: var(--color-surface-9); }

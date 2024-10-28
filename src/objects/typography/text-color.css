@@ -1,0 +1,49 @@
+.text-inherit,
+.text-inherit:visited { color: inherit; }
+.text-current { color: currentColor; }
+.text-transparent { color: transparent; }
+.text-black { color: var(--color-black, black); }
+.text-white { color: var(--color-white, white); }
+.text-default { color: var(--color-default); }
+.text-primary { color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+.text-success { color: var(--color-success); }
+.text-danger { color: var(--color-danger); }
+.text-warning { color: var(--color-warning); }
+.text-info { color: var(--color-info); }
+.text-foreground { color: var(--color-foreground); }
+.text-background { color: var(--color-background); }
+.text-surface-1 { color: var(--color-surface-1); }
+.text-surface-2 { color: var(--color-surface-2); }
+.text-surface-3 { color: var(--color-surface-3); }
+.text-surface-4 { color: var(--color-surface-4); }
+.text-surface-5 { color: var(--color-surface-5); }
+.text-surface-6 { color: var(--color-surface-6); }
+.text-surface-7 { color: var(--color-surface-7); }
+.text-surface-8 { color: var(--color-surface-8); }
+.text-surface-9 { color: var(--color-surface-9); }
+
+.hover\:text-inherit,
+.hover\:text-inherit:visited { color: inherit; }
+.hover\:text-current { color: currentColor; }
+.hover\:text-transparent { color: transparent; }
+.hover\:text-black { color: var(--color-black, black); }
+.hover\:text-white { color: var(--color-white, white); }
+.hover\:text-default { color: var(--color-default); }
+.hover\:text-primary { color: var(--color-primary); }
+.hover\:text-secondary { color: var(--color-secondary); }
+.hover\:text-success { color: var(--color-success); }
+.hover\:text-danger { color: var(--color-danger); }
+.hover\:text-warning { color: var(--color-warning); }
+.hover\:text-info { color: var(--color-info); }
+.hover\:text-foreground { color: var(--color-foreground); }
+.hover\:text-background { color: var(--color-background); }
+.hover\:text-surface-1 { color: var(--color-surface-1); }
+.hover\:text-surface-2 { color: var(--color-surface-2); }
+.hover\:text-surface-3 { color: var(--color-surface-3); }
+.hover\:text-surface-4 { color: var(--color-surface-4); }
+.hover\:text-surface-5 { color: var(--color-surface-5); }
+.hover\:text-surface-6 { color: var(--color-surface-6); }
+.hover\:text-surface-7 { color: var(--color-surface-7); }
+.hover\:text-surface-8 { color: var(--color-surface-8); }
+.hover\:text-surface-9 { color: var(--color-surface-9); }

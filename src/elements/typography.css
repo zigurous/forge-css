@@ -1,21 +1,9 @@
-html, body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "Poppins", "Roboto", "Helvetica", "Arial", sans-serif;
+html,
+body {
+  font-family: "Poppins", system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
   color: var(--color-foreground, inherit);
-}
-
-a, a:visited, a:hover {
-  color: inherit;
-  font-weight: inherit;
-  text-decoration: none;
-}
-
-a:not(:disabled) {
-  cursor: pointer;
 }
 
 b,
@@ -23,28 +11,38 @@ strong {
   font-weight: 600;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: inherit;
+h1 {
+  font-size: 2.25em;
   font-weight: 600;
-  line-height: 1.2;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: inherit;
+  line-height: 1.25;
 }
 
-h1 { font-size: 2.25em; }
-h2 { font-size: 2em; }
-h3 { font-size: 1.75em; }
-h4 { font-size: 1.5em; }
-h5 { font-size: 1.25em; }
-h6 { font-size: 1em; }
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h5 {
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.25;
+}

@@ -1,0 +1,23 @@
+.bg-inherit { background-color: inherit; }
+.bg-current { background-color: currentColor; }
+.bg-transparent { background-color: transparent; }
+.bg-black { background-color: var(--color-black, black); }
+.bg-white { background-color: var(--color-white, white); }
+.bg-default { background-color: var(--color-default); }
+.bg-primary { background-color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-success { background-color: var(--color-success); }
+.bg-danger { background-color: var(--color-danger); }
+.bg-warning { background-color: var(--color-warning); }
+.bg-info { background-color: var(--color-info); }
+.bg-foreground { background-color: var(--color-foreground); }
+.bg-background { background-color: var(--color-background); }
+.bg-surface-1 { background-color: var(--color-surface-1); }
+.bg-surface-2 { background-color: var(--color-surface-2); }
+.bg-surface-3 { background-color: var(--color-surface-3); }
+.bg-surface-4 { background-color: var(--color-surface-4); }
+.bg-surface-5 { background-color: var(--color-surface-5); }
+.bg-surface-6 { background-color: var(--color-surface-6); }
+.bg-surface-7 { background-color: var(--color-surface-7); }
+.bg-surface-8 { background-color: var(--color-surface-8); }
+.bg-surface-9 { background-color: var(--color-surface-9); }
