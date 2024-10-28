@@ -1,9 +1,9 @@
-ul, ol {
+ol,
+ul,
+menu {
   padding-inline-start: 24px;
-  margin-block-start: 0;
-  margin-block-end: 1rem;
 }
 
 li::marker {
-  color: var(--color-foreground-muted, inherit);
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-inactive));
 }

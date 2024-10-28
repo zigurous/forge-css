@@ -11,11 +11,9 @@
 .btn-group--horizontal {
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .btn-group--vertical {
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
 }
