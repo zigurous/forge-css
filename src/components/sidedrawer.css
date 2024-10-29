@@ -19,7 +19,7 @@
   width: 100vw;
   height: 100vh;
   background-color: var(--color-black, black);
-  opacity: var(--opacity-scrim, 0.54);
+  opacity: var(--opacity-scrim);
   z-index: var(--z-index-overlay, 1040);
 }
 
@@ -78,7 +78,7 @@
 }
 
 .sidedrawer--animated.sidedrawer--open .sidedrawer__overlay  {
-  opacity: var(--opacity-scrim, 0.54);
+  opacity: var(--opacity-scrim);
 }
 
 .sidedrawer--animated.sidedrawer--closed .sidedrawer__overlay  {

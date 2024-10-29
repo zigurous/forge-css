@@ -35,7 +35,7 @@
 }
 
 .navbar li a:hover {
-  background-color: var(--color-default-subtle);
+  background-color: rgb(from var(--color-default) r g b / var(--opacity-soft));
   text-decoration: none;
 }
 
@@ -48,5 +48,5 @@
 }
 
 .navbar li a.active:hover {
-  background-color: var(--color-primary-subtle);
+  background-color: rgb(from var(--color-primary) r g b / var(--opacity-soft));
 }

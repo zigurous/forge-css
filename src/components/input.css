@@ -15,7 +15,7 @@
 
 .input-wrapper.disabled {
   cursor: not-allowed;
-  opacity: var(--opacity-disabled, 0.38);
+  opacity: var(--opacity-disabled);
 }
 
 .input-wrapper.disabled > input:disabled {

@@ -115,7 +115,7 @@
 
 @media (hover: hover) {
   .navmenu__list:hover .navmenu__item {
-    opacity: var(--opacity-inactive, 0.62);
+    opacity: var(--opacity-muted);
   }
 
   .navmenu__item:hover {

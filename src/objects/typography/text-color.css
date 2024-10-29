@@ -23,6 +23,11 @@
 .text-surface-8 { color: var(--color-surface-8); }
 .text-surface-9 { color: var(--color-surface-9); }
 
+.text-subtle { color: rgb(from var(--color-foreground) r g b / var(--opacity-subtle)); }
+.text-muted { color: rgb(from var(--color-foreground) r g b / var(--opacity-muted)); }
+.text-disabled { color: rgb(from var(--color-foreground) r g b / var(--opacity-disabled)); }
+.text-soft { color: rgb(from var(--color-foreground) r g b / var(--opacity-soft)); }
+
 .hover\:text-inherit,
 .hover\:text-inherit:visited { color: inherit; }
 .hover\:text-current { color: currentColor; }

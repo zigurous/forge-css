@@ -13,7 +13,7 @@ button:not(:disabled) {
 
 button:disabled {
   cursor: not-allowed;
-  opacity: var(--opacity-disabled, 0.38);
+  opacity: var(--opacity-disabled);
 }
 
 button:focus-visible {

@@ -10,7 +10,7 @@ blockquote {
 
 blockquote footer {
   display: block;
-  color: rgb(from var(--color-foreground) r g b / var(--opacity-inactive));
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
 }
 
 blockquote footer::before {

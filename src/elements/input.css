@@ -17,7 +17,7 @@ input::placeholder,
 select::placeholder,
 textarea::placeholder {
   font-size: 1em;
-  color: rgb(from var(--color-foreground) r g b / var(--opacity-inactive));
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
   opacity: 1;
 }
 
@@ -37,7 +37,7 @@ textarea:disabled {
 input[type="submit"] {
   min-width: 80px;
   font-weight: 500;
-  color: rgb(from var(--color-foreground) r g b / var(--opacity-inactive));
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
   transition: color 200ms, background-color 200ms, border-color 200ms;
 }
 

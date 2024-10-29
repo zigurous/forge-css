@@ -16,7 +16,7 @@
   display: block;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: rgba(var(--rgb-black), var(--opacity-scrim, 0.54));
+  background-color: rgba(var(--rgb-black), var(--opacity-scrim));
 }
 
 .modal__dialog {

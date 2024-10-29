@@ -81,11 +81,11 @@
 
 :root {
   --opacity-transparent: 0;
-  --opacity-subtle: 0.12;
+  --opacity-soft: 0.12;
   --opacity-disabled: 0.38;
   --opacity-scrim: 0.54;
-  --opacity-inactive: 0.62;
-  --opacity-active: 0.87;
+  --opacity-muted: 0.62;
+  --opacity-subtle: 0.87;
   --opacity-opaque: 1;
 }
 

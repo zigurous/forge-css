@@ -85,7 +85,8 @@
 }
 
 .btn--solid:not(:disabled):hover,
-.btn--solid:not(:disabled):active {
+.btn--solid:not(:disabled):active,
+.btn--solid:not(:disabled).active {
   background-color: hsl(from var(--btn-color-primary) h s calc(l - 5));
 }
 
@@ -97,7 +98,8 @@
 }
 
 .btn--outline:not(:disabled):hover,
-.btn--outline:not(:disabled):active {
+.btn--outline:not(:disabled):active,
+.btn--outline:not(:disabled).active {
   background-color: var(--btn-color-primary);
   color: var(--btn-color-secondary);
   fill: var(--btn-color-secondary);
@@ -112,8 +114,9 @@
 }
 
 .btn--text:not(:disabled):hover,
-.btn--text:not(:disabled):active {
-  background-color: rgb(from var(--btn-color-primary) r g b / var(--opacity-subtle));
+.btn--text:not(:disabled):active,
+.btn--text:not(:disabled).active {
+  background-color: rgb(from var(--btn-color-primary) r g b / var(--opacity-soft));
 }
 
 .btn--link,
@@ -122,13 +125,14 @@
   border-color: transparent;
   color: var(--btn-color-primary);
   fill: var(--btn-color-primary);
-  text-decoration: underline solid rgb(from var(--btn-color-primary) r g b / var(--opacity-active));
+  text-decoration: underline solid rgb(from var(--btn-color-primary) r g b / var(--opacity-subtle));
 }
 
 .btn--link:not(:disabled):hover,
-.btn--link:not(:disabled):active {
-  background-color: rgb(from var(--btn-color-primary) r g b / var(--opacity-subtle));
-  text-decoration: underline solid rgb(from var(--btn-color-primary) r g b / var(--opacity-active));
+.btn--link:not(:disabled):active,
+.btn--link:not(:disabled).active {
+  background-color: rgb(from var(--btn-color-primary) r g b / var(--opacity-soft));
+  text-decoration: underline solid rgb(from var(--btn-color-primary) r g b / var(--opacity-subtle));
 }
 
 .btn--unstyled {
