@@ -7,7 +7,7 @@
     "lightningcss-cli": "^1.27.0"
   },
   "scripts": {
-    "build": "lightningcss --minify --bundle --sourcemap --targets \">= 0.25%\" src/index.css -o dist/index.min.css",
+    "build": "lightningcss --minify --bundle --sourcemap --targets \"> 0.5%, last 2 versions, Firefox ESR, not dead\" src/index.css -o dist/index.min.css",
     "predeploy": "yarn build",
     "prepare": "yarn build"
   },
