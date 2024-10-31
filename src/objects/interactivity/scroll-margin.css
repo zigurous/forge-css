@@ -1,13 +1,5 @@
 .scroll-m-0 { scroll-margin: 0; }
 .scroll-m-1px { scroll-margin: 1px; }
-.scroll-m-1rem { scroll-margin: 1rem; }
-.scroll-m-2rem { scroll-margin: 2rem; }
-.scroll-m-3rem { scroll-margin: 3rem; }
-.scroll-m-4rem { scroll-margin: 4rem; }
-.scroll-m-5rem { scroll-margin: 5rem; }
-.scroll-m-6rem { scroll-margin: 6rem; }
-.scroll-m-7rem { scroll-margin: 7rem; }
-.scroll-m-8rem { scroll-margin: 8rem; }
 .scroll-m-xxxs { scroll-margin: var(--spacing-xxxs); }
 .scroll-m-xxs { scroll-margin: var(--spacing-xxs); }
 .scroll-m-xs { scroll-margin: var(--spacing-xs); }
