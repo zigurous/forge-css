@@ -1,0 +1,36 @@
+.transition-fade-in,
+.transition-fade-out {
+  transition: opacity 300ms ease;
+}
+
+.transition-translate-in,
+.transition-translate-out {
+  transition: transform 300ms ease;
+}
+
+.transition-fade-in.transition-translate-in,
+.transition-fade-in.transition-translate-out,
+.transition-fade-out.transition-translate-in,
+.transition-fade-out.transition-translate-out {
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.transition-start.transition-fade-in,
+.transition-end.transition-fade-out {
+  opacity: 0;
+}
+
+.transition-start.transition-fade-out,
+.transition-end.transition-fade-in {
+  opacity: 1;
+}
+
+.transition-start.transition-translate-in,
+.transition-end.transition-translate-out {
+  transform: translate3d(0, 10%, 0);
+}
+
+.transition-start.transition-translate-out,
+.transition-end.transition-translate-in {
+  transform: translate3d(0, 0, 0);
+}

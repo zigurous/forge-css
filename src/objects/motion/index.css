@@ -3,10 +3,8 @@
 @import "animation-fill-mode.css";
 @import "animation-iteration-count.css";
 @import "animation-play-state.css";
-
 @import "transition.css";
 @import "transition-property.css";
-
 @import "delay.css";
 @import "duration.css";
 @import "timing-function.css";
