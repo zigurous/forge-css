@@ -1,18 +1,14 @@
-:root {
-  --footer-height: 64px;
-}
-
 .app-footer {
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
-  min-height: var(--footer-height, 64px);
+  text-align: center;
   overflow: hidden;
+  width: 100%;
 }
 
 .app-footer--bordered {
-  border-top: solid 1px var(--color-border);
+  border-top: .0625rem solid var(--color-border);
 }
 
 .app-footer--transparent {
@@ -22,7 +18,7 @@
 .app-footer--sticky {
   position: sticky;
   bottom: 0;
-  z-index: var(--z-index-sticky, 1020);
+  z-index: var(--z-index-sticky);
 }
 
 .app-footer .col {
@@ -37,7 +33,6 @@
 }
 
 .app-footer .links {
-  text-align: center;
   white-space: nowrap;
 }
 
@@ -53,15 +48,11 @@
   .app-footer .logo,
   .app-footer .copyright,
   .app-footer .links {
-    margin-bottom: 8px;
+    margin-bottom: var(--spacing-sm);
   }
 
   .app-footer .links {
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .app-footer .link {
-    margin-bottom: 4px;
   }
 }

@@ -3,29 +3,24 @@
   fill: var(--color-foreground);
 }
 
-.logo--xs,
-.logo--extraSmall {
-  height: 2em;
+.logo--xs {
+  height: 2rem;
 }
 
-.logo--sm,
-.logo--small {
-  height: 3em;
+.logo--sm {
+  height: 3rem;
 }
 
-.logo--md,
-.logo--medium {
-  height: 4em;
+.logo--md {
+  height: 4rem;
 }
 
-.logo--lg,
-.logo--large {
-  height: 5em;
+.logo--lg {
+  height: 6rem;
 }
 
-.logo--xl,
-.logo--extraLarge {
-  height: 6em;
+.logo--xl {
+  height: 8rem;
 }
 
 .logo svg {
@@ -35,14 +30,4 @@
 
 .logo img {
   height: 100%;
-}
-
-.logo button {
-  height: 100%;
-  pointer-events: all !important;
-  cursor: pointer;
-}
-
-.logo button:focus-visible {
-  outline-offset: -16px;
 }

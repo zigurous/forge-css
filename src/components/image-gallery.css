@@ -1,13 +1,13 @@
 .image-gallery {
   position: relative;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
 }
 
 .image-gallery__thumbnails {
   display: grid;
-  column-gap: 12px;
-  row-gap: 12px;
+  column-gap: var(--spacing-md);
+  row-gap: var(--spacing-md);
 }
 
 .image-gallery__thumbnail {
@@ -63,8 +63,8 @@
 
 @media (max-width: 767px) {
   .image-gallery__thumbnails {
-    row-gap: 8px;
-    column-gap: 8px;
+    row-gap: var(--spacing-sm);
+    column-gap: var(--spacing-sm);
   }
 }
 

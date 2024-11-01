@@ -25,32 +25,27 @@
   background: none !important;
 }
 
-.page-banner--xs,
-.page-banner--extraSmall {
+.page-banner--xs {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.page-banner--sm,
-.page-banner--small {
+.page-banner--sm {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.page-banner--md,
-.page-banner--medium {
+.page-banner--md {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.page-banner--lg,
-.page-banner--large {
+.page-banner--lg {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
-.page-banner--xl,
-.page-banner--extraLarge {
+.page-banner--xl {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }

@@ -1,7 +1,7 @@
 ol,
 ul,
 menu {
-  padding-inline-start: 24px;
+  padding-inline-start: var(--spacing-xl);
 }
 
 li::marker {

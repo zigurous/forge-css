@@ -1,24 +1,23 @@
+.social-button.btn--icon-leading .icon-wrapper {
+  margin-left: 0;
+}
+
+.social-button.btn--icon-trailing .icon-wrapper {
+  margin-right: 0;
+}
+
 .social-button.paypal path {
   transition: fill 100ms;
 }
 
-.social-button.paypal:hover:not(:disabled) path:nth-child(1),
-.social-button.paypal:focus:not(:disabled) path:nth-child(1),
-.social-button.paypal:active:not(:disabled) path:nth-child(1),
 .social-button.paypal:hover:not(:disabled) path:nth-child(4),
 .social-button.paypal:focus:not(:disabled) path:nth-child(4),
 .social-button.paypal:active:not(:disabled) path:nth-child(4) {
+  fill: #8bcdeb;
+}
+
+.social-button.paypal:hover:not(:disabled) path:nth-child(5),
+.social-button.paypal:focus:not(:disabled) path:nth-child(5),
+.social-button.paypal:active:not(:disabled) path:nth-child(5) {
   fill: #fff;
-}
-
-.social-button.paypal:hover:not(:disabled) path:nth-child(2),
-.social-button.paypal:focus:not(:disabled) path:nth-child(2),
-.social-button.paypal:active:not(:disabled) path:nth-child(2) {
-  fill: #adcee4;
-}
-
-.social-button.paypal:hover:not(:disabled) path:nth-child(3),
-.social-button.paypal:focus:not(:disabled) path:nth-child(3),
-.social-button.paypal:active:not(:disabled) path:nth-child(3) {
-  fill: #e6eff6;
 }

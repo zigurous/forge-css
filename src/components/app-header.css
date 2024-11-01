@@ -1,5 +1,5 @@
 :root {
-  --header-height: 80px;
+  --header-height: 5rem;
 }
 
 .app-header {
@@ -7,11 +7,11 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: var(--header-height, 80px);
+  height: var(--header-height);
 }
 
 .app-header--bordered {
-  border-bottom: solid 1px var(--color-border);
+  border-bottom: .0625rem solid var(--color-border);
 }
 
 .app-header--transparent {
@@ -21,7 +21,7 @@
 .app-header--sticky {
   position: sticky;
   top: 0;
-  z-index: var(--z-index-sticky, 1020);
+  z-index: var(--z-index-sticky);
 }
 
 .app-header > .container,
@@ -29,7 +29,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
   margin: 0 auto;
 }
 
@@ -41,26 +40,9 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 100%;
 }
 
-.app-header .logo {
-  z-index: 1055;
-}
-
-.app-header .navbar,
-.app-header .social-nav-links {
-  display: none;
-}
-
-@media (min-width: 1200px) {
-  .app-header .navbar,
-  .app-header .social-nav-links {
-    display: block;
-  }
-
-  .app-header .navmenu,
-  .app-header .navmenu__button {
-    display: none;
-  }
+.app-header .logo,
+.app-header__menu-button {
+  z-index: calc(var(--z-index-menu) + 5);
 }

@@ -1,6 +1,6 @@
 .page {
   position: relative;
-  min-height: calc(100vh - var(--header-height, 0));
+  min-height: calc(100vh - var(--header-height));
   margin-left: auto;
   margin-right: auto;
 }

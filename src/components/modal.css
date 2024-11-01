@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: var(--z-index-modal, 1060);
+  z-index: var(--z-index-modal);
   background-color: rgba(var(--rgb-black), 0);
   transition: background-color 300ms;
   overflow: hidden;
@@ -24,8 +24,8 @@
   display: flex;
   align-items: center;
   width: auto;
-  margin: 0.5rem;
-  min-height: calc(100% - (2rem * 2));
+  margin: 10vh 5vw;
+  min-height: 80vh;
 }
 
 .modal__content {
@@ -36,8 +36,8 @@
   pointer-events: auto;
   background-color: var(--color-surface-1);
   background-clip: padding-box;
-  border: 1px solid var(--color-border);
-  border-radius: 0.25rem;
+  border: .0625rem solid var(--color-border);
+  border-radius: var(--radius-lg);
   color: var(--color-foreground);
   outline: none;
   overflow: hidden;
@@ -46,22 +46,22 @@
 .modal__body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: var(--spacing-lg);
 }
 
 .modal__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-lg);
+  border-bottom: .0625rem solid var(--color-border);
 }
 
 .modal__footer {
   display: flex;
   align-items: center;
-  padding: 1rem;
-  border-top: 1px solid var(--color-border);
+  padding: var(--spacing-lg);
+  border-top: .0625rem solid var(--color-border);
 }
 
 .modal__footer--left-aligned {
@@ -77,21 +77,14 @@
 }
 
 .modal__close-button {
-  padding: 1rem;
-  margin: -1rem -0.65rem -1rem auto;
-  opacity: 0.5;
-  transition: opacity 200ms;
-}
-
-.modal__close-button:hover,
-.modal__close-button:focus,
-.modal__close-button:active {
-  opacity: 1;
+  margin-top: -1em;
+  margin-bottom: -1em;
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
 }
 
 @media (min-width: 576px) {
   .modal__dialog {
     max-width: 500px;
-    margin: 2rem auto;
+    margin: 10vh auto;
   }
 }

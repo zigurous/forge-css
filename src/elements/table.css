@@ -1,12 +1,13 @@
 table {
-  width: calc(100% + 16px);
-  margin-left: -16px;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
 }
 
 table th,
 table td {
-  height: 40px;
-  padding: 8px 16px;
+  border: .0625rem solid transparent;
+  padding: var(--spacing-sm);
 }
 
 table th {
@@ -14,46 +15,39 @@ table th {
   font-weight: 600;
 }
 
-table.bordered {
-  width: 100%;
-  margin-left: 0;
-  border-spacing: 0;
+table tr:first-child th:first-child,
+table tr:first-child td:first-child {
+  border-top-left-radius: var(--radius-md);
+}
+
+table tr:first-child th:last-child,
+table tr:first-child td:last-child {
+  border-top-right-radius: var(--radius-md);
+}
+
+table tr:last-child th:first-child,
+table tr:last-child td:first-child {
+  border-bottom-left-radius: var(--radius-md);
+}
+
+table tr:last-child th:last-child,
+table tr:last-child td:last-child {
+  border-bottom-right-radius: var(--radius-md);
+}
+
+table tr:not(:first-child) th,
+table tr:not(:first-child) td {
+  border-top: none;
+}
+
+table tr th:not(:first-child),
+table tr td:not(:first-child){
+  border-left: none;
 }
 
 table.bordered th,
 table.bordered td {
-  border: 1px solid var(--color-border);
-  padding: 8px;
-}
-
-table.bordered tr:first-child th:first-child,
-table.bordered tr:first-child td:first-child {
-  border-top-left-radius: 0.25rem;
-}
-
-table.bordered tr:first-child th:last-child,
-table.bordered tr:first-child td:last-child {
-  border-top-right-radius: 0.25rem;
-}
-
-table.bordered tr:last-child th:first-child,
-table.bordered tr:last-child td:first-child {
-  border-bottom-left-radius: 0.25rem;
-}
-
-table.bordered tr:last-child th:last-child,
-table.bordered tr:last-child td:last-child {
-  border-bottom-right-radius: 0.25rem;
-}
-
-table.bordered tr:not(:first-child) th,
-table.bordered tr:not(:first-child) td {
-  border-top: none;
-}
-
-table.bordered tr th:not(:first-child),
-table.bordered tr td:not(:first-child){
-  border-left: none;
+  border-color: var(--color-border);
 }
 
 table.striped tr:nth-child(even) {

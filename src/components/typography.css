@@ -33,6 +33,7 @@
 
 .subtitle {
   display: block;
+  font-weight: 600;
   white-space: nowrap;
   color: rgb(from var(--color-foreground) r g b / var(--opacity-subtle));
 }

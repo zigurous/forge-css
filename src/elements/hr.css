@@ -1,33 +1,27 @@
 hr {
-  height: 1px;
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
+  height: .0625rem;
   margin-inline-start: 0;
   margin-inline-end: 0;
+  margin-block-start: var(--spacing-lg);
+  margin-block-end: var(--spacing-lg);
   background-color: var(--color-border);
   border: none;
-}
-
-hr.title {
-  margin-block-start: 1rem;
-  margin-block-end: 2rem;
-  height: 2px;
 }
 
 hr.transparent {
   background-color: transparent;
 }
 
-hr.small {
-  width: 64px;
+hr.sm {
+  width: 4rem;
 }
 
-hr.medium {
-  width: 128px;
+hr.md {
+  width: 8rem;
 }
 
-hr.large {
-  width: 256px;
+hr.lg {
+  width: 16rem;
 }
 
 hr.full {
@@ -35,5 +29,5 @@ hr.full {
 }
 
 hr.thick {
-  height: 2px;
+  height: .125rem;
 }

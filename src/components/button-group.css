@@ -5,7 +5,7 @@
   vertical-align: middle;
   width: max-content;
   max-width: 100%;
-  gap: .75em;
+  gap: var(--spacing-md);
 }
 
 .btn-group--horizontal {

@@ -5,7 +5,7 @@
   vertical-align: middle;
   width: max-content;
   max-width: 100%;
-  gap: .5em;
+  gap: var(--spacing-sm);
 }
 
 .badge-group--horizontal {

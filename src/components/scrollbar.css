@@ -7,7 +7,7 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
+  width: var(--spacing-md);
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
@@ -16,7 +16,7 @@
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: var(--color-surface-6);
-  border-radius: 4px;
+  border-radius: calc(var(--spacing-md) / 2);
   border: none;
   background-clip: content-box;
 }
