@@ -89,6 +89,14 @@
 }
 
 :root {
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+:root {
   --z-index-min: -9999;
   --z-index-dropdown: 1010;
   --z-index-sticky: 1020;
