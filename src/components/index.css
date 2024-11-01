@@ -8,6 +8,7 @@
 @import "button-group.css";
 @import "contact-form.css";
 @import "cookie-consent.css";
+@import "drawer.css";
 @import "embedded-video.css";
 @import "icon.css";
 @import "image-gallery.css";
@@ -22,7 +23,6 @@
 @import "pagination.css";
 @import "progressive-image.css";
 @import "scrollbar.css";
-@import "sidedrawer.css";
 @import "social-button.css";
 @import "social-icon.css";
 @import "social-nav-links.css";
