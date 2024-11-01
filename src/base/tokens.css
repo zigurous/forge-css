@@ -1,5 +1,4 @@
 :root {
-  --spacing-unit: 8px;
   --spacing-xxxs: calc(var(--spacing-unit) * 0.25); /* 2px */
   --spacing-xxs: calc(var(--spacing-unit) * 0.5);   /* 4px */
   --spacing-xs: calc(var(--spacing-unit) * 0.75);   /* 6px */
