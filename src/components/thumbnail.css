@@ -10,13 +10,13 @@
 }
 
 @media (hover: hover) {
-  a.thumbnail:not(.transition-start) {
+  a[href].thumbnail:not(.transition-start) {
     transition:
       opacity 300ms cubic-bezier(0.23, 1, 0.32, 1),
       transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
-  a.thumbnail:not(.transition-start):hover {
+  a[href].thumbnail:not(.transition-start):hover {
     transform: translateY(-4px);
   }
 }
