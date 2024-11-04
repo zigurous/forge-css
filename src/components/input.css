@@ -38,7 +38,7 @@
   height: 3.375rem;
 }
 
-.input-wrapper__input {
+.input-wrapper > input {
   border: none;
   border-radius: 0;
   padding: 0;
@@ -46,8 +46,32 @@
   height: 100%;
 }
 
-.input-wrapper__input:disabled {
+.input-wrapper > input:disabled {
   opacity: 1;
+}
+
+.input-wrapper > input.empty::-webkit-datetime-edit-text,
+.input-wrapper > input.empty::-webkit-datetime-edit-hour-field,
+.input-wrapper > input.empty::-webkit-datetime-edit-minute-field,
+.input-wrapper > input.empty::-webkit-datetime-edit-ampm-field,
+.input-wrapper > input.empty::-webkit-datetime-edit-day-field,
+.input-wrapper > input.empty::-webkit-datetime-edit-month-field,
+.input-wrapper > input.empty::-webkit-datetime-edit-year-field {
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
+}
+
+.input-wrapper > .icon {
+  pointer-events: none;
+  font-size: 1.125rem;
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
+}
+
+.input-wrapper--icon-leading > .icon {
+  margin-right: var(--spacing-xxs);
+}
+
+.input-wrapper--icon-trailing > .icon {
+  margin-left: var(--spacing-xxs);
 }
 
 .input-wrapper--icon-leading {
@@ -56,18 +80,4 @@
 
 .input-wrapper--icon-trailing {
   flex-direction: row;
-}
-
-.input-wrapper__icon {
-  pointer-events: none;
-  font-size: 1.125rem;
-  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
-}
-
-.input-wrapper--icon-leading .input-wrapper__icon {
-  margin-right: var(--spacing-xxs);
-}
-
-.input-wrapper--icon-trailing .input-wrapper__icon {
-  margin-left: var(--spacing-xxs);
 }
