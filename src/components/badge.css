@@ -35,8 +35,9 @@
 }
 
 .badge {
-  display: inline-block;
-  min-width: 4em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   padding: .5em 1em;
   background-color: var(--badge-color-primary);
   border: .0625rem solid var(--badge-color-primary);
@@ -48,6 +49,7 @@
   text-align: center;
   vertical-align: baseline;
   white-space: nowrap;
+  transition: background-color 150ms, border 150ms, color 150ms;
 }
 
 .badge--solid {
@@ -62,14 +64,38 @@
   color: var(--badge-color-primary);
 }
 
-.badge--square {
-  border-radius: 0;
+.badge--tint {
+  background-color: rgb(from var(--badge-color-primary) r g b / var(--opacity-soft));
+  border: .0625rem solid transparent;
+  color: var(--badge-color-primary);
 }
 
-.badge--rounded {
-  border-radius: calc(1em / 3);
+.badge--tint.badge--selected,
+.badge--tint.badge--interactive:hover {
+  background-color: var(--badge-color-primary);
+  color: var(--badge-color-secondary);
+}
+
+.badge--interactive {
+  cursor: pointer;
 }
 
 .badge--pill {
-  border-radius: 9999px;
+  border-radius: var(--radius-full);
+}
+
+.badge--rounded {
+  border-radius: var(--radius-sm);
+}
+
+.badge--circle {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  padding: .5em;
+}
+
+.badge--square {
+  border-radius: 0;
 }
