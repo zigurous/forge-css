@@ -1,8 +1,8 @@
 :root {
   --animation-fade-in: fade-in 300ms ease;
   --animation-fade-out: fade-out 300ms ease;
-  --animation-translate-in: translate-in 300ms ease;
-  --animation-translate-out: translate-out 300ms ease;
+  --animation-slide-in: slide-in 300ms ease;
+  --animation-slide-out: slide-out 300ms ease;
   --animation-spin: spin 1s linear infinite;
   --animation-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
   --animation-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
@@ -11,8 +11,8 @@
 
 .animate-fade-in { animation: var(--animation-fade-in); }
 .animate-fade-out { animation: var(--animation-fade-out); }
-.animate-translate-in { animation: var(--animation-translate-in); }
-.animate-translate-out { animation: var(--animation-translate-out); }
+.animate-slide-in { animation: var(--animation-slide-in); }
+.animate-slide-out { animation: var(--animation-slide-out); }
 .animate-spin { animation: var(--animation-spin); }
 .animate-ping { animation: var(--animation-ping); }
 .animate-pulse { animation: var(--animation-pulse); }
@@ -36,7 +36,7 @@
   }
 }
 
-@keyframes translate-in {
+@keyframes slide-in {
   from {
     transform: translate3d(0, 10%, 0);
   }
@@ -45,7 +45,7 @@
   }
 }
 
-@keyframes translate-out {
+@keyframes slide-out {
   from {
     transform: translate3d(0, 0, 0);
   }
