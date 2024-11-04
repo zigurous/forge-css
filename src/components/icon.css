@@ -15,11 +15,6 @@
   fill: currentColor;
 }
 
-.icon--material {
-  -webkit-font-feature-settings: 'liga';
-  font-family: 'Material Icons';
-}
-
 .icon--rounded {
   border-radius: var(--radius-sm);
 }
@@ -34,8 +29,8 @@
 
 .icon--inherit {
   font-size: inherit;
-  width: auto;
-  height: auto;
+  width: 1em;
+  height: 1em;
 }
 
 .icon--xs {
