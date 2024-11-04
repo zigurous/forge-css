@@ -57,7 +57,7 @@ pre[class*="language-"]::-webkit-scrollbar-track {
 pre[class*="language-"]::-webkit-scrollbar-thumb {
   background-color: var(--color-surface-5);
   background-clip: content-box;
-  border-radius: 9999px;
+  border-radius: var(--radius-full);
   border: none;
 }
 
