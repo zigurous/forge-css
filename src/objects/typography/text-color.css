@@ -1,4 +1,5 @@
 .text-inherit,
+.text-inherit:hover,
 .text-inherit:visited { color: inherit; }
 .text-current { color: currentColor; }
 .text-transparent { color: transparent; }
