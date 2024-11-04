@@ -17,7 +17,7 @@
 
 .cookie-consent__text {
   text-wrap: pretty;
-  margin: var(--spacing-md) var(--spacing-lg);
+  margin: var(--spacing-lg);
 }
 
 .cookie-consent__text > a,
