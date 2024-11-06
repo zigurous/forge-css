@@ -88,10 +88,6 @@
   justify-content: flex-end;
 }
 
-.modal__title {
-  margin: 0;
-}
-
 .modal__close-button {
   margin-top: -1em;
   margin-bottom: -1em;
