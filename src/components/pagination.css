@@ -4,33 +4,19 @@
   align-items: center;
 }
 
-.pagination > .btn {
+.pagination__page-button,
+.pagination__ellipsis,
+.pagination--buttons .pagination__next-button,
+.pagination--buttons .pagination__prev-button {
   aspect-ratio: 1 / 1;
-  height: 2.25rem;
   padding: 0;
-  border-radius: var(--radius-sm);
 }
 
-.pagination--xs > .btn {
-  height: 1.875rem;
-}
-
-.pagination--sm > .btn {
-  height: 2.25rem;
-}
-
-.pagination--md > .btn {
-  height: 2.625rem;
-}
-
-.pagination--lg > .btn {
-  height: 3rem;
-}
-
-.pagination--xl > .btn {
-  height: 3.375rem;
+.pagination__ellipsis,
+.pagination__ellipsis:disabled {
+  cursor: default;
 }
 
 .pagination > .btn + .btn {
-  margin-left: var(--spacing-sm);
+  margin-left: .5em;
 }
