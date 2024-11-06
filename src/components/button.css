@@ -48,7 +48,7 @@
   line-height: 1;
   background-color: var(--btn-color-primary);
   border: .0625rem solid transparent;
-  border-radius: calc(1em / 3);
+  border-radius: var(--radius-sm);
   color: var(--btn-color-secondary);
   fill: var(--btn-color-secondary);
   transform: scale(1);
