@@ -1,0 +1,90 @@
+.code-block .token.punctuation {
+  color: var(--color-syntax-foreground);
+}
+
+.code-block .token.comment,
+.code-block .token.doctype,
+.code-block .token.prolog,
+.code-block .token.cdata {
+  color: var(--color-syntax-comment);
+}
+
+.code-block .token.keyword,
+.code-block .token.builtin,
+.code-block .token.important,
+.code-block .token.operator,
+.code-block .token.atrule,
+.code-block .token.symbol,
+.code-block .token.tag {
+  color: var(--color-syntax-keyword);
+}
+
+.code-block .token.function,
+.code-block .token.function-definition {
+  color: var(--color-syntax-function);
+}
+
+.code-block .token.entity,
+.code-block .token.selector,
+.code-block .token.attr-name,
+.code-block .token.class-name,
+.code-block .token.return-type,
+.code-block .token.namespace {
+  color: var(--color-syntax-entity);
+}
+
+.code-block .token.property,
+.code-block .token.variable {
+  color: var(--color-syntax-property);
+}
+
+.code-block .token.string,
+.code-block .token.char,
+.code-block .token.regex,
+.code-block .token.url,
+.code-block .token.attr-value {
+  color: var(--color-syntax-string);
+}
+
+.code-block .token.constant,
+.code-block .token.boolean,
+.code-block .token.number {
+  color: var(--color-syntax-constant);
+}
+
+.code-block .token.changed {
+  color: var(--color-syntax-diff-changed-text);
+  background-color: var(--color-syntax-diff-changed-bg);
+}
+
+.code-block .token.deleted {
+  color: var(--color-syntax-diff-deleted-text);
+  background-color: var(--color-syntax-diff-deleted-bg);
+}
+
+.code-block .token.ignored {
+  color: var(--color-syntax-diff-ignored-text);
+  background-color: var(--color-syntax-diff-ignored-bg);
+}
+
+.code-block .token.inserted {
+  color: var(--color-syntax-diff-inserted-text);
+  background-color: var(--color-syntax-diff-inserted-bg);
+}
+
+.code-block .token.bold {
+  font-weight: bold;
+}
+
+.code-block .token.italic {
+  font-style: italic;
+}
+
+.code-block__copy {
+  --btn-color-primary: var(--color-syntax-comment);
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  opacity: var(--opacity-subtle);
+  transform: none !important;
+}

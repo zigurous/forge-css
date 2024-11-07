@@ -1,6 +1,6 @@
 code[class*="language-"],
 pre[class*="language-"] {
-  background: var(--color-background);
+  background: var(--color-surface-1);
   color: var(--color-foreground);
   font-family: "Fira Code", "Fira Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   direction: ltr;
@@ -36,14 +36,18 @@ pre[class*="language-"] *::selection {
 }
 
 pre[class*="language-"] {
+  position: relative;
   padding: var(--spacing-md);
-  border: .0625rem solid var(--color-border);
   border-radius: var(--radius-md);
   overflow: auto;
 }
 
-pre[class*="language-"] {
-  overflow-x: auto;
+pre[class*="language-"].border {
+  border: .0625rem solid var(--color-border);
+}
+
+pre[class*="language-"]:not(.border) {
+  border: .0625rem solid transparent;
 }
 
 pre[class*="language-"]::-webkit-scrollbar {
@@ -68,6 +72,7 @@ pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
 :not(pre) > code {
   padding: var(--spacing-xxxs) var(--spacing-xxs);
   background-color: var(--color-surface-2);
+  border: .0625rem solid transparent;
   border-radius: var(--radius-sm);
   white-space: normal;
 }
@@ -82,86 +87,4 @@ pre[class*="language-"]::-webkit-scrollbar-thumb:hover {
   pre[class*="language-"] {
     text-shadow: none;
   }
-}
-
-.token.punctuation {
-  color: var(--color-syntax-foreground);
-}
-
-.token.comment,
-.token.doctype,
-.token.prolog,
-.token.cdata {
-  color: var(--color-syntax-comment);
-}
-
-.token.keyword,
-.token.builtin,
-.token.important,
-.token.operator,
-.token.atrule,
-.token.symbol,
-.token.tag {
-  color: var(--color-syntax-keyword);
-}
-
-.token.function,
-.token.function-definition {
-  color: var(--color-syntax-function);
-}
-
-.token.entity,
-.token.selector,
-.token.attr-name,
-.token.class-name,
-.token.return-type,
-.token.namespace {
-  color: var(--color-syntax-entity);
-}
-
-.token.property,
-.token.variable {
-  color: var(--color-syntax-property);
-}
-
-.token.string,
-.token.char,
-.token.regex,
-.token.url,
-.token.attr-value {
-  color: var(--color-syntax-string);
-}
-
-.token.constant,
-.token.boolean,
-.token.number {
-  color: var(--color-syntax-constant);
-}
-
-.token.changed {
-  color: var(--color-syntax-diff-changed-text);
-  background-color: var(--color-syntax-diff-changed-bg);
-}
-
-.token.deleted {
-  color: var(--color-syntax-diff-deleted-text);
-  background-color: var(--color-syntax-diff-deleted-bg);
-}
-
-.token.ignored {
-  color: var(--color-syntax-diff-ignored-text);
-  background-color: var(--color-syntax-diff-ignored-bg);
-}
-
-.token.inserted {
-  color: var(--color-syntax-diff-inserted-text);
-  background-color: var(--color-syntax-diff-inserted-bg);
-}
-
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
 }
