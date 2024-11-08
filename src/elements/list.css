@@ -1,3 +1,7 @@
 li::marker {
   color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
 }
+
+ol > li::marker {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
