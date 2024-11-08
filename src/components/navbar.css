@@ -4,18 +4,14 @@
   align-items: center;
 }
 
-.navbar ul {
+.navbar__list {
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
-  padding-inline-start: var(--spacing-lg);
-  padding-inline-end: var(--spacing-lg);
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin: 0 var(--spacing-lg);
 }
 
-.navbar li {
-  padding-left: var(--spacing-xxs);
-  padding-right: var(--spacing-xxs);
+.navbar__item {
+  padding: 0 var(--spacing-xxs);
 }
