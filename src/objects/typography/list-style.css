@@ -4,3 +4,6 @@
 .list-bullet { list-style-type: disc; }
 .list-number { list-style-type: decimal; }
 .list-image-none { list-style-image: none; }
+
+ul.list-indent { padding-inline-start: var(--spacing-xl); }
+ol.list-indent { padding-inline-start: var(--spacing-xxl); }
