@@ -71,7 +71,9 @@
 }
 
 .badge--tint.badge--selected,
-.badge--tint.badge--interactive:hover {
+.badge--tint.badge--interactive:hover,
+.badge--outline.badge--selected,
+.badge--outline.badge--interactive:hover {
   background-color: var(--badge-color-primary);
   color: var(--badge-color-secondary);
 }
