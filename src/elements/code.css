@@ -19,18 +19,13 @@ pre[class*="language-"] {
   hyphens: none;
 }
 
-code[class*="language-"]::-moz-selection,
-code[class*="language-"] *::-moz-selection,
-pre[class*="language-"] *::-moz-selection {
-  background: var(--color-surface-9);
-  color: inherit;
-  text-shadow: none;
-}
-
 code[class*="language-"]::selection,
+code[class*="language-"]::-moz-selection,
 code[class*="language-"] *::selection,
-pre[class*="language-"] *::selection {
-  background: var(--color-surface-9);
+code[class*="language-"] *::-moz-selection,
+pre[class*="language-"] *::selection,
+pre[class*="language-"] *::-moz-selection {
+  background: var(--color-surface-7);
   color: inherit;
   text-shadow: none;
 }
