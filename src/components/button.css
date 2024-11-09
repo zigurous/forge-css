@@ -198,11 +198,26 @@
 }
 
 .btn--circle {
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
+  padding: 0;
 }
 
 .btn--square {
   border-radius: 0;
+}
+
+.btn--icon-only {
+  aspect-ratio: 1 / 1;
+  padding: 0;
+}
+
+.btn--icon-leading .icon {
+  margin-left: -0.25em;
+}
+
+.btn--icon-trailing .icon {
+  margin-right: -0.25em;
 }
 
 .btn .icon {
@@ -212,47 +227,4 @@
 
 .btn .icon svg {
   transition: fill 200ms;
-}
-
-.btn .icon-wrapper {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  color: inherit;
-  fill: inherit;
-}
-
-.btn--icon-only {
-  aspect-ratio: 1 / 1;
-  padding: 0;
-}
-
-.btn--icon-leading .icon-wrapper {
-  margin-left: calc(var(--spacing-sm) / -2);
-  margin-right: var(--spacing-sm);
-}
-
-.btn--icon-leading.btn--sm .icon-wrapper {
-  margin-left: calc(var(--spacing-xs) / -2);
-  margin-right: var(--spacing-xs);
-}
-
-.btn--icon-leading.btn--xs .icon-wrapper {
-  margin-left: calc(var(--spacing-xxs) / -2);
-  margin-right: var(--spacing-xxs);
-}
-
-.btn--icon-trailing .icon-wrapper {
-  margin-right: calc(var(--spacing-sm) / -2);
-  margin-left: var(--spacing-sm);
-}
-
-.btn--icon-trailing.btn--sm .icon-wrapper {
-  margin-right: calc(var(--spacing-xs) / -2);
-  margin-left: var(--spacing-xs);
-}
-
-.btn--icon-trailing.btn--xs .icon-wrapper {
-  margin-right: calc(var(--spacing-xxs) / -2);
-  margin-left: var(--spacing-xxs);
 }
