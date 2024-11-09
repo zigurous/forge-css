@@ -1,6 +1,6 @@
 .link,
-.link:visited,
-.link:hover {
+.link:hover,
+.link:visited {
   color: var(--color-primary, inherit);
   font-weight: 500;
   text-decoration: underline solid transparent;
@@ -9,6 +9,8 @@
 }
 
 .link:hover,
-.link--underlined {
+.link--underlined,
+.link--underlined:hover,
+.link--underlined:visited {
   text-decoration: underline solid currentColor;
 }
