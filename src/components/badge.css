@@ -83,6 +83,26 @@
   cursor: pointer;
 }
 
+.badge--xs {
+  font-size: .5rem;
+}
+
+.badge--sm {
+  font-size: .625rem;
+}
+
+.badge--md {
+  font-size: .75rem;
+}
+
+.badge--lg {
+  font-size: .875rem;
+}
+
+.badge--xl {
+  font-size: 1rem;
+}
+
 .badge--pill {
   border-radius: var(--radius-full);
 }
@@ -103,22 +123,11 @@
   border-radius: 0;
 }
 
-.badge--xs {
-  font-size: .5rem;
+.badge .icon {
+  color: inherit;
+  fill: inherit;
 }
 
-.badge--sm {
-  font-size: .625rem;
-}
-
-.badge--md {
-  font-size: .75rem;
-}
-
-.badge--lg {
-  font-size: .875rem;
-}
-
-.badge--xl {
-  font-size: 1rem;
+.badge .icon svg {
+  transition: fill 200ms;
 }
