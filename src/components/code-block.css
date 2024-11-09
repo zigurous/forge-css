@@ -85,6 +85,5 @@
   position: absolute;
   top: var(--spacing-md);
   right: var(--spacing-md);
-  opacity: var(--opacity-subtle);
   transform: none !important;
 }
