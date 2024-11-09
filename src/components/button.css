@@ -121,13 +121,14 @@
   border-color: transparent;
   color: var(--btn-color-primary);
   fill: var(--btn-color-primary);
-  text-decoration: underline solid rgb(from var(--btn-color-primary) r g b / var(--opacity-subtle));
+  text-decoration: underline solid transparent;
+  text-underline-offset: var(--spacing-xxxs);
+  transition: text-decoration-color 150ms;
 }
 
 .btn--link:not(:disabled):hover,
 .btn--link:not(:disabled):active,
 .btn--link:not(:disabled).active {
-  background-color: rgb(from var(--btn-color-primary) r g b / var(--opacity-soft));
   text-decoration: underline solid rgb(from var(--btn-color-primary) r g b / var(--opacity-subtle));
 }
 
