@@ -9,8 +9,8 @@
 }
 
 .link:hover,
-.link--underlined,
-.link--underlined:hover,
-.link--underlined:visited {
+.link--underline,
+.link--underline:hover,
+.link--underline:visited {
   text-decoration: underline solid currentColor;
 }
