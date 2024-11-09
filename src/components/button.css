@@ -50,7 +50,7 @@
   border: .0625rem solid transparent;
   border-radius: var(--radius-sm);
   color: var(--btn-color-secondary);
-  fill: var(--btn-color-secondary);
+  fill: currentColor;
   transform: scale(1);
   transition: color 200ms, background-color 200ms, transform 200ms;
 }
@@ -77,7 +77,6 @@
   background-color: var(--btn-color-primary);
   border-color: transparent;
   color: var(--btn-color-secondary);
-  fill: var(--btn-color-secondary);
 }
 
 .btn--solid:not(:disabled):hover,
@@ -90,7 +89,6 @@
   background-color: transparent;
   border-color: var(--btn-color-primary);
   color: var(--btn-color-primary);
-  fill: var(--btn-color-primary);
 }
 
 .btn--outline:not(:disabled):hover,
@@ -98,7 +96,6 @@
 .btn--outline:not(:disabled).active {
   background-color: var(--btn-color-primary);
   color: var(--btn-color-secondary);
-  fill: var(--btn-color-secondary);
 }
 
 .btn--text,
@@ -106,7 +103,6 @@
   background-color: transparent;
   border-color: transparent;
   color: var(--btn-color-primary);
-  fill: var(--btn-color-primary);
 }
 
 .btn--text:not(:disabled):hover,
@@ -120,7 +116,6 @@
   background-color: transparent;
   border-color: transparent;
   color: var(--btn-color-primary);
-  fill: var(--btn-color-primary);
   text-decoration: underline solid transparent;
   text-underline-offset: var(--spacing-xxxs);
   transition: text-decoration-color 150ms;
@@ -129,14 +124,13 @@
 .btn--link:not(:disabled):hover,
 .btn--link:not(:disabled):active,
 .btn--link:not(:disabled).active {
-  text-decoration: underline solid rgb(from var(--btn-color-primary) r g b / var(--opacity-subtle));
+  text-decoration: underline solid currentColor;
 }
 
 .btn--unstyled {
   background-color: transparent;
   border-color: transparent;
   color: inherit;
-  fill: inherit;
 }
 
 .btn--xs {
