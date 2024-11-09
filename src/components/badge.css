@@ -43,6 +43,7 @@
   border: .0625rem solid var(--badge-color-primary);
   border-radius: var(--radius-full);
   color: var(--badge-color-secondary);
+  fill: currentColor;
   font-size: .75rem;
   font-weight: 500;
   line-height: 1;
