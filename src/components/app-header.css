@@ -24,25 +24,20 @@
   z-index: var(--z-index-sticky);
 }
 
-.app-header > .container,
-.app-header > .container-fluid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.app-header > .container-fluid {
-  max-width: 100%;
-}
-
-.app-header__content {
+.app-header__left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.app-header .logo,
-.app-header__menu-button {
-  z-index: calc(var(--z-index-menu) + 5);
+.app-header__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.app-header__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
