@@ -1,46 +1,15 @@
 .modal {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  background: none !important;
-  z-index: var(--z-index-fixed);
   overflow-x: hidden;
   overflow-y: auto;
 }
 
-.modal--animated {
-  transition: opacity 200ms, visibility 200ms;
-}
-
-.modal--open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
-}
-
-.modal--closed {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.modal__overlay {
-  position: fixed !important;
-}
-
 .modal__dialog {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
   margin: 10vh 5vw;
   min-height: 80vh;
-  z-index: var(--z-index-modal);
   pointer-events: none;
 }
 
