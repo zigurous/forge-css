@@ -23,11 +23,24 @@
   padding: min(10vw, 8rem);
 }
 
+.lightbox__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .lightbox__buttons {
   position: absolute;
   width: 100%;
   height: 100%;
-  color: rgb(from var(--color-foreground) r g b / var(--opacity-subtle));
+}
+
+.lightbox__next,
+.lightbox__previous,
+.lightbox__close {
+  color: hsl(from var(--color-on-white) h s calc(l + 25));
 }
 
 .lightbox__next,
@@ -59,4 +72,56 @@
   right: 0;
   width: min(10vw, 8rem);
   height: min(10vw, 8rem);
+}
+
+.lightbox__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--spacing-xl);
+  gap: var(--spacing-sm);
+}
+
+.lightbox__pagination-dot {
+  width: var(--spacing-lg);
+  height: var(--spacing-lg);
+  border-radius: 50%;
+  background-color: hsl(from var(--color-on-white) h s calc(l + 25));
+  opacity: var(--opacity-disabled);
+}
+
+.lightbox__pagination-dot.selected {
+  opacity: 1;
+}
+
+.lightbox > .overlay__scrim.bg-white + .lightbox__dialog .lightbox__pagination-dot,
+[data-theme="light"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__pagination-dot {
+  background-color: hsl(from var(--color-on-white) h s calc(l + 25));
+}
+
+.lightbox > .overlay__scrim.bg-black + .lightbox__dialog .lightbox__pagination-dot,
+[data-theme="dark"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__pagination-dot,
+[data-theme="high-contrast"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__pagination-dot {
+  background-color: hsl(from var(--color-on-black) h s calc(l - 25));
+}
+
+.lightbox > .overlay__scrim.bg-white + .lightbox__dialog .lightbox__next,
+.lightbox > .overlay__scrim.bg-white + .lightbox__dialog .lightbox__previous,
+.lightbox > .overlay__scrim.bg-white + .lightbox__dialog .lightbox__close,
+[data-theme="light"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__next,
+[data-theme="light"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__previous,
+[data-theme="light"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__close {
+  color: hsl(from var(--color-on-white) h s calc(l + 25));
+}
+
+.lightbox > .overlay__scrim.bg-black + .lightbox__dialog .lightbox__next,
+.lightbox > .overlay__scrim.bg-black + .lightbox__dialog .lightbox__previous,
+.lightbox > .overlay__scrim.bg-black + .lightbox__dialog .lightbox__close,
+[data-theme="dark"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__next,
+[data-theme="dark"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__previous,
+[data-theme="dark"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__close,
+[data-theme="high-contrast"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__next,
+[data-theme="high-contrast"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__previous,
+[data-theme="high-contrast"] .lightbox > .overlay__scrim.bg-background + .lightbox__dialog .lightbox__close {
+  color: hsl(from var(--color-on-black) h s calc(l - 25));
 }
