@@ -125,6 +125,7 @@
 .btn--link:not(:disabled):active,
 .btn--link:not(:disabled).active {
   text-decoration: underline solid currentColor;
+  transform: none !important;
 }
 
 .btn--unstyled {
