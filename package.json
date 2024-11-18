@@ -4,12 +4,12 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/zigurous/css-styles",
   "devDependencies": {
+    "husky": "^9.1.6",
     "lightningcss-cli": "^1.27.0"
   },
   "scripts": {
     "build": "mkdir dist & lightningcss --minify --bundle --sourcemap --targets \"> 0.5%, last 2 versions, Firefox ESR, not dead\" src/index.css -o dist/index.min.css",
-    "predeploy": "yarn build",
-    "prepare": "yarn build"
+    "prepare": "husky"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
