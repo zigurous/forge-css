@@ -69,4 +69,4 @@ jobs:
 
       - name: Sync files to S3 bucket
         run: |
-          aws s3 sync dist s3://cdn.zigurous.com --delete
+          aws s3 sync dist s3://cdn.zigurous.com/css --delete
