@@ -1,3 +1,17 @@
+.lightbox > .overlay__scrim.bg-white + .lightbox__dialog,
+.lightbox[data-theme="light"] > .overlay__scrim.bg-background + .lightbox__dialog,
+.lightbox:not([data-theme]) > .overlay__scrim.bg-background + .lightbox__dialog {
+  --lightbox-active-color: #808080;
+  --lightbox-inactive-color: #bfbfbf;
+}
+
+.lightbox > .overlay__scrim.bg-black + .lightbox__dialog,
+.lightbox[data-theme="dark"] > .overlay__scrim.bg-background + .lightbox__dialog,
+.lightbox[data-theme="high-contrast"] > .overlay__scrim.bg-background + .lightbox__dialog {
+  --lightbox-active-color: #a6a6a6;
+  --lightbox-inactive-color: #666666;
+}
+
 .lightbox {
   position: fixed;
   top: 0;
@@ -40,7 +54,7 @@
 .lightbox__next,
 .lightbox__previous,
 .lightbox__close {
-  color: gray;
+  color: var(--lightbox-active-color);
 }
 
 .lightbox__next,
@@ -86,10 +100,9 @@
   width: var(--spacing-lg);
   height: var(--spacing-lg);
   border-radius: 50%;
-  background-color: gray;
-  opacity: var(--opacity-disabled);
+  background-color: var(--lightbox-inactive-color);
 }
 
 .lightbox__pagination-dot.selected {
-  opacity: 1;
+  background-color: var(--lightbox-active-color);
 }
