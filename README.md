@@ -1,6 +1,6 @@
 # Forge CSS
 
-<a href="https://github.com/zigurous/forge-css/actions"><img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/zigurous/forge-css/cdn-deploy.yml" /></a>
+<a href="https://github.com/zigurous/forge-css/actions"><img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/zigurous/forge-css/build-push-deploy.yml" /></a>
 <a href="https://github.com/zigurous/forge-css/pkgs/npm/forge-css"><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/zigurous/forge-css" /></a>
 <a href="https://github.com/zigurous/forge-css/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/zigurous/forge-css" /></a>
 
