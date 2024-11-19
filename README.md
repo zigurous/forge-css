@@ -1,24 +1,45 @@
-# @zigurous/css-styles
+# Forge CSS
+
+The official CSS implementation of the Forge design system created by [@zigurous](https://github.com/zigurous).
 
 ## Installation
 
-Add scoped package registry to `.npmrc` file
+### NPM
+
+Set the scoped package registry in your `.npmrc` file:
 ```bash
 registry=https://registry.npmjs.org/
 @zigurous:registry=https://npm.pkg.github.com
 ```
 
-Run one of the following commands in a terminal
-```bash
-npm install @zigurous/css-styles
-# or
-yarn add @zigurous/css-styles
-# or
-pnpm add @zigurous/css-styles
+Run one of the following commands in a terminal:
+- Install with npm `npm install @zigurous/forge-css`
+- Install with yarn `yarn add @zigurous/forge-css`
+- Install with pnpm `pnpm add @zigurous/forge-css`
+
+Import the css file in your code:
+```js
+import '@zigurous/forge-css/dist/index.min.css'
 ```
 
-## Usage
+### CDN
 
-```jsx
-import '@zigurous/css-styles/dist/index.min.css'
+Add one of the following links to your HTML:
+
+#### Cloudfront
+
+```html
+<link href="https://cdn.zigurous.com/forge-css@1.0.0/dist/index.min.css" rel="stylesheet">
+```
+
+#### jsDelivr
+
+```html
+<link href="https://cdn.jsdelivr.net/gh/zigurous/forge-css@1.0.0/dist/index.min.css" rel="stylesheet">
+```
+
+#### statically
+
+```html
+<link href="https://cdn.statically.io/gh/zigurous/forge-css/1.0.0/dist/index.min.css" rel="stylesheet">
 ```

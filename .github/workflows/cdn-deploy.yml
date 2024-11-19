@@ -62,4 +62,4 @@ jobs:
       - name: Sync files to S3 bucket
         run: |
           PACKAGE_VERSION=$(npm pkg get version --workspaces=false | tr -d \")
-          aws s3 sync dist s3://cdn.zigurous.com/css-styles@$PACKAGE_VERSION/dist --delete
+          aws s3 sync dist s3://cdn.zigurous.com/forge-css@$PACKAGE_VERSION/dist --delete
