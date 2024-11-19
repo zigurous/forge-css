@@ -1,5 +1,9 @@
 # Forge CSS
 
+<a href="https://github.com/zigurous/forge-css/actions"><img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/zigurous/forge-css/cdn-deploy.yml" /></a>
+<a href="https://github.com/zigurous/forge-css/pkgs/npm/forge-css"><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/zigurous/forge-css" /></a>
+<a href="https://github.com/zigurous/forge-css/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/zigurous/forge-css" /></a>
+
 The official CSS implementation of the Forge design system created by [@zigurous](https://github.com/zigurous).
 
 ## Installation
@@ -26,7 +30,7 @@ import '@zigurous/forge-css/dist/index.min.css'
 
 Add one of the following links to your HTML:
 
-#### Cloudfront
+#### CloudFront
 
 ```html
 <link href="https://cdn.zigurous.com/forge-css@1.0.0/dist/index.min.css" rel="stylesheet">
@@ -38,7 +42,7 @@ Add one of the following links to your HTML:
 <link href="https://cdn.jsdelivr.net/gh/zigurous/forge-css@1.0.0/dist/index.min.css" rel="stylesheet">
 ```
 
-#### statically
+#### Statically
 
 ```html
 <link href="https://cdn.statically.io/gh/zigurous/forge-css/1.0.0/dist/index.min.css" rel="stylesheet">
