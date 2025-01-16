@@ -7,7 +7,7 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  width: var(--spacing-md);
+  width: var(--spacing-sm);
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
