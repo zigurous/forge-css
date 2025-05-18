@@ -1,2 +1,5 @@
+.pointer-none,
 .pointer-events-none { pointer-events: none; }
+
+.pointer-auto,
 .pointer-events-auto { pointer-events: auto; }
