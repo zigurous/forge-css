@@ -1,0 +1,107 @@
+.toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.toggle > input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle__label {
+  font-size: 1rem;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.toggle--sm > .toggle__label {
+  font-size: .75rem;
+}
+
+.toggle--md > .toggle__label {
+  font-size: 1rem;
+}
+
+.toggle--lg > .toggle__label {
+  font-size: 1.25rem;
+}
+
+.toggle__slider {
+  position: relative;
+  cursor: pointer;
+  width: 2.625rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: var(--color-border);
+  transition: background-color 400ms;
+}
+
+.toggle--sm > .toggle__slider {
+  width: 1.75rem;
+  height: 1rem;
+  border-radius: 1rem;
+}
+
+.toggle--md > .toggle__slider {
+  width: 2.625rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.toggle--lg > .toggle__slider {
+  width: 3.5rem;
+  height: 2rem;
+  border-radius: 2rem;
+}
+
+.toggle__slider:before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  left: .25rem;
+  top: .25rem;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  transition: transform 400ms;
+}
+
+.toggle--sm > .toggle__slider:before {
+  width: .75rem;
+  height: .75rem;
+  left: .125rem;
+  top: .125rem;
+}
+
+.toggle--md > .toggle__slider:before {
+  width: 1rem;
+  height: 1rem;
+  left: .25rem;
+  top: .25rem;
+}
+
+.toggle--lg > .toggle__slider:before {
+  width: 1.5rem;
+  height: 1.5rem;
+  left: .25rem;
+  top: .25rem;
+}
+
+.toggle > input:checked + .toggle__slider {
+  background-color: var(--color-primary);
+}
+
+.toggle > input:checked + .toggle__slider:before,
+.toggle--md > input:checked + .toggle__slider:before {
+  transform: translateX(1.125rem);
+}
+
+.toggle--sm > input:checked + .toggle__slider:before {
+  transform: translateX(.75rem);
+}
+
+.toggle--lg > input:checked + .toggle__slider:before {
+  transform: translateX(1.5rem);
+}
