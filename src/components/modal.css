@@ -8,9 +8,35 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  margin: 10vh 5vw;
   min-height: 80vh;
+  max-width: 508px;
+  margin: 10vh max(calc((100vw - 508px) / 2), 5vw);
   pointer-events: none;
+}
+
+.modal--sm .modal__dialog {
+  max-width: 508px;
+  margin: 10vh max(calc((100vw - 508px) / 2), 5vw);
+}
+
+.modal--md .modal__dialog {
+  max-width: 688px;
+  margin: 10vh max(calc((100vw - 688px) / 2), 5vw);
+}
+
+.modal--lg .modal__dialog {
+  max-width: 928px;
+  margin: 10vh max(calc((100vw - 928px) / 2), 5vw);
+}
+
+.modal--xl .modal__dialog {
+  max-width: 1108px;
+  margin: 10vh max(calc((100vw - 1108px) / 2), 5vw);
+}
+
+.modal--fluid .modal__dialog {
+  max-width: 100%;
+  margin: 10vh 5vw;
 }
 
 .modal__content {
@@ -61,11 +87,4 @@
   margin-top: -1em;
   margin-bottom: -1em;
   color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
-}
-
-@media (min-width: 576px) {
-  .modal__dialog {
-    max-width: 500px;
-    margin: 10vh auto;
-  }
 }
