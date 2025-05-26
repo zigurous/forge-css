@@ -11,13 +11,13 @@ The official CSS implementation of the Forge design system created by [@zigurous
 ### CDN
 
 Available from any of the following:
-- Install with CloudFront `https://cdn.zigurous.com/forge-css@1.0.0/dist/index.min.css`
-- Install with jsDelivr `https://cdn.jsdelivr.net/gh/zigurous/forge-css@1.0.0/dist/index.min.css`
-- Install with Statically `https://cdn.statically.io/gh/zigurous/forge-css/1.0.0/dist/index.min.css`
+- Install with CloudFront `https://cdn.zigurous.com/forge-css@1.1.0/dist/index.min.css`
+- Install with jsDelivr `https://cdn.jsdelivr.net/gh/zigurous/forge-css@1.1.0/dist/index.min.css`
+- Install with Statically `https://cdn.statically.io/gh/zigurous/forge-css/1.1.0/dist/index.min.css`
 
 Link to the stylesheet in your HTML file:
 ```html
-<link href="https://cdn.zigurous.com/forge-css@1.0.0/dist/index.min.css" rel="stylesheet">
+<link href="https://cdn.zigurous.com/forge-css@1.1.0/dist/index.min.css" rel="stylesheet">
 ```
 
 ### GitHub Packages

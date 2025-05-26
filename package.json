@@ -1,6 +1,6 @@
 {
   "name": "@zigurous/forge-css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/zigurous/forge-css",
   "devDependencies": {
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "lightningcss --minify --bundle --sourcemap --targets \"> 0.5%, last 2 versions, Firefox ESR, not dead\" src/index.css -o index.min.css && yarn run move-files",
-    "move-files": "mkdir dist && (mv index.min.css dist || move index.min.css dist) && (mv index.min.css.map dist || move index.min.css.map dist)",
+    "move-files": "mkdir dist & ((mv index.min.css dist || move index.min.css dist) && (mv index.min.css.map dist || move index.min.css.map dist))",
     "prepare": "husky"
   },
   "publishConfig": {
