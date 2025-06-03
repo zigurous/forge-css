@@ -4,8 +4,8 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/zigurous/forge-css",
   "devDependencies": {
-    "husky": "^9.1.6",
-    "lightningcss-cli": "^1.27.0"
+    "husky": "^9.1.0",
+    "lightningcss-cli": "^1.30.0"
   },
   "scripts": {
     "build": "lightningcss --minify --bundle --sourcemap --targets \"> 0.5%, last 2 versions, Firefox ESR, not dead\" src/index.css -o index.min.css && yarn run move-files",
