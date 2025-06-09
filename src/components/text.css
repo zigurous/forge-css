@@ -20,7 +20,7 @@
 .display {
   display: block;
   font-size: var(--text-display);
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
   text-transform: none;
   text-wrap: balance;
