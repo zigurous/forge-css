@@ -51,7 +51,6 @@
   border-radius: var(--radius-sm);
   color: var(--btn-color-secondary);
   fill: currentColor;
-  transform: scale(1);
   transition: color 200ms, background-color 200ms, transform 200ms;
 }
 
@@ -67,10 +66,6 @@
 .btn:hover,
 .btn:active {
   text-decoration: none;
-}
-
-.btn:not(.btn--unstyled):not(:disabled):active {
-  transform: scale(0.95);
 }
 
 .btn--solid {
