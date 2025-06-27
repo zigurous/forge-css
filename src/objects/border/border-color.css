@@ -1,4 +1,10 @@
-.border { border-color: var(--color-border); }
+.border,
+.border-l,
+.border-r,
+.border-t,
+.border-b,
+.border-x,
+.border-y { border-color: var(--color-border); }
 .border-inherit { border-color: inherit; }
 .border-current { border-color: currentColor; }
 .border-transparent { border-color: transparent; }
