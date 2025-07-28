@@ -1,6 +1,6 @@
 {
   "name": "@zigurous/forge-css",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "license": "SEE LICENSE IN LICENSE",
   "repository": "https://github.com/zigurous/forge-css",
   "devDependencies": {
